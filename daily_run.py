@@ -58,6 +58,7 @@ def save_seen(urls: set[str]) -> None:
 
 def render(df: pd.DataFrame, new_urls: set[str]) -> str:
     now = dt.datetime.now().strftime("%a %d %b %Y, %H:%M")
+    today = dt.date.today()
     n_new = len(new_urls & set(df["job_url"].astype(str)))
     cards = []
     for _, r in df.iterrows():
@@ -71,7 +72,27 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
         region = html.escape(str(r.get("region", "")))
         score = int(r.get("fit_score", 0)) if pd.notna(r.get("fit_score")) else 0
         remote = str(r.get("is_remote", "")).lower() in ("true", "1", "1.0")
-        badges = []
+        # Freshness from date_posted (not every board reports it). is_fresh = <=3 days.
+        age = None
+        dp = r.get("date_posted")
+        if pd.notna(dp):
+            try:
+                age = (today - pd.to_datetime(dp).date()).days
+            except Exception:
+                age = None
+        if age is None:
+            fresh_cls, fresh_txt, is_fresh = "unk", "date n/a", False
+        elif age <= 0:
+            fresh_cls, fresh_txt, is_fresh = "hot", "Today", True
+        elif age == 1:
+            fresh_cls, fresh_txt, is_fresh = "hot", "1d ago", True
+        elif age <= 3:
+            fresh_cls, fresh_txt, is_fresh = "warm", f"{age}d ago", True
+        elif age <= 7:
+            fresh_cls, fresh_txt, is_fresh = "cool", f"{age}d ago", False
+        else:
+            fresh_cls, fresh_txt, is_fresh = "old", f"{age}d ago", False
+        badges = [f'<span class="b fr {fresh_cls}">{fresh_txt}</span>']
         if is_new:
             badges.append('<span class="b new">NEW</span>')
         badges.append(f'<span class="b reg">{region}</span>')
@@ -82,14 +103,17 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
         apply = (f'<a class="apply" href="{html.escape(url)}" target="_blank" rel="noopener">Apply &#8599;</a>'
                  if url and url != "nan" else '<span class="apply off">No link</span>')
         cards.append(f"""
-      <article class="card{' isnew' if is_new else ''}" data-new="{'1' if is_new else '0'}">
+      <article class="card{' isnew' if is_new else ''}" data-new="{'1' if is_new else '0'}" data-fresh="{'1' if is_fresh else '0'}" data-url="{html.escape(url)}">
         <div class="fit">{score}</div>
         <div class="body">
           <div class="title">{title}</div>
           <div class="co">{company} &middot; <span class="loc">{loc}</span></div>
           <div class="badges">{''.join(badges)}</div>
         </div>
-        {apply}
+        <div class="actions">
+          {apply}
+          <button class="mark" onclick="toggleApplied(this)">Mark applied</button>
+        </div>
       </article>""")
 
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
@@ -110,8 +134,8 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
            padding: 16px 16px 12px; border-bottom: 1px solid #242a33; z-index: 5; }}
   h1 {{ margin: 0 0 2px; font-size: 19px; }}
   .meta {{ color: #9aa0ab; font-size: 13px; }}
-  .filters {{ display: flex; gap: 8px; margin-top: 12px; }}
-  .filters button {{ flex: 1; padding: 9px; font-size: 14px; border-radius: 8px;
+  .filters {{ display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }}
+  .filters button {{ flex: 1 1 calc(50% - 4px); padding: 9px; font-size: 13px; border-radius: 8px;
     border: 1px solid #2a3340; background: #171b22; color: #cfd4dc; font-weight: 600; }}
   .filters button.on {{ background: #2d6cdf; border-color: #2d6cdf; color: #fff; }}
   main {{ padding: 12px 16px calc(32px + env(safe-area-inset-bottom)); max-width: 640px; margin: 0 auto; }}
@@ -130,30 +154,69 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
   .b.reg {{ background: #263040; color: #bcd0ff; }}
   .b.rem {{ background: #3a2b50; color: #e2caff; }}
   .b.visa {{ background: #4a3a1f; color: #ffe6b0; }}
-  .apply {{ flex: 0 0 auto; background: #2d6cdf; color: #fff; text-decoration: none;
-    padding: 12px 14px; border-radius: 10px; font-weight: 700; font-size: 14px; white-space: nowrap; }}
+  .actions {{ flex: 0 0 auto; display: flex; flex-direction: column; gap: 6px; align-items: stretch; }}
+  .apply {{ background: #2d6cdf; color: #fff; text-decoration: none; text-align: center;
+    padding: 11px 14px; border-radius: 10px; font-weight: 700; font-size: 14px; white-space: nowrap; }}
   .apply.off {{ background: #2a2f38; color: #8a909b; }}
+  .mark {{ background: #16221a; color: #8fe0a0; border: 1px solid #27452f; border-radius: 10px;
+    padding: 8px; font-size: 12px; font-weight: 700; white-space: nowrap; cursor: pointer; }}
+  .card.isapplied {{ opacity: .55; }}
+  .card.isapplied .mark {{ background: #2a1b1b; color: #f0a0a0; border-color: #4a2a2a; }}
+  .b.fr.hot {{ background: #1f7a33; color: #d7ffd9; }}
+  .b.fr.warm {{ background: #3f5a1f; color: #e4ffb0; }}
+  .b.fr.cool {{ background: #2a3340; color: #9fb4d8; }}
+  .b.fr.old {{ background: #33281f; color: #d8b89a; }}
+  .b.fr.unk {{ background: #22262e; color: #7a808b; }}
   @media (hover: hover) {{ .apply:hover {{ background: #3f7cf0; }} }}
 </style></head><body>
 <header>
   <h1>My job shortlist</h1>
   <div class="meta">{len(df)} roles &middot; <b>{n_new} new</b> &middot; {now}<br>you review &amp; apply &mdash; nothing is submitted for you</div>
   <div class="filters">
-    <button id="f-all" class="on" onclick="flt('all')">All ({len(df)})</button>
-    <button id="f-new" onclick="flt('new')">New ({n_new})</button>
+    <button data-m="all" class="on" onclick="flt('all')">All (<span id="c-all">{len(df)}</span>)</button>
+    <button data-m="new" onclick="flt('new')">New (<span id="c-new">{n_new}</span>)</button>
+    <button data-m="fresh" onclick="flt('fresh')">Fresh &le;3d (<span id="c-fresh">0</span>)</button>
+    <button data-m="applied" onclick="flt('applied')">Applied (<span id="c-applied">0</span>)</button>
   </div>
 </header>
 <main id="list">{''.join(cards)}</main>
 <script>
-  function flt(m) {{
-    document.getElementById('f-all').classList.toggle('on', m==='all');
-    document.getElementById('f-new').classList.toggle('on', m==='new');
-    document.querySelectorAll('.card').forEach(c => {{
-      c.style.display = (m==='all' || c.dataset.new==='1') ? '' : 'none';
-    }});
+  var KEY = 'appliedJobs', mode = 'all';
+  function getApplied() {{ try {{ return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }} catch (e) {{ return new Set(); }} }}
+  function saveApplied(s) {{ try {{ localStorage.setItem(KEY, JSON.stringify([].slice.call(s))); }} catch (e) {{}} }}
+  function toggleApplied(btn) {{
+    var card = btn.closest('.card'), s = getApplied(), u = card.dataset.url;
+    if (s.has(u)) s.delete(u); else s.add(u);
+    saveApplied(s); refresh();
   }}
+  function refresh() {{
+    var s = getApplied(), cards = [].slice.call(document.querySelectorAll('.card'));
+    cards.forEach(function (c) {{
+      var applied = s.has(c.dataset.url);
+      c.classList.toggle('isapplied', applied);
+      var mk = c.querySelector('.mark'); if (mk) mk.textContent = applied ? 'Undo' : 'Mark applied';
+      var show;
+      if (mode === 'applied') show = applied;
+      else if (mode === 'new') show = !applied && c.dataset.new === '1';
+      else if (mode === 'fresh') show = !applied && c.dataset.fresh === '1';
+      else show = !applied;
+      c.style.display = show ? '' : 'none';
+    }});
+    var live = cards.filter(function (c) {{ return !s.has(c.dataset.url); }});
+    setCount('all', live.length);
+    setCount('new', live.filter(function (c) {{ return c.dataset.new === '1'; }}).length);
+    setCount('fresh', live.filter(function (c) {{ return c.dataset.fresh === '1'; }}).length);
+    setCount('applied', cards.length - live.length);
+  }}
+  function setCount(m, n) {{ var el = document.getElementById('c-' + m); if (el) el.textContent = n; }}
+  function flt(m) {{
+    mode = m;
+    [].slice.call(document.querySelectorAll('.filters button')).forEach(function (b) {{ b.classList.toggle('on', b.dataset.m === m); }});
+    refresh();
+  }}
+  window.addEventListener('load', refresh);
   if ('serviceWorker' in navigator) {{
-    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(()=>{{}}));
+    window.addEventListener('load', function () {{ navigator.serviceWorker.register('sw.js').catch(function () {{}}); }});
   }}
 </script>
 </body></html>"""
