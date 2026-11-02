@@ -54,9 +54,14 @@ REGIONS: dict[str, dict] = {
            "sites": ["indeed", "linkedin", "glassdoor"]},
     "IE": {"location": "Ireland",      "country_indeed": "Ireland",
            "sites": ["indeed", "linkedin", "glassdoor"]},
-    # India: Naukri is the local board; LinkedIn adds remote/global postings.
+    # India: Naukri is the local board and takes a city. We fan out across the
+    # metros (plus a national pass) for denser results. LinkedIn is dropped here
+    # because it's blocked from cloud IPs and its retries dominate the runtime;
+    # Naukri + Indeed cover India well. "location" is the fallback if no cities.
     "IN": {"location": "India",        "country_indeed": "India",
-           "sites": ["naukri", "linkedin", "indeed"]},
+           "sites": ["naukri", "indeed"],
+           "cities": ["Bengaluru", "Mumbai", "Gurgaon", "Pune", "Hyderabad",
+                      "Delhi", "India"]},
 }
 
 
@@ -95,26 +100,29 @@ def visa_note(row: pd.Series) -> str:
 def scrape_region(code: str, limit: int, hours_old: int, debug: bool) -> pd.DataFrame:
     cfg = REGIONS[code]
     frames: list[pd.DataFrame] = []
-    for term in SEARCH_TERMS:
-        try:
-            df = scrape_jobs(
-                site_name=cfg["sites"],
-                search_term=term,
-                location=cfg["location"],
-                country_indeed=cfg["country_indeed"],
-                results_wanted=limit,
-                hours_old=hours_old,
-                fetch_description=True,   # needed so the fit score can read the JD
-            )
-        except Exception as exc:  # one board 429-ing shouldn't kill the run
-            print(f"  ! {code}/{term!r} failed: {exc}", file=sys.stderr)
-            continue
-        if df is not None and len(df):
-            df["region"] = code
-            df["search_term"] = term
-            frames.append(df)
-        if debug:
-            print(f"  {code}/{term!r}: {0 if df is None else len(df)} rows")
+    # A region may search several cities (e.g. India metros) or just one location.
+    locations = cfg.get("cities") or [cfg["location"]]
+    for loc in locations:
+        for term in SEARCH_TERMS:
+            try:
+                df = scrape_jobs(
+                    site_name=cfg["sites"],
+                    search_term=term,
+                    location=loc,
+                    country_indeed=cfg["country_indeed"],
+                    results_wanted=limit,
+                    hours_old=hours_old,
+                    fetch_description=True,   # needed so the fit score can read the JD
+                )
+            except Exception as exc:  # one board 429-ing shouldn't kill the run
+                print(f"  ! {code}/{loc}/{term!r} failed: {exc}", file=sys.stderr)
+                continue
+            if df is not None and len(df):
+                df["region"] = code
+                df["search_term"] = term
+                frames.append(df)
+            if debug:
+                print(f"  {code}/{loc}/{term!r}: {0 if df is None else len(df)} rows")
     return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
 
 
