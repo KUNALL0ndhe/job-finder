@@ -37,6 +37,7 @@ jobs:
         run: |
           mkdir -p _site
           cp digest.html _site/index.html
+          cp web/manifest.webmanifest web/sw.js web/icon-192.png web/icon-512.png web/apple-touch-icon.png _site/
 
       - name: Persist NEW-job state
         run: |

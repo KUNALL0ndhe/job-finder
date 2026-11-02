@@ -95,6 +95,11 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0f1115">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Jobs">
 <title>My job shortlist</title>
 <style>
   :root {{ color-scheme: dark; }}
@@ -146,6 +151,9 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
     document.querySelectorAll('.card').forEach(c => {{
       c.style.display = (m==='all' || c.dataset.new==='1') ? '' : 'none';
     }});
+  }}
+  if ('serviceWorker' in navigator) {{
+    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(()=>{{}}));
   }}
 </script>
 </body></html>"""
