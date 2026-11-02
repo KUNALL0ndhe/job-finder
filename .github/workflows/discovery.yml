@@ -1,0 +1,61 @@
+name: Job discovery
+
+# Runs twice a day on GitHub's servers (no laptop, no Claude), scrapes fresh
+# postings, rebuilds the mobile page, and publishes it to GitHub Pages.
+on:
+  schedule:
+    - cron: "30 2 * * *"    # 08:00 Asia/Kolkata (02:30 UTC)
+    - cron: "30 14 * * *"   # 20:00 Asia/Kolkata (14:30 UTC)
+  workflow_dispatch:         # lets you run it on demand from the Actions tab
+
+permissions:
+  contents: write            # to commit the "seen" state back so NEW works
+  pages: write
+  id-token: write
+
+concurrency:
+  group: discovery
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install python-jobspy pandas
+
+      - name: Scrape + build page
+        run: python daily_run.py --regions NL,DE,IE,IN --hours-old 336
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp digest.html _site/index.html
+
+      - name: Persist NEW-job state
+        run: |
+          git config user.name "job-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .state jobs.csv || true
+          git commit -m "state: $(date -u +%FT%TZ)" || echo "nothing to commit"
+          git push || echo "push skipped"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

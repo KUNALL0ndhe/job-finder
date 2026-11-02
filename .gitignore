@@ -1,0 +1,14 @@
+# virtualenv
+.venv/
+
+# generated discovery output (contains scraped postings; re-generate anytime)
+jobs.csv
+test_jobs.csv
+
+# career-ops is installed separately; its data holds personal profile info
+career-ops/
+career-ops-data/
+
+# python
+__pycache__/
+*.pyc
