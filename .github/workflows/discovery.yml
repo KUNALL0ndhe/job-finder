@@ -1,11 +1,13 @@
 name: Job discovery
 
-# Runs twice a day on GitHub's servers (no laptop, no Claude), scrapes fresh
+# Runs 4 times a day on GitHub's servers (no laptop, no Claude), scrapes fresh
 # postings, rebuilds the mobile page, and publishes it to GitHub Pages.
 on:
   schedule:
-    - cron: "30 2 * * *"    # 08:00 Asia/Kolkata (02:30 UTC)
-    - cron: "30 14 * * *"   # 20:00 Asia/Kolkata (14:30 UTC)
+    - cron: "30 0 * * *"    # 06:00 Asia/Kolkata (00:30 UTC)
+    - cron: "30 6 * * *"    # 12:00 Asia/Kolkata (06:30 UTC)
+    - cron: "30 12 * * *"   # 18:00 Asia/Kolkata (12:30 UTC)
+    - cron: "30 18 * * *"   # 00:00 Asia/Kolkata (18:30 UTC)
   workflow_dispatch:         # lets you run it on demand from the Actions tab
 
 permissions:
