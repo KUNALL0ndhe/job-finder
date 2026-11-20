@@ -57,8 +57,10 @@ def save_seen(urls: set[str]) -> None:
 
 
 def render(df: pd.DataFrame, new_urls: set[str]) -> str:
-    now = dt.datetime.now().strftime("%a %d %b %Y, %H:%M")
-    today = dt.date.today()
+    # Show times in IST regardless of where this runs (GitHub's runner is UTC).
+    ist = dt.datetime.now(dt.timezone.utc).astimezone(dt.timezone(dt.timedelta(hours=5, minutes=30)))
+    now = ist.strftime("%a %d %b %Y, %H:%M") + " IST"
+    today = ist.date()
     n_new = len(new_urls & set(df["job_url"].astype(str)))
     cards = []
     for _, r in df.iterrows():
