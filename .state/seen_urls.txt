@@ -87,6 +87,7 @@ https://de.indeed.com/viewjob?jk=608a70e1d5caa7e5
 https://de.indeed.com/viewjob?jk=63d4f5046881d8e4
 https://de.indeed.com/viewjob?jk=646b704c893f4c36
 https://de.indeed.com/viewjob?jk=64fb00a05a1ec0f2
+https://de.indeed.com/viewjob?jk=65643e8b7f8c6b91
 https://de.indeed.com/viewjob?jk=673d56e80711e2d3
 https://de.indeed.com/viewjob?jk=6754fa249dedf4cb
 https://de.indeed.com/viewjob?jk=6928780ba0563307
@@ -882,6 +883,7 @@ https://in.indeed.com/viewjob?jk=947f4e7da65e9b4f
 https://in.indeed.com/viewjob?jk=94d041a0995ca4e8
 https://in.indeed.com/viewjob?jk=94e92eba3e9b5b1b
 https://in.indeed.com/viewjob?jk=95cad75934798038
+https://in.indeed.com/viewjob?jk=96e280f9718cb0c7
 https://in.indeed.com/viewjob?jk=9719d8ae89a26a25
 https://in.indeed.com/viewjob?jk=972b4d5cbbb6c175
 https://in.indeed.com/viewjob?jk=974a3b42b0b9c75f
@@ -972,6 +974,7 @@ https://in.indeed.com/viewjob?jk=aeedf2a9eadd363c
 https://in.indeed.com/viewjob?jk=af2f660e49112a35
 https://in.indeed.com/viewjob?jk=af6aed8fcec208df
 https://in.indeed.com/viewjob?jk=af95851c759976d5
+https://in.indeed.com/viewjob?jk=afa37e7247bc58bd
 https://in.indeed.com/viewjob?jk=afca7deada298273
 https://in.indeed.com/viewjob?jk=b052ccee86af469a
 https://in.indeed.com/viewjob?jk=b0633ca29a38069a
@@ -2314,6 +2317,7 @@ https://www.naukri.com/job-listings-associate-product-manager-isolved-india-hyde
 https://www.naukri.com/job-listings-associate-product-manager-los-rupeek-bengaluru-1-to-4-years-031126016871
 https://www.naukri.com/job-listings-associate-product-manager-medi-assist-bengaluru-2-to-4-years-061126012153
 https://www.naukri.com/job-listings-associate-product-manager-moveinsync-technology-solutions-bengaluru-2-to-4-years-121126032248
+https://www.naukri.com/job-listings-associate-product-manager-nxtwave-disruptive-technologies-hiring-for-a-client-pune-6-to-10-years-211126017048
 https://www.naukri.com/job-listings-associate-product-manager-openings-mouri-tech-hyderabad-11-to-18-years-111126033700
 https://www.naukri.com/job-listings-associate-product-manager-qualys-pune-1-to-6-years-121026028976
 https://www.naukri.com/job-listings-associate-product-manager-skilllabs-greater-noida-0-to-3-years-021126014841
