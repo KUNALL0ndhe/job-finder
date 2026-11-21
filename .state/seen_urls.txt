@@ -242,6 +242,7 @@ https://de.indeed.com/viewjob?jk=e8ea028d206a8b57
 https://de.indeed.com/viewjob?jk=ea36b2b361a75d6d
 https://de.indeed.com/viewjob?jk=ea810b051d420804
 https://de.indeed.com/viewjob?jk=eaaea50d5d4730bd
+https://de.indeed.com/viewjob?jk=eb8b72fcd3111450
 https://de.indeed.com/viewjob?jk=edefd378a8918984
 https://de.indeed.com/viewjob?jk=ee311ea38af8be6a
 https://de.indeed.com/viewjob?jk=efc4796688b4b916
@@ -923,6 +924,7 @@ https://in.indeed.com/viewjob?jk=a0b588576f4c8df6
 https://in.indeed.com/viewjob?jk=a1471dd5a75576bc
 https://in.indeed.com/viewjob?jk=a14f97f70f79479a
 https://in.indeed.com/viewjob?jk=a16e542a71141f8a
+https://in.indeed.com/viewjob?jk=a1703ae7271cc0db
 https://in.indeed.com/viewjob?jk=a1ae6ce5ab9ca813
 https://in.indeed.com/viewjob?jk=a1bfe109c7ace5fa
 https://in.indeed.com/viewjob?jk=a1f0d1782061420d
@@ -981,6 +983,7 @@ https://in.indeed.com/viewjob?jk=afca7deada298273
 https://in.indeed.com/viewjob?jk=b052ccee86af469a
 https://in.indeed.com/viewjob?jk=b0633ca29a38069a
 https://in.indeed.com/viewjob?jk=b1002bd700d58b5d
+https://in.indeed.com/viewjob?jk=b1043abd37913b73
 https://in.indeed.com/viewjob?jk=b12645b10873e88c
 https://in.indeed.com/viewjob?jk=b1b468e54d8f2b21
 https://in.indeed.com/viewjob?jk=b20fb07e50ea8e48
@@ -3192,6 +3195,7 @@ https://www.naukri.com/job-listings-product-owner-us-healthcare-alohapm-hyderaba
 https://www.naukri.com/job-listings-product-owner-workday-edge-executive-search-gurugram-delhi-ncr-7-to-12-years-181126026386
 https://www.naukri.com/job-listings-project-coordinator-business-analyst-scrum-master-webreinvent-technologies-gurugram-2-to-4-years-201126022115
 https://www.naukri.com/job-listings-r-d-business-analyst-product-owner-idc-hitachi-energy-india-limited-bengaluru-5-to-10-years-031126912806
+https://www.naukri.com/job-listings-risk-management-business-analyst-eclerx-bengaluru-3-to-8-years-221126000064
 https://www.naukri.com/job-listings-sales-marketing-executive-product-manager-shopping-bazaar-pvt-ltd-new-delhi-3-to-6-years-091126003024
 https://www.naukri.com/job-listings-salesforce-business-analyst-cloud-synapps-indore-pune-3-to-8-years-161126025638
 https://www.naukri.com/job-listings-salesforce-business-analyst-hexaware-technologies-ahmedabad-chennai-bengaluru-9-to-12-years-121126027524
@@ -3409,6 +3413,7 @@ https://www.naukri.com/job-listings-technical-product-manager-continuserve-softe
 https://www.naukri.com/job-listings-technical-product-manager-finance-transformation-mumbai-hybrid-supervity-mumbai-all-areas-2-to-6-years-061126021200
 https://www.naukri.com/job-listings-technical-product-manager-motorola-solutions-kodiak-networks-india-private-limited-bengaluru-10-to-10-years-051126934201
 https://www.naukri.com/job-listings-technical-product-manager-now100-bengaluru-4-to-9-years-191126021505
+https://www.naukri.com/job-listings-technical-product-manager-optum-pune-6-to-10-years-221126000060
 https://www.naukri.com/job-listings-technical-product-manager-pepsico-global-business-services-india-llp-hyderabad-10-to-15-years-051126912598
 https://www.naukri.com/job-listings-technical-product-manager-persistent-pune-8-to-12-years-041126020332
 https://www.naukri.com/job-listings-technical-product-manager-supervity-mumbai-4-to-8-years-181126024902
