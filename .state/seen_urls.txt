@@ -513,6 +513,7 @@ https://in.indeed.com/viewjob?jk=329f4f04250ded53
 https://in.indeed.com/viewjob?jk=32bf9cabf5d00279
 https://in.indeed.com/viewjob?jk=32c5cf97360bada6
 https://in.indeed.com/viewjob?jk=32fad93eb281d6b5
+https://in.indeed.com/viewjob?jk=3396281074ed3376
 https://in.indeed.com/viewjob?jk=33dacc513e907412
 https://in.indeed.com/viewjob?jk=348383a8e7bd64f4
 https://in.indeed.com/viewjob?jk=3499055cfeee841a
@@ -961,6 +962,7 @@ https://in.indeed.com/viewjob?jk=a9cfddd4518e6bae
 https://in.indeed.com/viewjob?jk=a9fba970e25c80c1
 https://in.indeed.com/viewjob?jk=aa8bfcc514fda077
 https://in.indeed.com/viewjob?jk=aaf21b6123a24284
+https://in.indeed.com/viewjob?jk=ab94143bfe460253
 https://in.indeed.com/viewjob?jk=abc51e0f4f8f32a2
 https://in.indeed.com/viewjob?jk=abe6e4dacdc9213f
 https://in.indeed.com/viewjob?jk=ac00c3d31e860448
@@ -1590,6 +1592,7 @@ https://www.glassdoor.nl/job-listing/j?jl=1010332068848
 https://www.linkedin.com/jobs/view/3618237685
 https://www.linkedin.com/jobs/view/4127870672
 https://www.linkedin.com/jobs/view/4127872175
+https://www.linkedin.com/jobs/view/4127872185
 https://www.linkedin.com/jobs/view/4238787922
 https://www.linkedin.com/jobs/view/4297745071
 https://www.linkedin.com/jobs/view/4297751040
@@ -2306,6 +2309,7 @@ https://www.linkedin.com/jobs/view/4492919958
 https://www.linkedin.com/jobs/view/4492925263
 https://www.linkedin.com/jobs/view/4492951830
 https://www.linkedin.com/jobs/view/4492952174
+https://www.linkedin.com/jobs/view/4493183158
 https://www.linkedin.com/jobs/view/4493208675
 https://www.linkedin.com/jobs/view/4493216476
 https://www.linkedin.com/jobs/view/4493249113
