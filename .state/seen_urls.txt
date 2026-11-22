@@ -728,6 +728,7 @@ https://in.indeed.com/viewjob?jk=6afba5c8c3654c72
 https://in.indeed.com/viewjob?jk=6b00ef864c49787f
 https://in.indeed.com/viewjob?jk=6ba0a17400e438ac
 https://in.indeed.com/viewjob?jk=6ba70a8b40aaf7c0
+https://in.indeed.com/viewjob?jk=6bdc90852b7bf20f
 https://in.indeed.com/viewjob?jk=6bdd85d45ce66687
 https://in.indeed.com/viewjob?jk=6c1eefd59ef8ea0f
 https://in.indeed.com/viewjob?jk=6c349d468af33717
@@ -2316,6 +2317,7 @@ https://www.linkedin.com/jobs/view/4493249113
 https://www.linkedin.com/jobs/view/4493255704
 https://www.linkedin.com/jobs/view/4493264069
 https://www.linkedin.com/jobs/view/4493278091
+https://www.linkedin.com/jobs/view/4493283941
 https://www.naukri.com/job-listings-aem-product-manager-insight-global-hyderabad-7-to-10-years-111126030681
 https://www.naukri.com/job-listings-agile-product-owner-associate-advisor-careernet-hyderabad-8-to-11-years-201126023514
 https://www.naukri.com/job-listings-ai-business-analyst-capgemini-technology-services-india-limited-hyderabad-12-to-17-years-051126911099
