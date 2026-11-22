@@ -1117,6 +1117,7 @@ https://in.indeed.com/viewjob?jk=d448dc59fd795027
 https://in.indeed.com/viewjob?jk=d4682cc77209f9f9
 https://in.indeed.com/viewjob?jk=d46b27eecfaf4f47
 https://in.indeed.com/viewjob?jk=d47134baacc96a32
+https://in.indeed.com/viewjob?jk=d4a6e1546d298611
 https://in.indeed.com/viewjob?jk=d5438f774c027816
 https://in.indeed.com/viewjob?jk=d5444780b7eda63e
 https://in.indeed.com/viewjob?jk=d587ec43396c420b
@@ -2318,7 +2319,9 @@ https://www.linkedin.com/jobs/view/4493255704
 https://www.linkedin.com/jobs/view/4493264069
 https://www.linkedin.com/jobs/view/4493278091
 https://www.linkedin.com/jobs/view/4493283941
+https://www.linkedin.com/jobs/view/4493368207
 https://www.naukri.com/job-listings-aem-product-manager-insight-global-hyderabad-7-to-10-years-111126030681
+https://www.naukri.com/job-listings-agile-business-analyst-nautilus-consultants-hyderabad-pune-bengaluru-7-to-9-years-221126003426
 https://www.naukri.com/job-listings-agile-product-owner-associate-advisor-careernet-hyderabad-8-to-11-years-201126023514
 https://www.naukri.com/job-listings-ai-business-analyst-capgemini-technology-services-india-limited-hyderabad-12-to-17-years-051126911099
 https://www.naukri.com/job-listings-ai-business-analyst-deloitte-shared-services-india-mumbai-all-areas-4-to-9-years-221026011189
@@ -2908,6 +2911,7 @@ https://www.naukri.com/job-listings-opening-for-product-analyst-reconciliation-s
 https://www.naukri.com/job-listings-opening-for-product-manager-senior-product-manager-samarth-mumbai-mumbai-suburban-navi-mumbai-2-to-7-years-051126011702
 https://www.naukri.com/job-listings-opening-for-product-manager-with-fareportal-fareportal-pune-3-to-6-years-190826036743
 https://www.naukri.com/job-listings-opportunity-senior-product-manager-b2b-saas-webs-optimization-software-solution-ahmedabad-5-to-8-years-131126032211
+https://www.naukri.com/job-listings-oracle-fusion-erp-business-analyst-with-power-bi-digital-edge-ai-mumbai-10-to-15-years-240824009345
 https://www.naukri.com/job-listings-oracle-incentive-compensation-product-owner-motorola-solutions-kodiak-networks-india-private-limited-bengaluru-10-to-16-years-051126934128
 https://www.naukri.com/job-listings-oracle-incentive-compensation-product-owner-motorola-solutions-kodiak-networks-india-private-limited-bengaluru-6-to-11-years-181126927821
 https://www.naukri.com/job-listings-payments-business-analyst-wipro-mumbai-4-to-9-years-051126013876
@@ -3215,6 +3219,7 @@ https://www.naukri.com/job-listings-project-coordinator-business-analyst-scrum-m
 https://www.naukri.com/job-listings-r-d-business-analyst-product-owner-idc-hitachi-energy-india-limited-bengaluru-5-to-10-years-031126912806
 https://www.naukri.com/job-listings-risk-management-business-analyst-eclerx-bengaluru-3-to-8-years-221126000064
 https://www.naukri.com/job-listings-sales-marketing-executive-product-manager-shopping-bazaar-pvt-ltd-new-delhi-3-to-6-years-091126003024
+https://www.naukri.com/job-listings-salesforce-administrator-business-analyst-nextdev-it-teams-delhi-ncr-4-to-6-years-221126003396
 https://www.naukri.com/job-listings-salesforce-business-analyst-cloud-synapps-indore-pune-3-to-8-years-161126025638
 https://www.naukri.com/job-listings-salesforce-business-analyst-hexaware-technologies-ahmedabad-chennai-bengaluru-9-to-12-years-121126027524
 https://www.naukri.com/job-listings-salesforce-business-analyst-infinite-bengaluru-8-to-11-years-181126024584
