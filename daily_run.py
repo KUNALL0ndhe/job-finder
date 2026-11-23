@@ -134,8 +134,13 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
          background: #0f1115; color: #e8eaed; -webkit-text-size-adjust: 100%; }}
   header {{ position: sticky; top: 0; background: #0f1115ee; backdrop-filter: blur(8px);
            padding: 16px 16px 12px; border-bottom: 1px solid #242a33; z-index: 5; }}
-  h1 {{ margin: 0 0 2px; font-size: 19px; }}
-  .meta {{ color: #9aa0ab; font-size: 13px; }}
+  h1 {{ margin: 0; font-size: 19px; }}
+  .hrow {{ display: flex; justify-content: space-between; align-items: center; gap: 12px; }}
+  .refresh {{ flex: 0 0 auto; background: #1f2a3a; color: #cfe0ff; border: 1px solid #2d6cdf;
+    border-radius: 9px; padding: 9px 14px; font-weight: 700; font-size: 14px; cursor: pointer; }}
+  @media (hover: hover) {{ .refresh:hover {{ background: #26344a; }} }}
+  .meta {{ color: #9aa0ab; font-size: 13px; margin-top: 6px; }}
+  #opened {{ color: #7ee081; }}
   .filters {{ display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }}
   .filters button {{ flex: 1 1 calc(50% - 4px); padding: 9px; font-size: 13px; border-radius: 8px;
     border: 1px solid #2a3340; background: #171b22; color: #cfd4dc; font-weight: 600; }}
@@ -172,8 +177,11 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
   @media (hover: hover) {{ .apply:hover {{ background: #3f7cf0; }} }}
 </style></head><body>
 <header>
-  <h1>My job shortlist</h1>
-  <div class="meta">{len(df)} roles &middot; <b>{n_new} new</b> &middot; {now}<br>you review &amp; apply &mdash; nothing is submitted for you</div>
+  <div class="hrow">
+    <h1>My job shortlist</h1>
+    <button class="refresh" onclick="location.href=location.pathname+'?r='+Date.now()">&#8635; Refresh</button>
+  </div>
+  <div class="meta">{len(df)} roles &middot; <b>{n_new} new</b><br>Updated <b>{now}</b> &middot; <span id="opened"></span><br>you review &amp; apply &mdash; nothing is submitted for you</div>
   <div class="filters">
     <button data-m="all" class="on" onclick="flt('all')">All (<span id="c-all">{len(df)}</span>)</button>
     <button data-m="new" onclick="flt('new')">New (<span id="c-new">{n_new}</span>)</button>
@@ -192,6 +200,8 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
     saveApplied(s); refresh();
   }}
   function refresh() {{
+    var o = document.getElementById('opened');
+    if (o) o.textContent = 'opened ' + new Date().toLocaleTimeString('en-IN', {{ hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Kolkata' }}) + ' IST';
     var s = getApplied(), cards = [].slice.call(document.querySelectorAll('.card'));
     cards.forEach(function (c) {{
       var applied = s.has(c.dataset.url);
