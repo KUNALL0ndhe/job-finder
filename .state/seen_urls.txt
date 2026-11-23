@@ -1063,6 +1063,7 @@ https://in.indeed.com/viewjob?jk=c27dd3aa1ffdebe1
 https://in.indeed.com/viewjob?jk=c28a1da5e72bb9d1
 https://in.indeed.com/viewjob?jk=c290300e30004f28
 https://in.indeed.com/viewjob?jk=c2bee6e95dd75990
+https://in.indeed.com/viewjob?jk=c2dcc2e8f4e97c37
 https://in.indeed.com/viewjob?jk=c2e7cfa8965f82e1
 https://in.indeed.com/viewjob?jk=c31028d70583964f
 https://in.indeed.com/viewjob?jk=c3a2a7ebb84ae23e
@@ -1719,6 +1720,7 @@ https://www.linkedin.com/jobs/view/4465820630
 https://www.linkedin.com/jobs/view/4466277371
 https://www.linkedin.com/jobs/view/4466374264
 https://www.linkedin.com/jobs/view/4466422012
+https://www.linkedin.com/jobs/view/4466500683
 https://www.linkedin.com/jobs/view/4466509786
 https://www.linkedin.com/jobs/view/4466872004
 https://www.linkedin.com/jobs/view/4466895514
@@ -2194,6 +2196,7 @@ https://www.linkedin.com/jobs/view/4489096797
 https://www.linkedin.com/jobs/view/4489105042
 https://www.linkedin.com/jobs/view/4489116244
 https://www.linkedin.com/jobs/view/4489139745
+https://www.linkedin.com/jobs/view/4489139898
 https://www.linkedin.com/jobs/view/4489143316
 https://www.linkedin.com/jobs/view/4489151152
 https://www.linkedin.com/jobs/view/4489154649
@@ -2341,6 +2344,8 @@ https://www.linkedin.com/jobs/view/4493264069
 https://www.linkedin.com/jobs/view/4493278091
 https://www.linkedin.com/jobs/view/4493283941
 https://www.linkedin.com/jobs/view/4493368207
+https://www.linkedin.com/jobs/view/4493730684
+https://www.linkedin.com/jobs/view/4493740061
 https://www.naukri.com/job-listings-aem-product-manager-insight-global-hyderabad-7-to-10-years-111126030681
 https://www.naukri.com/job-listings-agile-business-analyst-nautilus-consultants-hyderabad-pune-bengaluru-7-to-9-years-221126003426
 https://www.naukri.com/job-listings-agile-product-owner-associate-advisor-careernet-hyderabad-8-to-11-years-201126023514
