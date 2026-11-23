@@ -40,6 +40,16 @@ jobs:
       - name: Scrape + build page
         run: python daily_run.py --regions NL,DE,IE,IN --hours-old 336
 
+      - name: Send push for new jobs
+        env:
+          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
+        run: |
+          npm install web-push --no-save --no-audit --no-fund
+          node push.js
+
       - name: Assemble site
         run: |
           mkdir -p _site

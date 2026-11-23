@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import html
+import json
 import subprocess
 import sys
 from pathlib import Path
@@ -136,9 +137,19 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
            padding: 16px 16px 12px; border-bottom: 1px solid #242a33; z-index: 5; }}
   h1 {{ margin: 0; font-size: 19px; }}
   .hrow {{ display: flex; justify-content: space-between; align-items: center; gap: 12px; }}
-  .refresh {{ flex: 0 0 auto; background: #1f2a3a; color: #cfe0ff; border: 1px solid #2d6cdf;
-    border-radius: 9px; padding: 9px 14px; font-weight: 700; font-size: 14px; cursor: pointer; }}
-  @media (hover: hover) {{ .refresh:hover {{ background: #26344a; }} }}
+  .hbtns {{ display: flex; gap: 8px; flex: 0 0 auto; }}
+  .refresh, .alerts {{ background: #1f2a3a; color: #cfe0ff; border: 1px solid #2d6cdf;
+    border-radius: 9px; padding: 9px 13px; font-weight: 700; font-size: 14px; cursor: pointer; white-space: nowrap; }}
+  .alerts {{ background: #1f2a1f; color: #bff0c4; border-color: #2a7a38; }}
+  .alerts.on {{ background: #1f7a33; color: #fff; }}
+  @media (hover: hover) {{ .refresh:hover {{ background: #26344a; }} .alerts:hover {{ background: #24381f; }} }}
+  #subbox {{ display: none; margin-top: 12px; padding: 12px; border: 1px solid #2a7a38;
+    border-radius: 10px; background: #111a12; }}
+  .subhint {{ font-size: 13px; color: #cfe0cf; margin-bottom: 8px; }}
+  #subjson {{ width: 100%; height: 72px; font: 11px monospace; background: #0b0f0b; color: #9fe0a8;
+    border: 1px solid #27452f; border-radius: 8px; padding: 8px; resize: vertical; }}
+  .subcopy {{ margin-top: 8px; background: #1f7a33; color: #fff; border: 0; border-radius: 8px;
+    padding: 9px 16px; font-weight: 700; cursor: pointer; }}
   .meta {{ color: #9aa0ab; font-size: 13px; margin-top: 6px; }}
   #opened {{ color: #7ee081; }}
   .filters {{ display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }}
@@ -179,7 +190,15 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
 <header>
   <div class="hrow">
     <h1>My job shortlist</h1>
-    <button class="refresh" onclick="location.href=location.pathname+'?r='+Date.now()">&#8635; Refresh</button>
+    <div class="hbtns">
+      <button class="alerts" id="alertsBtn" onclick="enableAlerts()">&#128276; Alerts</button>
+      <button class="refresh" onclick="location.href=location.pathname+'?r='+Date.now()">&#8635; Refresh</button>
+    </div>
+  </div>
+  <div id="subbox">
+    <div class="subhint">&#9989; Alerts enabled on this device. <b>Copy the text below and send it to Claude once</b> so pushes can reach you:</div>
+    <textarea id="subjson" readonly onclick="this.select()"></textarea>
+    <button class="subcopy" onclick="navigator.clipboard.writeText(document.getElementById('subjson').value)">Copy</button>
   </div>
   <div class="meta">{len(df)} roles &middot; <b>{n_new} new</b><br>Updated <b>{now}</b> &middot; <span id="opened"></span><br>you review &amp; apply &mdash; nothing is submitted for you</div>
   <div class="filters">
@@ -226,6 +245,40 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
     [].slice.call(document.querySelectorAll('.filters button')).forEach(function (b) {{ b.classList.toggle('on', b.dataset.m === m); }});
     refresh();
   }}
+  var VAPID_PUBLIC = 'BAprSCdgAdperHrxO7tPheyDW-GVDotxn4pQ_ApyJtfgxRrUkAbzzufUO0Ko04cmZyJRrIk3HBcPHTsizLUlPvI';
+  function urlB64ToUint8(s) {{
+    var pad = '='.repeat((4 - s.length % 4) % 4);
+    var b = (s + pad).replace(/-/g, '+').replace(/_/g, '/');
+    var raw = atob(b), arr = new Uint8Array(raw.length);
+    for (var i = 0; i < raw.length; i++) arr[i] = raw.charCodeAt(i);
+    return arr;
+  }}
+  function markOn() {{ var b = document.getElementById('alertsBtn'); if (b) {{ b.classList.add('on'); b.textContent = 'Alerts on'; }} }}
+  function showSub(json) {{
+    var box = document.getElementById('subbox'); box.style.display = 'block';
+    var ta = document.getElementById('subjson'); ta.value = json; ta.focus(); ta.select();
+    try {{ navigator.clipboard.writeText(json); }} catch (e) {{}}
+    markOn();
+  }}
+  async function enableAlerts() {{
+    try {{
+      if (!('serviceWorker' in navigator) || !('PushManager' in window)) {{
+        alert('Push needs the installed app. Add this page to your Home screen in Chrome, open that icon, then tap Alerts.'); return;
+      }}
+      var perm = await Notification.requestPermission();
+      if (perm !== 'granted') {{ alert('Notifications are blocked. Tap the lock icon in the address bar, allow Notifications, then try again.'); return; }}
+      var reg = await navigator.serviceWorker.ready;
+      var sub = await reg.pushManager.getSubscription();
+      if (!sub) sub = await reg.pushManager.subscribe({{ userVisibleOnly: true, applicationServerKey: urlB64ToUint8(VAPID_PUBLIC) }});
+      showSub(JSON.stringify(sub));
+    }} catch (e) {{ alert('Could not enable alerts: ' + (e && e.message ? e.message : e)); }}
+  }}
+  (function () {{
+    if ('serviceWorker' in navigator && 'PushManager' in window && window.Notification && Notification.permission === 'granted') {{
+      navigator.serviceWorker.ready.then(function (reg) {{ return reg.pushManager.getSubscription(); }})
+        .then(function (sub) {{ if (sub) markOn(); }}).catch(function () {{}});
+    }}
+  }})();
   window.addEventListener('load', refresh);
   if ('serviceWorker' in navigator) {{
     window.addEventListener('load', function () {{ navigator.serviceWorker.register('sw.js').catch(function () {{}}); }});
@@ -258,8 +311,20 @@ def main() -> int:
     save_seen(seen | current)
 
     DIGEST.write_text(render(df, new_urls), encoding="utf-8")
+
+    # Push payload for the workflow's web-push step (it sends only when count > 0).
+    new_df = df[df["job_url"].isin(new_urls)]
+    top = new_df.iloc[0] if len(new_df) else None
+    n = len(new_urls)
+    push = {
+        "count": n,
+        "title": f"{n} new PM/analyst job" + ("" if n == 1 else "s"),
+        "body": (f"Top: {top['title']} — {top['company']}" if top is not None else ""),
+    }
+    (HERE / "push.json").write_text(json.dumps(push), encoding="utf-8")
+
     print(f"Digest written: {DIGEST}")
-    print(f"{len(new_urls)} new roles since last run, {len(df)} total.")
+    print(f"{n} new roles since last run, {len(df)} total.")
     return 0
 
 

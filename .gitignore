@@ -12,3 +12,6 @@ career-ops-data/
 # python
 __pycache__/
 *.pyc
+
+# generated push payload (regenerated each run)
+push.json
