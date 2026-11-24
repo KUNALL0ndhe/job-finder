@@ -13,6 +13,7 @@ https://de.indeed.com/viewjob?jk=0ecbc3b7d03cd186
 https://de.indeed.com/viewjob?jk=0ee73cfe80ce983f
 https://de.indeed.com/viewjob?jk=0f127b2204c5c898
 https://de.indeed.com/viewjob?jk=0f2d97ae83f83003
+https://de.indeed.com/viewjob?jk=0f4196be5164db1f
 https://de.indeed.com/viewjob?jk=117be000ea2f8e8c
 https://de.indeed.com/viewjob?jk=138a0c4df36657ff
 https://de.indeed.com/viewjob?jk=140560fcd308e6fa
@@ -412,6 +413,7 @@ https://in.indeed.com/viewjob?jk=1093f130ad4571d5
 https://in.indeed.com/viewjob?jk=114ef3d60448c8e2
 https://in.indeed.com/viewjob?jk=11a64da3c094d7bd
 https://in.indeed.com/viewjob?jk=11e10b0689bc6d35
+https://in.indeed.com/viewjob?jk=120faca40cec00cc
 https://in.indeed.com/viewjob?jk=121b267c100a7534
 https://in.indeed.com/viewjob?jk=1224476aa2d6ec1b
 https://in.indeed.com/viewjob?jk=125b323a60ff3f36
@@ -739,6 +741,7 @@ https://in.indeed.com/viewjob?jk=662456dd0f913c06
 https://in.indeed.com/viewjob?jk=663d928e26403efb
 https://in.indeed.com/viewjob?jk=664153814250bde2
 https://in.indeed.com/viewjob?jk=6652951ecd378b74
+https://in.indeed.com/viewjob?jk=665592c3e5adf285
 https://in.indeed.com/viewjob?jk=676e346c903161cf
 https://in.indeed.com/viewjob?jk=67a82d06fcc20a7a
 https://in.indeed.com/viewjob?jk=68050699605ee6e2
@@ -958,6 +961,7 @@ https://in.indeed.com/viewjob?jk=9cb2b9488a9c82aa
 https://in.indeed.com/viewjob?jk=9cfe7aaf96115c12
 https://in.indeed.com/viewjob?jk=9d64f3b2a56998a9
 https://in.indeed.com/viewjob?jk=9daea5cf470f87e8
+https://in.indeed.com/viewjob?jk=9de2b97127539eb3
 https://in.indeed.com/viewjob?jk=9e0bf5f0ef1d47e7
 https://in.indeed.com/viewjob?jk=9ef6087d6b8b280f
 https://in.indeed.com/viewjob?jk=9f3f6ec0c8dc3ed8
@@ -2384,6 +2388,7 @@ https://www.linkedin.com/jobs/view/4492036721
 https://www.linkedin.com/jobs/view/4492059009
 https://www.linkedin.com/jobs/view/4492071162
 https://www.linkedin.com/jobs/view/4492149634
+https://www.linkedin.com/jobs/view/4492159716
 https://www.linkedin.com/jobs/view/4492170850
 https://www.linkedin.com/jobs/view/4492311051
 https://www.linkedin.com/jobs/view/4492353625
