@@ -5,14 +5,16 @@ name: Job discovery
 # GitHub cron is in UTC; IST = UTC + 5:30.
 on:
   schedule:
-    - cron: "30 3 * * *"    # 09:00 Asia/Kolkata (03:30 UTC)
-    - cron: "30 5 * * *"    # 11:00 Asia/Kolkata (05:30 UTC)
-    - cron: "30 7 * * *"    # 13:00 Asia/Kolkata (07:30 UTC)
-    - cron: "30 9 * * *"    # 15:00 Asia/Kolkata (09:30 UTC)
-    - cron: "30 11 * * *"   # 17:00 Asia/Kolkata (11:30 UTC)
-    - cron: "30 13 * * *"   # 19:00 Asia/Kolkata (13:30 UTC)
-    - cron: "30 15 * * *"   # 21:00 Asia/Kolkata (15:30 UTC)
-    - cron: "30 18 * * *"   # 00:00 Asia/Kolkata (18:30 UTC)
+    # Minute :23 (not :00/:30) — GitHub's cron is least congested off the round
+    # marks, so fewer runs get dropped. Times are ~7 min before each IST hour.
+    - cron: "23 3 * * *"    # ~09:00 Asia/Kolkata (03:23 UTC)
+    - cron: "23 5 * * *"    # ~11:00 Asia/Kolkata (05:23 UTC)
+    - cron: "23 7 * * *"    # ~13:00 Asia/Kolkata (07:23 UTC)
+    - cron: "23 9 * * *"    # ~15:00 Asia/Kolkata (09:23 UTC)
+    - cron: "23 11 * * *"   # ~17:00 Asia/Kolkata (11:23 UTC)
+    - cron: "23 13 * * *"   # ~19:00 Asia/Kolkata (13:23 UTC)
+    - cron: "23 15 * * *"   # ~21:00 Asia/Kolkata (15:23 UTC)
+    - cron: "23 18 * * *"   # ~00:00 Asia/Kolkata (18:23 UTC)
   workflow_dispatch:         # lets you run it on demand from the Actions tab
 
 permissions:
