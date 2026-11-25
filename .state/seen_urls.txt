@@ -979,6 +979,7 @@ https://in.indeed.com/viewjob?jk=972b4d5cbbb6c175
 https://in.indeed.com/viewjob?jk=974a3b42b0b9c75f
 https://in.indeed.com/viewjob?jk=97788fe38c26c77c
 https://in.indeed.com/viewjob?jk=97ac1ba8b5d4620a
+https://in.indeed.com/viewjob?jk=97f891c93ebffbe9
 https://in.indeed.com/viewjob?jk=985c902927182fa2
 https://in.indeed.com/viewjob?jk=98f7b24925cc3524
 https://in.indeed.com/viewjob?jk=991800e38dbb6ff7
@@ -1417,6 +1418,7 @@ https://nl.indeed.com/viewjob?jk=169ae07ee2dda53e
 https://nl.indeed.com/viewjob?jk=17e89798f0e9ac50
 https://nl.indeed.com/viewjob?jk=1a74f10a84864bdc
 https://nl.indeed.com/viewjob?jk=1bc12c08a7755e0a
+https://nl.indeed.com/viewjob?jk=1bcf20ea286b74ae
 https://nl.indeed.com/viewjob?jk=1e8536068f813501
 https://nl.indeed.com/viewjob?jk=20d9c2047382e13a
 https://nl.indeed.com/viewjob?jk=2109a7404f40bec6
@@ -2159,6 +2161,7 @@ https://www.linkedin.com/jobs/view/4485318813
 https://www.linkedin.com/jobs/view/4485325846
 https://www.linkedin.com/jobs/view/4485329315
 https://www.linkedin.com/jobs/view/4485336986
+https://www.linkedin.com/jobs/view/4485364406
 https://www.linkedin.com/jobs/view/4485385710
 https://www.linkedin.com/jobs/view/4485414914
 https://www.linkedin.com/jobs/view/4485418622
@@ -2513,6 +2516,7 @@ https://www.linkedin.com/jobs/view/4494087792
 https://www.linkedin.com/jobs/view/4494144493
 https://www.linkedin.com/jobs/view/4494152818
 https://www.linkedin.com/jobs/view/4494158240
+https://www.linkedin.com/jobs/view/4494327650
 https://www.linkedin.com/jobs/view/4494333576
 https://www.linkedin.com/jobs/view/4494333712
 https://www.linkedin.com/jobs/view/4494334307
