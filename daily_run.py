@@ -115,7 +115,7 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
         </div>
         <div class="actions">
           {apply}
-          <button class="mark" onclick="toggleApplied(this)">Mark applied</button>
+          <button class="mark" onclick="markDone(this)">Done</button>
         </div>
       </article>""")
 
@@ -202,40 +202,32 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
   </div>
   <div class="meta">{len(df)} roles &middot; <b>{n_new} new</b><br>&#127760; Jobs last pulled from the web: <b>{now}</b><br><span class="note">Refresh just reloads this page &mdash; new jobs appear only when the scraper runs.</span></div>
   <div class="filters">
-    <button data-m="all" class="on" onclick="flt('all')">All (<span id="c-all">{len(df)}</span>)</button>
     <button data-m="new" onclick="flt('new')">New (<span id="c-new">{n_new}</span>)</button>
-    <button data-m="fresh" onclick="flt('fresh')">Fresh &le;3d (<span id="c-fresh">0</span>)</button>
-    <button data-m="applied" onclick="flt('applied')">Applied (<span id="c-applied">0</span>)</button>
+    <button data-m="fresh" class="on" onclick="flt('fresh')">Fresh &le;3d (<span id="c-fresh">0</span>)</button>
   </div>
 </header>
 <main id="list">{''.join(cards)}</main>
 <script>
-  var KEY = 'appliedJobs', mode = 'all';
-  function getApplied() {{ try {{ return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }} catch (e) {{ return new Set(); }} }}
-  function saveApplied(s) {{ try {{ localStorage.setItem(KEY, JSON.stringify([].slice.call(s))); }} catch (e) {{}} }}
-  function toggleApplied(btn) {{
-    var card = btn.closest('.card'), s = getApplied(), u = card.dataset.url;
-    if (s.has(u)) s.delete(u); else s.add(u);
-    saveApplied(s); refresh();
+  var KEY = 'doneJobs', mode = 'fresh';
+  var doneSet = (function () {{ try {{ return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }} catch (e) {{ return new Set(); }} }})();
+  function persistDone() {{ try {{ localStorage.setItem(KEY, JSON.stringify([].slice.call(doneSet))); }} catch (e) {{}} }}
+  function markDone(btn) {{
+    doneSet.add(btn.closest('.card').dataset.url);   // in-memory source of truth
+    persistDone();                                    // + remembered on this device
+    refresh();
   }}
   function refresh() {{
-    var s = getApplied(), cards = [].slice.call(document.querySelectorAll('.card'));
+    var cards = [].slice.call(document.querySelectorAll('.card'));
+    var nNew = 0, nFresh = 0;
     cards.forEach(function (c) {{
-      var applied = s.has(c.dataset.url);
-      c.classList.toggle('isapplied', applied);
-      var mk = c.querySelector('.mark'); if (mk) mk.textContent = applied ? 'Undo' : 'Mark applied';
-      var show;
-      if (mode === 'applied') show = applied;
-      else if (mode === 'new') show = !applied && c.dataset.new === '1';
-      else if (mode === 'fresh') show = !applied && c.dataset.fresh === '1';
-      else show = !applied;
-      c.style.display = show ? '' : 'none';
+      if (doneSet.has(c.dataset.url)) {{ c.style.display = 'none'; return; }}   // Done -> removed
+      var isNew = c.dataset.new === '1', isFresh = c.dataset.fresh === '1';
+      if (isNew) nNew++;
+      if (isFresh) nFresh++;
+      c.style.display = (mode === 'new' ? isNew : isFresh) ? '' : 'none';
     }});
-    var live = cards.filter(function (c) {{ return !s.has(c.dataset.url); }});
-    setCount('all', live.length);
-    setCount('new', live.filter(function (c) {{ return c.dataset.new === '1'; }}).length);
-    setCount('fresh', live.filter(function (c) {{ return c.dataset.fresh === '1'; }}).length);
-    setCount('applied', cards.length - live.length);
+    setCount('new', nNew);
+    setCount('fresh', nFresh);
   }}
   function setCount(m, n) {{ var el = document.getElementById('c-' + m); if (el) el.textContent = n; }}
   function flt(m) {{
