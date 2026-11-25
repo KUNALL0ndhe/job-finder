@@ -32,32 +32,44 @@ jobs:
           python-version: "3.12"
 
       - name: Install deps
-        run: pip install python-jobspy pandas
+        run: |
+          pip install python-jobspy pandas
+          npm install web-push --no-save --no-audit --no-fund
 
-      - name: Scrape + build page
-        run: python daily_run.py --regions NL,DE,IE,IN --hours-old 336
+      - name: Scrape + build PM page
+        run: python daily_run.py --profile pm --regions NL,DE,IE,IN --hours-old 336
 
-      - name: Send push for new jobs
+      - name: Scrape + build Finance page
+        run: python daily_run.py --profile finance --regions NL,DE,IE,IN --hours-old 336
+
+      - name: Push new PM jobs
         env:
           PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
           VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
-        run: |
-          npm install web-push --no-save --no-audit --no-fund
-          node push.js
+        run: node push.js push_pm.json
+
+      - name: Push new Finance jobs
+        env:
+          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION_FINANCE }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
+        run: node push.js push_finance.json
 
       - name: Assemble site
         run: |
           mkdir -p _site
           cp digest.html _site/index.html
-          cp web/manifest.webmanifest web/sw.js web/icon-192.png web/icon-512.png web/apple-touch-icon.png _site/
+          cp finance.html _site/finance.html
+          cp web/manifest.webmanifest web/manifest.finance.webmanifest web/sw.js web/icon-192.png web/icon-512.png web/apple-touch-icon.png _site/
 
       - name: Persist NEW-job state
         run: |
           git config user.name "job-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .state jobs.csv || true
+          git add .state || true
           git commit -m "state: $(date -u +%FT%TZ)" || echo "nothing to commit"
           git push || echo "push skipped"
 

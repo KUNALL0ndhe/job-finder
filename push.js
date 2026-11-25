@@ -11,11 +11,12 @@ if (!subRaw) {
   process.exit(0);
 }
 
+const pushFile = process.argv[2] || "push.json"; // which profile's payload to send
 let payload;
 try {
-  payload = JSON.parse(fs.readFileSync("push.json", "utf8"));
+  payload = JSON.parse(fs.readFileSync(pushFile, "utf8"));
 } catch (e) {
-  console.log("No push.json — skipping push.");
+  console.log("No " + pushFile + " — skipping push.");
   process.exit(0);
 }
 if (!payload.count || payload.count < 1) {

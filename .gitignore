@@ -3,7 +3,10 @@
 
 # generated discovery output (contains scraped postings; re-generate anytime)
 jobs.csv
+jobs_finance.csv
 test_jobs.csv
+digest.html
+finance.html
 
 # career-ops is installed separately; its data holds personal profile info
 career-ops/
@@ -13,5 +16,7 @@ career-ops-data/
 __pycache__/
 *.pyc
 
-# generated push payload (regenerated each run)
+# generated push payloads (regenerated each run)
 push.json
+push_pm.json
+push_finance.json

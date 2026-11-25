@@ -1,19 +1,20 @@
 #!/usr/bin/env python3
-"""Discovery scraper for associate/junior PM roles via JobSpy.
+"""Discovery scraper via JobSpy, with switchable profiles.
 
-Targets the geographies from CLAUDE.md: Netherlands, Germany, Ireland
-(visa sponsorship wanted) and India (B2B retail commerce). Pulls from the
-job aggregators JobSpy supports, de-dupes, applies a light junior/associate
-fit score, and writes a ranked ``jobs.csv``.
+Two independent role profiles share the same regions and plumbing:
+  * ``pm``      - associate/junior Product Manager + product/business analyst.
+  * ``finance`` - Corporate Actions / Securities Operations / Reference Data /
+                  Asset Servicing / Equity Research / Financial Analyst.
+
+The two never mix: each profile is scraped on its own run into its own CSV.
 
 This is DISCOVERY ONLY. It reads public aggregator results and writes a CSV.
-It never applies. Hand a chosen row to the apply side (career-ops) yourself.
+It never applies.
 
 Usage:
-    python scrape_jobs.py                      # all regions, default limits
-    python scrape_jobs.py --regions NL,DE      # one or more geographies
-    python scrape_jobs.py --limit 10 --debug   # small run while testing
-    python scrape_jobs.py --hours-old 168      # only postings < 7 days old
+    python scrape_jobs.py --profile pm       --out jobs.csv
+    python scrape_jobs.py --profile finance  --out jobs_finance.csv
+    python scrape_jobs.py --profile finance --regions IN --limit 8 --debug
 """
 from __future__ import annotations
 
@@ -23,41 +24,68 @@ import sys
 import pandas as pd
 from jobspy import scrape_jobs
 
-# --- search ---------------------------------------------------------------
-# Terms are broad on purpose; the fit score below re-ranks for junior/associate.
-SEARCH_TERMS = [
-    "associate product manager",
-    "junior product manager",
-    "product manager",
-    "product analyst",
-    "business analyst",
-    "product management intern",
-]
-
-# Signals that a posting is actually junior/associate (positive) vs senior (negative).
+# --- shared signals -------------------------------------------------------
+# Entry/early-career (positive) vs senior (negative), judged from the TITLE.
 JUNIOR_HINTS = ("associate", "junior", "apm", "entry level", "entry-level", "graduate",
                 "early career", "intern", "internship", "trainee", "working student")
 SENIOR_HINTS = ("senior", "lead", "principal", "head of", "director", "staff", "vp", "chief")
-# A row must look like one of the role families we want (keeps out unrelated jobs).
-# Product management is primary; business/product analyst roles share much of the JD.
-PRODUCT_HINTS = ("product manager", "product owner", "product analyst", "product management",
-                 "business analyst", "apm", "associate product", "product intern")
 VISA_HINTS = ("visa", "sponsor", "relocation", "work permit", "blue card", "ind sponsorship")
 
+# --- profiles -------------------------------------------------------------
+# role_hints:   the TITLE must contain one of these (keeps out unrelated jobs).
+# primary_hints: core target words that earn a small fit bonus.
+PROFILES: dict[str, dict] = {
+    "pm": {
+        "search_terms": [
+            "associate product manager", "junior product manager", "product manager",
+            "product analyst", "business analyst", "product management intern",
+        ],
+        "role_hints": ("product manager", "product owner", "product analyst",
+                       "product management", "business analyst", "apm",
+                       "associate product", "product intern"),
+        "primary_hints": ("product manager", "product owner", "apm"),
+    },
+    "finance": {
+        # Built from the candidate's resume: corporate actions / securities ops /
+        # equity reference data / asset servicing / equity research analyst.
+        "search_terms": [
+            "corporate actions analyst", "securities operations", "reference data analyst",
+            "asset servicing", "equity research analyst", "financial analyst",
+        ],
+        "role_hints": ("corporate action", "securities", "reference data", "asset servicing",
+                       "equity research", "financial analyst", "fund", "custody",
+                       "settlement", "investment oper", "trade support", "analyst"),
+        "primary_hints": ("corporate action", "securities", "reference data",
+                          "asset servicing", "equity research", "custody", "settlement"),
+    },
+}
+
+# These are set per-run from the chosen profile by set_profile().
+SEARCH_TERMS: list[str] = []
+ROLE_HINTS: tuple = ()
+PRIMARY_HINTS: tuple = ()
+
+
+def set_profile(name: str) -> None:
+    global SEARCH_TERMS, ROLE_HINTS, PRIMARY_HINTS
+    p = PROFILES[name]
+    SEARCH_TERMS = p["search_terms"]
+    ROLE_HINTS = p["role_hints"]
+    PRIMARY_HINTS = p["primary_hints"]
+
+
 # --- regions --------------------------------------------------------------
-# Per region: which sites, the location string, and (for Indeed/Glassdoor)
-# the country. Indeed is the most reliable; LinkedIn is global but rate-limits.
 REGIONS: dict[str, dict] = {
+    # LinkedIn dropped on purpose: from cloud IPs it 429s every description
+    # fetch and dominates runtime while returning little. Indeed is the reliable,
+    # rate-limit-free workhorse, so each scrape finishes in a few minutes.
     "NL": {"location": "Netherlands",  "country_indeed": "Netherlands",
-           "sites": ["indeed", "linkedin", "glassdoor"]},
+           "sites": ["indeed"]},
     "DE": {"location": "Germany",      "country_indeed": "Germany",
-           "sites": ["indeed", "linkedin", "glassdoor"]},
+           "sites": ["indeed"]},
     "IE": {"location": "Ireland",      "country_indeed": "Ireland",
-           "sites": ["indeed", "linkedin", "glassdoor"]},
-    # India: Naukri is the local board and takes a city. We fan out across the
-    # metros (plus a national pass) for denser results. LinkedIn is dropped here
-    # because it's blocked from cloud IPs and its retries dominate the runtime;
-    # Naukri + Indeed cover India well. "location" is the fallback if no cities.
+           "sites": ["indeed"]},
+    # India: Naukri takes a city, so fan out across the metros (+ a national pass).
     "IN": {"location": "India",        "country_indeed": "India",
            "sites": ["naukri", "indeed"],
            "cities": ["Bengaluru", "Mumbai", "Gurgaon", "Pune", "Hyderabad",
@@ -65,27 +93,23 @@ REGIONS: dict[str, dict] = {
 }
 
 
-def is_product_role(row: pd.Series) -> bool:
-    """True if the TITLE looks like a product role (not just any junior job)."""
+def is_target_role(row: pd.Series) -> bool:
+    """True if the TITLE matches the active profile's role family."""
     title = str(row.get("title", "")).lower()
-    return any(h in title for h in PRODUCT_HINTS)
+    return any(h in title for h in ROLE_HINTS)
 
 
 def fit_score(row: pd.Series) -> int:
-    """Cheap heuristic rank: higher = more likely a junior/associate PM fit.
-
-    Seniority is judged from the TITLE (reliable); the job description is only
-    read for visa/relocation language, which matters for NL/DE/IE.
-    """
+    """Higher = more likely an entry/associate-level fit for the active profile."""
     title = str(row.get("title", "")).lower()
     desc = str(row.get("description", "")).lower()
-    score = 1  # baseline: it already passed the role-family filter
+    score = 1  # baseline: already passed the role-family filter
     if any(h in title for h in JUNIOR_HINTS):
         score += 3
     if any(h in title for h in SENIOR_HINTS):
-        score -= 4  # a senior title is not a junior fit, whatever the JD says
-    if any(h in title for h in ("product manager", "product owner", "apm")):
-        score += 1  # PM is the primary target; nudge it above analyst/BA
+        score -= 4  # a senior title is not an entry/associate fit
+    if any(h in title for h in PRIMARY_HINTS):
+        score += 1  # core target role, nudge it up
     if any(h in desc for h in VISA_HINTS):
         score += 2  # visa/relocation mention is valuable for NL/DE/IE
     return score
@@ -100,7 +124,6 @@ def visa_note(row: pd.Series) -> str:
 def scrape_region(code: str, limit: int, hours_old: int, debug: bool) -> pd.DataFrame:
     cfg = REGIONS[code]
     frames: list[pd.DataFrame] = []
-    # A region may search several cities (e.g. India metros) or just one location.
     locations = cfg.get("cities") or [cfg["location"]]
     for loc in locations:
         for term in SEARCH_TERMS:
@@ -112,7 +135,7 @@ def scrape_region(code: str, limit: int, hours_old: int, debug: bool) -> pd.Data
                     country_indeed=cfg["country_indeed"],
                     results_wanted=limit,
                     hours_old=hours_old,
-                    fetch_description=True,   # needed so the fit score can read the JD
+                    fetch_description=True,
                 )
             except Exception as exc:  # one board 429-ing shouldn't kill the run
                 print(f"  ! {code}/{loc}/{term!r} failed: {exc}", file=sys.stderr)
@@ -127,7 +150,9 @@ def scrape_region(code: str, limit: int, hours_old: int, debug: bool) -> pd.Data
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Scrape associate/junior PM roles.")
+    ap = argparse.ArgumentParser(description="Scrape roles for a profile.")
+    ap.add_argument("--profile", default="pm", choices=list(PROFILES),
+                    help="which role profile to scrape (default: pm)")
     ap.add_argument("--regions", default="NL,DE,IE,IN",
                     help="comma list from NL,DE,IE,IN (default: all)")
     ap.add_argument("--limit", type=int, default=25,
@@ -138,6 +163,8 @@ def main() -> int:
     ap.add_argument("--debug", action="store_true", help="verbose per-query counts")
     args = ap.parse_args()
 
+    set_profile(args.profile)
+
     regions = [r.strip().upper() for r in args.regions.split(",") if r.strip()]
     bad = [r for r in regions if r not in REGIONS]
     if bad:
@@ -145,7 +172,7 @@ def main() -> int:
 
     all_frames = []
     for code in regions:
-        print(f"Scraping {code} ...")
+        print(f"[{args.profile}] Scraping {code} ...")
         df = scrape_region(code, args.limit, args.hours_old, args.debug)
         if len(df):
             all_frames.append(df)
@@ -155,17 +182,14 @@ def main() -> int:
         return 1
 
     jobs = pd.concat(all_frames, ignore_index=True)
-
-    # De-dupe on the job URL, then on (title, company) as a fallback.
     jobs = jobs.drop_duplicates(subset=["job_url"]).copy()
     jobs = jobs.drop_duplicates(subset=["title", "company"]).copy()
 
-    # Keep only actual product roles (drops "Junior Software Developer" etc.).
     before = len(jobs)
-    jobs = jobs[jobs.apply(is_product_role, axis=1)].copy()
-    print(f"Filtered to {len(jobs)} product roles (from {before} raw postings).")
+    jobs = jobs[jobs.apply(is_target_role, axis=1)].copy()
+    print(f"[{args.profile}] Filtered to {len(jobs)} target roles (from {before} raw postings).")
     if not len(jobs):
-        print("No product roles matched. Widen --hours-old or check search terms.")
+        print("No target roles matched. Widen --hours-old or check search terms.")
         return 1
 
     jobs["fit_score"] = jobs.apply(fit_score, axis=1)
@@ -177,7 +201,7 @@ def main() -> int:
                         "min_amount", "max_amount", "is_remote", "description"]
             if c in jobs.columns]
     jobs[cols].to_csv(args.out, index=False)
-    print(f"\nWrote {len(jobs)} unique jobs to {args.out} "
+    print(f"\n[{args.profile}] Wrote {len(jobs)} unique jobs to {args.out} "
           f"(top fit_score = {jobs['fit_score'].max()}).")
     return 0
 

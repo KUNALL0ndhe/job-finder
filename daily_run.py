@@ -1,19 +1,14 @@
 #!/usr/bin/env python3
-"""Twice-daily job discovery: scrape, flag NEW postings, write a digest.
+"""Build a mobile job dashboard for one profile (pm or finance).
 
-Run by Windows Task Scheduler morning and night. It:
-  1. runs scrape_jobs.py for the configured regions -> jobs.csv
-  2. diffs against postings seen on previous runs (.state/seen_urls.txt)
-  3. writes digest.html -- a ranked dashboard with NEW roles first and
-     one-click Apply links to the real posting.
+Scrapes (via scrape_jobs.py), flags postings, and writes a self-contained page.
+The two profiles are fully independent -- separate CSV, separate "seen" state,
+separate page and separate push payload -- so their job lists never mix. A
+"Switch" button in each page's header links to the other profile's page.
 
-DISCOVERY ONLY. It never applies, never logs in, handles no credentials.
-You open digest.html, decide what's worth it, and apply yourself (with
-career-ops drafting the CV / cover letter / answers for you).
-
-    python daily_run.py                 # scrape all regions, then build digest
-    python daily_run.py --no-scrape     # just rebuild the digest from jobs.csv
-    python daily_run.py --regions NL,DE  # limit regions
+    python daily_run.py --profile pm                 # scrape + build index page
+    python daily_run.py --profile finance            # scrape + build finance page
+    python daily_run.py --profile finance --no-scrape # rebuild page from its CSV
 """
 from __future__ import annotations
 
@@ -28,45 +23,61 @@ from pathlib import Path
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-# Use the interpreter running this file: the local venv python when the Windows
-# task invokes it, or the plain runner python in GitHub Actions. Portable either way.
 PY = sys.executable
-JOBS_CSV = HERE / "jobs.csv"
 STATE = HERE / ".state"
-SEEN = STATE / "seen_urls.txt"
-DIGEST = HERE / "digest.html"
+
+# Everything that differs between the two portals lives here.
+PROFILE_CFG: dict[str, dict] = {
+    "pm": {
+        "h1": "My job shortlist",
+        "csv": "jobs.csv",
+        "page": "digest.html",            # workflow publishes this as index.html
+        "seen": "seen_pm.txt",
+        "push": "push_pm.json",
+        "push_word": "PM/analyst",
+        "manifest": "manifest.webmanifest",
+        "switch_label": "\U0001F4BC Finance",     # 💼 -> go to finance page
+        "switch_href": "finance.html",
+    },
+    "finance": {
+        "h1": "Finance shortlist",
+        "csv": "jobs_finance.csv",
+        "page": "finance.html",
+        "seen": "seen_finance.txt",
+        "push": "push_finance.json",
+        "push_word": "finance/analyst",
+        "manifest": "manifest.finance.webmanifest",
+        "switch_label": "\U0001F9ED Product",      # 🧭 -> go back to product page
+        "switch_href": "./",
+    },
+}
 
 
-def run_scrape(regions: str, hours_old: int) -> None:
-    cmd = [str(PY), str(HERE / "scrape_jobs.py"),
-           "--regions", regions, "--hours-old", str(hours_old),
-           "--out", str(JOBS_CSV)]
+def run_scrape(profile: str, out_csv: Path, regions: str, hours_old: int) -> None:
+    cmd = [str(PY), str(HERE / "scrape_jobs.py"), "--profile", profile,
+           "--regions", regions, "--hours-old", str(hours_old), "--out", str(out_csv)]
     print("Scraping:", " ".join(cmd))
-    # Don't abort the digest if one run comes back empty (rate limits happen).
-    subprocess.run(cmd, cwd=HERE, check=False)
+    subprocess.run(cmd, cwd=HERE, check=False)  # empty result shouldn't abort the page
 
 
-def load_seen() -> set[str]:
-    if SEEN.exists():
-        return {ln.strip() for ln in SEEN.read_text(encoding="utf-8").splitlines() if ln.strip()}
+def load_seen(path: Path) -> set[str]:
+    if path.exists():
+        return {ln.strip() for ln in path.read_text(encoding="utf-8").splitlines() if ln.strip()}
     return set()
 
 
-def save_seen(urls: set[str]) -> None:
+def save_seen(path: Path, urls: set[str]) -> None:
     STATE.mkdir(exist_ok=True)
-    SEEN.write_text("\n".join(sorted(urls)), encoding="utf-8")
+    path.write_text("\n".join(sorted(urls)), encoding="utf-8")
 
 
-def render(df: pd.DataFrame, new_urls: set[str]) -> str:
-    # Show times in IST regardless of where this runs (GitHub's runner is UTC).
+def render(df: pd.DataFrame, new_urls: set[str], cfg: dict) -> str:
     ist = dt.datetime.now(dt.timezone.utc).astimezone(dt.timezone(dt.timedelta(hours=5, minutes=30)))
     now = ist.strftime("%a %d %b %Y, %H:%M") + " IST"
     today = ist.date()
-    n_new = len(new_urls & set(df["job_url"].astype(str)))
     cards = []
     for _, r in df.iterrows():
         url = str(r.get("job_url", ""))
-        is_new = url in new_urls
         visa = str(r.get("visa_note", "") or "").strip()
         visa = "" if visa in ("nan", "") else visa
         title = html.escape(str(r.get("title", "")))
@@ -75,7 +86,6 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
         region = html.escape(str(r.get("region", "")))
         score = int(r.get("fit_score", 0)) if pd.notna(r.get("fit_score")) else 0
         remote = str(r.get("is_remote", "")).lower() in ("true", "1", "1.0")
-        # Freshness from date_posted (not every board reports it). is_fresh = <=3 days.
         age = None
         dp = r.get("date_posted")
         if pd.notna(dp):
@@ -95,8 +105,8 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
             fresh_cls, fresh_txt, is_fresh = "cool", f"{age}d ago", False
         else:
             fresh_cls, fresh_txt, is_fresh = "old", f"{age}d ago", False
+        is_24h = age is not None and age <= 1
         badges = [f'<span class="b fr {fresh_cls}">{fresh_txt}</span>']
-        is_24h = age is not None and age <= 1   # New tab = posted within ~24h (today/yesterday)
         if is_24h:
             badges.append('<span class="b new">NEW</span>')
         badges.append(f'<span class="b reg">{region}</span>')
@@ -120,15 +130,16 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
         </div>
       </article>""")
 
+    h1 = html.escape(cfg["h1"])
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0f1115">
-<link rel="manifest" href="manifest.webmanifest">
+<link rel="manifest" href="{cfg['manifest']}">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Jobs">
-<title>My job shortlist</title>
+<title>{h1}</title>
 <style>
   :root {{ color-scheme: dark; }}
   * {{ box-sizing: border-box; }}
@@ -137,13 +148,14 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
   header {{ position: sticky; top: 0; background: #0f1115ee; backdrop-filter: blur(8px);
            padding: 16px 16px 12px; border-bottom: 1px solid #242a33; z-index: 5; }}
   h1 {{ margin: 0; font-size: 19px; }}
-  .hrow {{ display: flex; justify-content: space-between; align-items: center; gap: 12px; }}
-  .hbtns {{ display: flex; gap: 8px; flex: 0 0 auto; }}
-  .refresh, .alerts {{ background: #1f2a3a; color: #cfe0ff; border: 1px solid #2d6cdf;
-    border-radius: 9px; padding: 9px 13px; font-weight: 700; font-size: 14px; cursor: pointer; white-space: nowrap; }}
+  .hbtns {{ display: flex; gap: 8px; margin-top: 10px; }}
+  .switch, .refresh, .alerts {{ flex: 1; text-align: center; text-decoration: none;
+    background: #1f2a3a; color: #cfe0ff; border: 1px solid #2d6cdf; border-radius: 9px;
+    padding: 9px 10px; font-weight: 700; font-size: 13px; cursor: pointer; white-space: nowrap; }}
+  .switch {{ background: #2a2340; color: #d8c8ff; border-color: #6a4ec2; }}
   .alerts {{ background: #1f2a1f; color: #bff0c4; border-color: #2a7a38; }}
   .alerts.on {{ background: #1f7a33; color: #fff; }}
-  @media (hover: hover) {{ .refresh:hover {{ background: #26344a; }} .alerts:hover {{ background: #24381f; }} }}
+  @media (hover: hover) {{ .refresh:hover {{ background: #26344a; }} .alerts:hover {{ background: #24381f; }} .switch:hover {{ background: #332a4d; }} }}
   #subbox {{ display: none; margin-top: 12px; padding: 12px; border: 1px solid #2a7a38;
     border-radius: 10px; background: #111a12; }}
   .subhint {{ font-size: 13px; color: #cfe0cf; margin-bottom: 8px; }}
@@ -151,7 +163,7 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
     border: 1px solid #27452f; border-radius: 8px; padding: 8px; resize: vertical; }}
   .subcopy {{ margin-top: 8px; background: #1f7a33; color: #fff; border: 0; border-radius: 8px;
     padding: 9px 16px; font-weight: 700; cursor: pointer; }}
-  .meta {{ color: #9aa0ab; font-size: 13px; margin-top: 6px; }}
+  .meta {{ color: #9aa0ab; font-size: 13px; margin-top: 10px; }}
   .meta .note {{ color: #70757f; font-size: 11px; }}
   .filters {{ display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }}
   .filters button {{ flex: 1 1 calc(50% - 4px); padding: 9px; font-size: 13px; border-radius: 8px;
@@ -179,8 +191,6 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
   .apply.off {{ background: #2a2f38; color: #8a909b; }}
   .mark {{ background: #16221a; color: #8fe0a0; border: 1px solid #27452f; border-radius: 10px;
     padding: 8px; font-size: 12px; font-weight: 700; white-space: nowrap; cursor: pointer; }}
-  .card.isapplied {{ opacity: .55; }}
-  .card.isapplied .mark {{ background: #2a1b1b; color: #f0a0a0; border-color: #4a2a2a; }}
   .b.fr.hot {{ background: #1f7a33; color: #d7ffd9; }}
   .b.fr.warm {{ background: #3f5a1f; color: #e4ffb0; }}
   .b.fr.cool {{ background: #2a3340; color: #9fb4d8; }}
@@ -189,15 +199,14 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
   @media (hover: hover) {{ .apply:hover {{ background: #3f7cf0; }} }}
 </style></head><body>
 <header>
-  <div class="hrow">
-    <h1>My job shortlist</h1>
-    <div class="hbtns">
-      <button class="alerts" id="alertsBtn" onclick="enableAlerts()">&#128276; Alerts</button>
-      <button class="refresh" onclick="location.href=location.pathname+'?r='+Date.now()">&#8635; Refresh</button>
-    </div>
+  <h1>{h1}</h1>
+  <div class="hbtns">
+    <a class="switch" href="{cfg['switch_href']}">{cfg['switch_label']}</a>
+    <button class="alerts" id="alertsBtn" onclick="enableAlerts()">&#128276; Alerts</button>
+    <button class="refresh" onclick="location.href=location.pathname+'?r='+Date.now()">&#8635; Refresh</button>
   </div>
   <div id="subbox">
-    <div class="subhint">&#9989; Alerts enabled on this device. <b>Copy the text below and send it to Claude once</b> so pushes can reach you:</div>
+    <div class="subhint">&#9989; Alerts enabled on this device. <b>Copy the text below and send it once</b> so pushes can reach you:</div>
     <textarea id="subjson" readonly onclick="this.select()"></textarea>
     <button class="subcopy" onclick="navigator.clipboard.writeText(document.getElementById('subjson').value)">Copy</button>
   </div>
@@ -209,29 +218,26 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
 </header>
 <main id="list">{''.join(cards)}</main>
 <script>
-  var KEY = 'doneJobs', mode = 'fresh';
+  var KEY = 'doneJobs_{cfg['page']}', mode = 'fresh';
   var doneSet = (function () {{ try {{ return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }} catch (e) {{ return new Set(); }} }})();
   function persistDone() {{ try {{ localStorage.setItem(KEY, JSON.stringify([].slice.call(doneSet))); }} catch (e) {{}} }}
   function markDone(btn) {{
     var card = btn.closest('.card');
     var title = (card.querySelector('.title') || {{}}).textContent || 'this job';
-    if (!confirm('Remove from your list?\\n\\n' + title.trim())) return;   // ask first
-    doneSet.add(card.dataset.url);   // in-memory source of truth
-    persistDone();                    // + remembered on this device
-    refresh();
+    if (!confirm('Remove from your list?\\n\\n' + title.trim())) return;
+    doneSet.add(card.dataset.url); persistDone(); refresh();
   }}
   function refresh() {{
     var cards = [].slice.call(document.querySelectorAll('.card'));
     var nNew = 0, nFresh = 0;
     cards.forEach(function (c) {{
-      if (doneSet.has(c.dataset.url)) {{ c.style.display = 'none'; return; }}   // Done -> removed
+      if (doneSet.has(c.dataset.url)) {{ c.style.display = 'none'; return; }}
       var isNew = c.dataset.new === '1', isFresh = c.dataset.fresh === '1';
       if (isNew) nNew++;
       if (isFresh) nFresh++;
       c.style.display = (mode === 'new' ? isNew : isFresh) ? '' : 'none';
     }});
-    setCount('new', nNew);
-    setCount('fresh', nFresh);
+    setCount('new', nNew); setCount('fresh', nFresh);
   }}
   function setCount(m, n) {{ var el = document.getElementById('c-' + m); if (el) el.textContent = n; }}
   function flt(m) {{
@@ -283,42 +289,47 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default="pm", choices=list(PROFILE_CFG))
     ap.add_argument("--regions", default="NL,DE,IE,IN")
     ap.add_argument("--hours-old", type=int, default=336)
-    ap.add_argument("--no-scrape", action="store_true", help="rebuild digest from existing jobs.csv")
+    ap.add_argument("--no-scrape", action="store_true", help="rebuild page from existing CSV")
     args = ap.parse_args()
 
-    if not args.no_scrape:
-        run_scrape(args.regions, args.hours_old)
+    cfg = PROFILE_CFG[args.profile]
+    csv_path = HERE / cfg["csv"]
+    seen_path = STATE / cfg["seen"]
+    page_path = HERE / cfg["page"]
 
-    if not JOBS_CSV.exists():
-        print("No jobs.csv yet; run a scrape first.")
+    if not args.no_scrape:
+        run_scrape(args.profile, csv_path, args.regions, args.hours_old)
+
+    if not csv_path.exists():
+        print(f"No {cfg['csv']} yet; run a scrape first.")
         return 1
 
-    df = pd.read_csv(JOBS_CSV)
+    df = pd.read_csv(csv_path)
     df["job_url"] = df["job_url"].astype(str)
     df = df.sort_values("fit_score", ascending=False)
 
-    seen = load_seen()
+    seen = load_seen(seen_path)
     current = set(df["job_url"])
     new_urls = current - seen
-    save_seen(seen | current)
+    save_seen(seen_path, seen | current)
 
-    DIGEST.write_text(render(df, new_urls), encoding="utf-8")
+    page_path.write_text(render(df, new_urls, cfg), encoding="utf-8")
 
-    # Push payload for the workflow's web-push step (it sends only when count > 0).
+    # Push payload (workflow sends only when count > 0, to this profile's subscription).
     new_df = df[df["job_url"].isin(new_urls)]
     top = new_df.iloc[0] if len(new_df) else None
     n = len(new_urls)
     push = {
         "count": n,
-        "title": f"{n} new PM/analyst job" + ("" if n == 1 else "s"),
+        "title": f"{n} new {cfg['push_word']} job" + ("" if n == 1 else "s"),
         "body": (f"Top: {top['title']} — {top['company']}" if top is not None else ""),
     }
-    (HERE / "push.json").write_text(json.dumps(push), encoding="utf-8")
+    (HERE / cfg["push"]).write_text(json.dumps(push), encoding="utf-8")
 
-    print(f"Digest written: {DIGEST}")
-    print(f"{n} new roles since last run, {len(df)} total.")
+    print(f"[{args.profile}] Page: {page_path}  |  {n} new, {len(df)} total.")
     return 0
 
 
