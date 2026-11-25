@@ -20,6 +20,7 @@ https://de.indeed.com/viewjob?jk=138a0c4df36657ff
 https://de.indeed.com/viewjob?jk=140560fcd308e6fa
 https://de.indeed.com/viewjob?jk=149af9cedceea9d5
 https://de.indeed.com/viewjob?jk=15c203b08d11b9cf
+https://de.indeed.com/viewjob?jk=164148ce830e5674
 https://de.indeed.com/viewjob?jk=1778a0e6d5d05561
 https://de.indeed.com/viewjob?jk=177a38c5e69da3ac
 https://de.indeed.com/viewjob?jk=17c449fb3917dfd4
@@ -60,6 +61,7 @@ https://de.indeed.com/viewjob?jk=37b0d3b3385e897d
 https://de.indeed.com/viewjob?jk=387353a2a62b049c
 https://de.indeed.com/viewjob?jk=388e3ff1ffde992a
 https://de.indeed.com/viewjob?jk=39ca90042eed1774
+https://de.indeed.com/viewjob?jk=3aee70bb9d64e75f
 https://de.indeed.com/viewjob?jk=3c05d68bce7f4dba
 https://de.indeed.com/viewjob?jk=3e0b1cb37a74037f
 https://de.indeed.com/viewjob?jk=40603a16f4a58945
@@ -258,6 +260,7 @@ https://de.indeed.com/viewjob?jk=e67ba298335f5717
 https://de.indeed.com/viewjob?jk=e7c0ea32e2e62b0b
 https://de.indeed.com/viewjob?jk=e7ce8bb0a851c12f
 https://de.indeed.com/viewjob?jk=e7ee4b9c6cfd627d
+https://de.indeed.com/viewjob?jk=e80d754be35c1030
 https://de.indeed.com/viewjob?jk=e8371900e140d5e9
 https://de.indeed.com/viewjob?jk=e88a469210bddb4a
 https://de.indeed.com/viewjob?jk=e8ea028d206a8b57
@@ -2508,10 +2511,13 @@ https://www.linkedin.com/jobs/view/4494017106
 https://www.linkedin.com/jobs/view/4494032550
 https://www.linkedin.com/jobs/view/4494087792
 https://www.linkedin.com/jobs/view/4494144493
+https://www.linkedin.com/jobs/view/4494152818
 https://www.linkedin.com/jobs/view/4494158240
 https://www.linkedin.com/jobs/view/4494333576
 https://www.linkedin.com/jobs/view/4494333712
 https://www.linkedin.com/jobs/view/4494334307
+https://www.linkedin.com/jobs/view/4494342053
+https://www.linkedin.com/jobs/view/4494342306
 https://www.linkedin.com/jobs/view/4494383421
 https://www.linkedin.com/jobs/view/4494702821
 https://www.naukri.com/job-listings-aem-product-manager-insight-global-hyderabad-7-to-10-years-111126030681
@@ -3077,6 +3083,7 @@ https://www.naukri.com/job-listings-junior-product-analyst-olx-gurugram-1-to-2-y
 https://www.naukri.com/job-listings-junior-product-manager-infoblox-bengaluru-1-to-3-years-121126021979
 https://www.naukri.com/job-listings-junior-product-manager-r-k-gems-surat-7-to-10-years-241126015444
 https://www.naukri.com/job-listings-lead-business-analyst-ai-framework-epam-systems-hyderabad-8-to-12-years-061126025674
+https://www.naukri.com/job-listings-lead-business-analyst-asset-management-data-epam-systems-chennai-coimbatore-jaipur-8-to-12-years-061126026013
 https://www.naukri.com/job-listings-lead-business-analyst-asset-management-data-reporting-epam-systems-chennai-coimbatore-jaipur-8-to-12-years-061126026022
 https://www.naukri.com/job-listings-lead-business-analyst-asset-management-epam-systems-hyderabad-chennai-bengaluru-8-to-12-years-061126026410
 https://www.naukri.com/job-listings-lead-business-analyst-asset-management-epam-systems-hyderabad-chennai-bengaluru-8-to-12-years-061126026413
