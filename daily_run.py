@@ -212,8 +212,11 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
   var doneSet = (function () {{ try {{ return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }} catch (e) {{ return new Set(); }} }})();
   function persistDone() {{ try {{ localStorage.setItem(KEY, JSON.stringify([].slice.call(doneSet))); }} catch (e) {{}} }}
   function markDone(btn) {{
-    doneSet.add(btn.closest('.card').dataset.url);   // in-memory source of truth
-    persistDone();                                    // + remembered on this device
+    var card = btn.closest('.card');
+    var title = (card.querySelector('.title') || {{}}).textContent || 'this job';
+    if (!confirm('Remove from your list?\\n\\n' + title.trim())) return;   // ask first
+    doneSet.add(card.dataset.url);   // in-memory source of truth
+    persistDone();                    // + remembered on this device
     refresh();
   }}
   function refresh() {{
