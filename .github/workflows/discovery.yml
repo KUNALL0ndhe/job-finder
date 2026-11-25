@@ -5,16 +5,11 @@ name: Job discovery
 # GitHub cron is in UTC; IST = UTC + 5:30.
 on:
   schedule:
-    # Minute :23 (not :00/:30) — GitHub's cron is least congested off the round
-    # marks, so fewer runs get dropped. Times are ~7 min before each IST hour.
-    - cron: "23 3 * * *"    # ~09:00 Asia/Kolkata (03:23 UTC)
-    - cron: "23 5 * * *"    # ~11:00 Asia/Kolkata (05:23 UTC)
-    - cron: "23 7 * * *"    # ~13:00 Asia/Kolkata (07:23 UTC)
-    - cron: "23 9 * * *"    # ~15:00 Asia/Kolkata (09:23 UTC)
-    - cron: "23 11 * * *"   # ~17:00 Asia/Kolkata (11:23 UTC)
-    - cron: "23 13 * * *"   # ~19:00 Asia/Kolkata (13:23 UTC)
-    - cron: "23 15 * * *"   # ~21:00 Asia/Kolkata (15:23 UTC)
-    - cron: "23 18 * * *"   # ~00:00 Asia/Kolkata (18:23 UTC)
+    # Hourly at :23. GitHub silently drops many scheduled runs during its peak
+    # (IST daytime = UTC peak), so we attempt every hour — more tries = more get
+    # through. Concurrency (below) stops overlaps. For guaranteed timing, an
+    # external cron pinging workflow_dispatch is the real fix.
+    - cron: "23 * * * *"
   workflow_dispatch:         # lets you run it on demand from the Actions tab
 
 permissions:

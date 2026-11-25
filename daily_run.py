@@ -151,7 +151,7 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
   .subcopy {{ margin-top: 8px; background: #1f7a33; color: #fff; border: 0; border-radius: 8px;
     padding: 9px 16px; font-weight: 700; cursor: pointer; }}
   .meta {{ color: #9aa0ab; font-size: 13px; margin-top: 6px; }}
-  #opened {{ color: #7ee081; }}
+  .meta .note {{ color: #70757f; font-size: 11px; }}
   .filters {{ display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }}
   .filters button {{ flex: 1 1 calc(50% - 4px); padding: 9px; font-size: 13px; border-radius: 8px;
     border: 1px solid #2a3340; background: #171b22; color: #cfd4dc; font-weight: 600; }}
@@ -200,7 +200,7 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
     <textarea id="subjson" readonly onclick="this.select()"></textarea>
     <button class="subcopy" onclick="navigator.clipboard.writeText(document.getElementById('subjson').value)">Copy</button>
   </div>
-  <div class="meta">{len(df)} roles &middot; <b>{n_new} new</b><br>Updated <b>{now}</b> &middot; <span id="opened"></span><br>you review &amp; apply &mdash; nothing is submitted for you</div>
+  <div class="meta">{len(df)} roles &middot; <b>{n_new} new</b><br>&#127760; Jobs last pulled from the web: <b>{now}</b><br><span class="note">Refresh just reloads this page &mdash; new jobs appear only when the scraper runs.</span></div>
   <div class="filters">
     <button data-m="all" class="on" onclick="flt('all')">All (<span id="c-all">{len(df)}</span>)</button>
     <button data-m="new" onclick="flt('new')">New (<span id="c-new">{n_new}</span>)</button>
@@ -219,8 +219,6 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
     saveApplied(s); refresh();
   }}
   function refresh() {{
-    var o = document.getElementById('opened');
-    if (o) o.textContent = 'opened ' + new Date().toLocaleTimeString('en-IN', {{ hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Kolkata' }}) + ' IST';
     var s = getApplied(), cards = [].slice.call(document.querySelectorAll('.card'));
     cards.forEach(function (c) {{
       var applied = s.has(c.dataset.url);
