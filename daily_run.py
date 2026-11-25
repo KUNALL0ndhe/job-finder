@@ -96,7 +96,8 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
         else:
             fresh_cls, fresh_txt, is_fresh = "old", f"{age}d ago", False
         badges = [f'<span class="b fr {fresh_cls}">{fresh_txt}</span>']
-        if is_new:
+        is_24h = age is not None and age <= 1   # New tab = posted within ~24h (today/yesterday)
+        if is_24h:
             badges.append('<span class="b new">NEW</span>')
         badges.append(f'<span class="b reg">{region}</span>')
         if remote:
@@ -106,7 +107,7 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
         apply = (f'<a class="apply" href="{html.escape(url)}" target="_blank" rel="noopener">Apply &#8599;</a>'
                  if url and url != "nan" else '<span class="apply off">No link</span>')
         cards.append(f"""
-      <article class="card{' isnew' if is_new else ''}" data-new="{'1' if is_new else '0'}" data-fresh="{'1' if is_fresh else '0'}" data-url="{html.escape(url)}">
+      <article class="card{' isnew' if is_24h else ''}" data-new="{'1' if is_24h else '0'}" data-fresh="{'1' if is_fresh else '0'}" data-url="{html.escape(url)}">
         <div class="fit">{score}</div>
         <div class="body">
           <div class="title">{title}</div>
@@ -200,9 +201,9 @@ def render(df: pd.DataFrame, new_urls: set[str]) -> str:
     <textarea id="subjson" readonly onclick="this.select()"></textarea>
     <button class="subcopy" onclick="navigator.clipboard.writeText(document.getElementById('subjson').value)">Copy</button>
   </div>
-  <div class="meta">{len(df)} roles &middot; <b>{n_new} new</b><br>&#127760; Jobs last pulled from the web: <b>{now}</b><br><span class="note">Refresh just reloads this page &mdash; new jobs appear only when the scraper runs.</span></div>
+  <div class="meta">{len(df)} roles<br>&#127760; Jobs last pulled from the web: <b>{now}</b><br><span class="note">Refresh just reloads this page &mdash; new jobs appear only when the scraper runs.</span></div>
   <div class="filters">
-    <button data-m="new" onclick="flt('new')">New (<span id="c-new">{n_new}</span>)</button>
+    <button data-m="new" onclick="flt('new')">New &le;24h (<span id="c-new">0</span>)</button>
     <button data-m="fresh" class="on" onclick="flt('fresh')">Fresh &le;3d (<span id="c-fresh">0</span>)</button>
   </div>
 </header>
