@@ -7,6 +7,7 @@ https://de.indeed.com/viewjob?jk=10c2c706d0961078
 https://de.indeed.com/viewjob?jk=13ae925f1202b101
 https://de.indeed.com/viewjob?jk=13f3b49a305834f2
 https://de.indeed.com/viewjob?jk=15c059a99bc1643e
+https://de.indeed.com/viewjob?jk=19c42a402d285264
 https://de.indeed.com/viewjob?jk=2477961ccaad9c69
 https://de.indeed.com/viewjob?jk=29067d266c392110
 https://de.indeed.com/viewjob?jk=2e408d1243857fd4
@@ -522,6 +523,7 @@ https://www.naukri.com/job-listings-analyst-kennect-mumbai-surya-nagar-mumbai-vi
 https://www.naukri.com/job-listings-analyst-nab-gurugram-2-to-9-years-191126501504
 https://www.naukri.com/job-listings-analyst-policy-management-uw-services-ops-axa-global-business-services-private-limited-bengaluru-1-to-4-years-261126941806
 https://www.naukri.com/job-listings-analyst-proxy-voting-invesco-hyderabad-pvt-ltd-hyderabad-1-to-3-years-261126939727
+https://www.naukri.com/job-listings-analyst-proxy-voting-invesco-hyderabad-pvt-ltd-hyderabad-1-to-3-years-261126939729
 https://www.naukri.com/job-listings-analyst-vivriti-capital-mumbai-1-to-6-years-251126503045
 https://www.naukri.com/job-listings-asset-performance-mgmt-senior-analyst-accenture-solutions-pvt-ltd-bengaluru-5-to-8-years-261126930056
 https://www.naukri.com/job-listings-asset-servicing-eclerx-thane-navi-mumbai-mumbai-all-areas-1-to-3-years-121126022519
@@ -590,6 +592,7 @@ https://www.naukri.com/job-listings-fraud-analyst-fraud-recovery-investment-bank
 https://www.naukri.com/job-listings-fund-accountant-real-estate-yardi-hyderabad-bangalore-mumbai-black-turtle-hyderabad-bengaluru-mumbai-all-areas-3-to-8-years-080926011861
 https://www.naukri.com/job-listings-fund-accounting-lead-associate-vice-president-15-years-pune-crescendo-global-leadership-hiring-india-pune-mumbai-all-areas-india-15-to-24-years-300926032134
 https://www.naukri.com/job-listings-fund-accounting-manager-senior-manager-black-and-white-business-solutions-bengaluru-8-to-10-years-251126011572
+https://www.naukri.com/job-listings-general-ledger-accounting-analyst-i-ecolab-global-services-private-limited-pune-1-to-4-years-261126942350
 https://www.naukri.com/job-listings-global-banking-markets-ops-liquidity-trade-management-analyst-goldman-sachs-hyderabad-2-to-5-years-171126504791
 https://www.naukri.com/job-listings-hiring-for-financial-analyst-cognizant-hyderabad-7-to-11-years-251126025160
 https://www.naukri.com/job-listings-hiring-for-team-manager-financial-analyst-finance-and-mis-cognizant-hyderabad-12-to-15-years-291026028287
