@@ -142,6 +142,7 @@ https://in.indeed.com/viewjob?jk=2ca1c42635cdb464
 https://in.indeed.com/viewjob?jk=2dfaa8b2403ad746
 https://in.indeed.com/viewjob?jk=2e172a6f0a936655
 https://in.indeed.com/viewjob?jk=2e2a9e9ec1e0955e
+https://in.indeed.com/viewjob?jk=2e4be15192411f5b
 https://in.indeed.com/viewjob?jk=2f9d0dc77d5d5ca6
 https://in.indeed.com/viewjob?jk=2feb0b6882ea8aa0
 https://in.indeed.com/viewjob?jk=30567765d8c1c39e
@@ -181,6 +182,7 @@ https://in.indeed.com/viewjob?jk=457119867c972b43
 https://in.indeed.com/viewjob?jk=45cb01f77f47283a
 https://in.indeed.com/viewjob?jk=460ce94f64bdbc4a
 https://in.indeed.com/viewjob?jk=468767a08c5ab38c
+https://in.indeed.com/viewjob?jk=47a1e3a3fa918954
 https://in.indeed.com/viewjob?jk=4a9e3f2abb60bcd0
 https://in.indeed.com/viewjob?jk=4aaf8db635890040
 https://in.indeed.com/viewjob?jk=4b814270d79bd44f
@@ -362,6 +364,7 @@ https://in.indeed.com/viewjob?jk=cde71ea83c55895f
 https://in.indeed.com/viewjob?jk=cfa416331d463802
 https://in.indeed.com/viewjob?jk=d105873504486a86
 https://in.indeed.com/viewjob?jk=d2fa68c15e3950d3
+https://in.indeed.com/viewjob?jk=d32f516f7dce1680
 https://in.indeed.com/viewjob?jk=d65a63154b215359
 https://in.indeed.com/viewjob?jk=d9e7679c1a1191bb
 https://in.indeed.com/viewjob?jk=da9c6e0b31e1f06b
@@ -371,6 +374,7 @@ https://in.indeed.com/viewjob?jk=dc1cb7d26c3fbf79
 https://in.indeed.com/viewjob?jk=dc61ad001bb60812
 https://in.indeed.com/viewjob?jk=dc8b4d38c353349f
 https://in.indeed.com/viewjob?jk=dcae747e79c3e0ba
+https://in.indeed.com/viewjob?jk=dcc9f3f98ce62627
 https://in.indeed.com/viewjob?jk=dd9239a8067177b4
 https://in.indeed.com/viewjob?jk=ddee307da46b4e21
 https://in.indeed.com/viewjob?jk=dfa61ed5d2647000
@@ -459,6 +463,7 @@ https://www.naukri.com/job-listings-associate-iii-securities-operations-dealer-s
 https://www.naukri.com/job-listings-associate-iii-securities-operations-dealer-services-fis-global-business-solutions-india-pvt-ltd-hyderabad-5-to-6-years-171126919813
 https://www.naukri.com/job-listings-associate-iii-securities-operations-fis-global-business-solutions-india-pvt-ltd-hyderabad-0-to-5-years-161026908619
 https://www.naukri.com/job-listings-associate-iii-securities-operations-fis-global-business-solutions-india-pvt-ltd-hyderabad-pune-5-to-6-years-141026929920
+https://www.naukri.com/job-listings-associate-trade-settlements-and-transaction-management-embarkgcc-services-bengaluru-3-to-6-years-261126028479
 https://www.naukri.com/job-listings-business-analyst-bridge-global-kochi-5-to-8-years-011026013488
 https://www.naukri.com/job-listings-business-analyst-capital-markets-securities-lending-anlage-infotech-bengaluru-mumbai-all-areas-8-to-12-years-251126033194
 https://www.naukri.com/job-listings-business-analyst-corporate-action-ifinsol-global-bengaluru-5-to-10-years-121126032158
@@ -512,6 +517,7 @@ https://www.naukri.com/job-listings-middle-office-investment-operations-teamware
 https://www.naukri.com/job-listings-mis-analyst-aaditas-hr-advisory-mumbai-1-to-4-years-071026048349
 https://www.naukri.com/job-listings-mis-cost-analyst-finance-accounts-independent-recruitment-consultant-freelancer-pune-3-to-5-years-241126021052
 https://www.naukri.com/job-listings-mt-hyperpersonalization-analyst-accenture-solutions-pvt-ltd-gurugram-1-to-6-years-121026929797
+https://www.naukri.com/job-listings-multi-assets-index-quant-research-analyst-msci-services-mumbai-1-to-3-years-261126028278
 https://www.naukri.com/job-listings-nism-research-analyst-stockyaari-technologies-noida-1-to-5-years-010926019268
 https://www.naukri.com/job-listings-opening-for-research-analyst-in-formulation-ar-d-department-biophore-hyderabad-2-to-6-years-261126015681
 https://www.naukri.com/job-listings-order-to-cash-operations-senior-analyst-accenture-solutions-pvt-ltd-bengaluru-5-to-8-years-251126921495
@@ -559,6 +565,7 @@ https://www.naukri.com/job-listings-tax-analyst-international-tax-transfer-prici
 https://www.naukri.com/job-listings-tax-analyst-junior-trainee-usa-tax-client-of-prompt-personnel-hyderabad-ahmedabad-mumbai-all-areas-0-to-2-years-251126029730
 https://www.naukri.com/job-listings-tax-senior-analyst-accenture-solutions-pvt-ltd-pune-2-to-3-years-251126918396
 https://www.naukri.com/job-listings-tax-senior-analyst-foreign-compliance-and-reporting-okta-identity-india-private-limited-bengaluru-4-to-9-years-261126913058
+https://www.naukri.com/job-listings-tax-senior-analyst-foreign-compliance-and-reporting-okta-identity-india-private-limited-bengaluru-4-to-9-years-261126915707
 https://www.naukri.com/job-listings-team-lead-corporate-actions-factentry-data-solutions-private-limited-madurai-tiruppur-salem-chennai-tiruchirappalli-coimbatore-5-to-10-years-251126505320
 https://www.naukri.com/job-listings-team-lead-sr-billing-analyst-only-immediate-joiners-venpa-staffing-bengaluru-7-to-12-years-070826013402
 https://www.naukri.com/job-listings-team-manager-digital-sales-sbi-securities-sbicap-securities-mumbai-3-to-5-years-251126030713
@@ -568,4 +575,5 @@ https://www.naukri.com/job-listings-trust-safety-senior-analyst-accenture-soluti
 https://www.naukri.com/job-listings-urgent-hiring-sr-business-analyst-capital-market-at-wissen-blr-mum-wissen-technology-bangalore-rural-bengaluru-mumbai-all-areas-8-to-13-years-251126035027
 https://www.naukri.com/job-listings-vapt-red-teaming-analyst-nokia-solutions-and-networks-india-p-ltd-gurugram-5-to-8-years-261126913243
 https://www.naukri.com/job-listings-wealth-advisor-mutual-fund-advisor-equentis-wealth-advisory-mumbai-all-areas-1-to-6-years-251126026792
+https://www.naukri.com/job-listings-wealth-advisor-mutual-fund-advisor-equentis-wealth-advisory-mumbai-all-areas-1-to-6-years-281026009331
 https://www.naukri.com/job-listings-wfm-real-time-analyst-i-teleperformance-global-business-private-limited-gurugram-1-to-2-years-261126913312
