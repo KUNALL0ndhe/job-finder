@@ -10,6 +10,7 @@ https://de.indeed.com/viewjob?jk=37090aa4b60a6fdd
 https://de.indeed.com/viewjob?jk=39ca90042eed1774
 https://de.indeed.com/viewjob?jk=3aee70bb9d64e75f
 https://de.indeed.com/viewjob?jk=41cbf5d2c794bbeb
+https://de.indeed.com/viewjob?jk=4a28832105d7b9c5
 https://de.indeed.com/viewjob?jk=4f5c8a9e6beeec5f
 https://de.indeed.com/viewjob?jk=562408813fcd870f
 https://de.indeed.com/viewjob?jk=570f054a1f1ac7c3
@@ -38,6 +39,7 @@ https://de.indeed.com/viewjob?jk=a15b2f9320598bb4
 https://de.indeed.com/viewjob?jk=a416fd117fd624bd
 https://de.indeed.com/viewjob?jk=a8abcf5ff7542a4e
 https://de.indeed.com/viewjob?jk=accd202dff3b7412
+https://de.indeed.com/viewjob?jk=ae229137c397d578
 https://de.indeed.com/viewjob?jk=b1d38a58f44ea502
 https://de.indeed.com/viewjob?jk=b55973ddc0f4ec8b
 https://de.indeed.com/viewjob?jk=b7f13a344ada08b4
@@ -92,6 +94,7 @@ https://in.indeed.com/viewjob?jk=076e2c9ec9ab0fc9
 https://in.indeed.com/viewjob?jk=07b0a7855b976823
 https://in.indeed.com/viewjob?jk=08424ce690729ede
 https://in.indeed.com/viewjob?jk=091f2f2a118ecc95
+https://in.indeed.com/viewjob?jk=09584563b541121b
 https://in.indeed.com/viewjob?jk=0a3403f04db62558
 https://in.indeed.com/viewjob?jk=0a871ff6c1fd6838
 https://in.indeed.com/viewjob?jk=0af98526172de7ab
@@ -127,6 +130,7 @@ https://in.indeed.com/viewjob?jk=27dadfeeae8c062b
 https://in.indeed.com/viewjob?jk=28185da888893eef
 https://in.indeed.com/viewjob?jk=2cea6c8dbf30fd93
 https://in.indeed.com/viewjob?jk=2dbc2f94f3bb73c6
+https://in.indeed.com/viewjob?jk=2ea2d1e2411ee037
 https://in.indeed.com/viewjob?jk=2f69d07496997157
 https://in.indeed.com/viewjob?jk=328307ff2e681968
 https://in.indeed.com/viewjob?jk=329f4f04250ded53
@@ -384,6 +388,7 @@ https://nl.indeed.com/viewjob?jk=9666b13210eec6a9
 https://nl.indeed.com/viewjob?jk=9734321b15841b8e
 https://nl.indeed.com/viewjob?jk=a3c50176da00204c
 https://nl.indeed.com/viewjob?jk=a5681e0e9eab15c9
+https://nl.indeed.com/viewjob?jk=ac893dac8d1f5f79
 https://nl.indeed.com/viewjob?jk=affa1dbd016d52c9
 https://nl.indeed.com/viewjob?jk=b790ee965104d72b
 https://nl.indeed.com/viewjob?jk=b94ea1535d75043b
@@ -459,6 +464,7 @@ https://www.naukri.com/job-listings-business-analyst-technical-dlf-ltd-gurugram-
 https://www.naukri.com/job-listings-business-analyst-techrays-navi-mumbai-1-to-3-years-251126024364
 https://www.naukri.com/job-listings-business-analyst-thyrocare-navi-mumbai-bengaluru-2-to-4-years-070926003556
 https://www.naukri.com/job-listings-business-analyst-vbeyond-corporation-gurugram-9-to-13-years-251126035739
+https://www.naukri.com/job-listings-business-analyst-vc-erp-consulting-ahmedabad-3-to-8-years-261126043652
 https://www.naukri.com/job-listings-business-analyst-with-banking-financial-services-capital-market-domain-tecnics-integration-technologies-hyderabad-10-to-20-years-251126022234
 https://www.naukri.com/job-listings-business-analyst-with-stock-markets-securities-experience-tecnics-integration-technologies-hyderabad-8-to-13-years-261126015778
 https://www.naukri.com/job-listings-cc-product-manager-cards-concierge-hdfc-bank-limited-mumbai-0-to-1-years-261126018561
