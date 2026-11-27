@@ -146,6 +146,7 @@ https://in.indeed.com/viewjob?jk=239c92ec8d9f6ad8
 https://in.indeed.com/viewjob?jk=23ad2bd71c6df2ad
 https://in.indeed.com/viewjob?jk=23dc697617b26a26
 https://in.indeed.com/viewjob?jk=2457ee636c464284
+https://in.indeed.com/viewjob?jk=246fc73d4d22d505
 https://in.indeed.com/viewjob?jk=249fe1e130bc25ad
 https://in.indeed.com/viewjob?jk=253e46250054bf73
 https://in.indeed.com/viewjob?jk=25d8036546acd82d
@@ -174,6 +175,7 @@ https://in.indeed.com/viewjob?jk=33ff3f04653d60c1
 https://in.indeed.com/viewjob?jk=3443c18b974f04b5
 https://in.indeed.com/viewjob?jk=34f2fb6a48f64d0c
 https://in.indeed.com/viewjob?jk=355e9e6d9ee3cc30
+https://in.indeed.com/viewjob?jk=366177dca8916135
 https://in.indeed.com/viewjob?jk=372f6e5dbfa6a7c5
 https://in.indeed.com/viewjob?jk=37789054ff2e71bf
 https://in.indeed.com/viewjob?jk=379ff9c17af68690
@@ -214,6 +216,7 @@ https://in.indeed.com/viewjob?jk=4aeb33df1f70bd1e
 https://in.indeed.com/viewjob?jk=4b814270d79bd44f
 https://in.indeed.com/viewjob?jk=4b9298491698997f
 https://in.indeed.com/viewjob?jk=4b972822df1aeaee
+https://in.indeed.com/viewjob?jk=4ba77557c9aea042
 https://in.indeed.com/viewjob?jk=4bd6e14113b8dc98
 https://in.indeed.com/viewjob?jk=4c7873b2cc7f0736
 https://in.indeed.com/viewjob?jk=4ce6332d4445f0b6
@@ -227,6 +230,7 @@ https://in.indeed.com/viewjob?jk=504d59aedb725110
 https://in.indeed.com/viewjob?jk=51227891b67f41da
 https://in.indeed.com/viewjob?jk=515f5c3bbb828185
 https://in.indeed.com/viewjob?jk=52492bb5e76a49d2
+https://in.indeed.com/viewjob?jk=5280d09f93649344
 https://in.indeed.com/viewjob?jk=52a59504417a1519
 https://in.indeed.com/viewjob?jk=535bd4db2dd6f6cd
 https://in.indeed.com/viewjob?jk=53a12e4528101533
@@ -261,6 +265,7 @@ https://in.indeed.com/viewjob?jk=67a426ad06a12a44
 https://in.indeed.com/viewjob?jk=6861ebe714d74142
 https://in.indeed.com/viewjob?jk=6a68a353e02f560a
 https://in.indeed.com/viewjob?jk=6b07fe5f9f0e193f
+https://in.indeed.com/viewjob?jk=6b6c85111fcc1fb6
 https://in.indeed.com/viewjob?jk=6c1eefd59ef8ea0f
 https://in.indeed.com/viewjob?jk=6c279759502a45ff
 https://in.indeed.com/viewjob?jk=6cade090bf6be575
@@ -304,6 +309,7 @@ https://in.indeed.com/viewjob?jk=7e49ef3a4a2bd5cc
 https://in.indeed.com/viewjob?jk=7ebaa26d8105bb6f
 https://in.indeed.com/viewjob?jk=7f2534a36fbe1d83
 https://in.indeed.com/viewjob?jk=7f7b04f76927108e
+https://in.indeed.com/viewjob?jk=7feed3605c28b75a
 https://in.indeed.com/viewjob?jk=8219326269d79c6b
 https://in.indeed.com/viewjob?jk=8468f9ad96effd9c
 https://in.indeed.com/viewjob?jk=847882f465b7ccd3
@@ -312,9 +318,11 @@ https://in.indeed.com/viewjob?jk=84ce391fbeca2268
 https://in.indeed.com/viewjob?jk=857209492785be6e
 https://in.indeed.com/viewjob?jk=859bc60a7e9994fa
 https://in.indeed.com/viewjob?jk=87a988ebc2758868
+https://in.indeed.com/viewjob?jk=88259a42b422a71a
 https://in.indeed.com/viewjob?jk=889678cd25e375e7
 https://in.indeed.com/viewjob?jk=894ce0120864395f
 https://in.indeed.com/viewjob?jk=89c0a2c22e2279c4
+https://in.indeed.com/viewjob?jk=89d003866eb26983
 https://in.indeed.com/viewjob?jk=8a0bb4deacfca96c
 https://in.indeed.com/viewjob?jk=8abb8cfdd4778858
 https://in.indeed.com/viewjob?jk=8acb5774f21a5d51
@@ -349,6 +357,7 @@ https://in.indeed.com/viewjob?jk=9c29c2c9cb3273a2
 https://in.indeed.com/viewjob?jk=9c533ce329585954
 https://in.indeed.com/viewjob?jk=9cfcdab78d44ccf2
 https://in.indeed.com/viewjob?jk=9e4c09450b590ec9
+https://in.indeed.com/viewjob?jk=9f241cbc9fd80e84
 https://in.indeed.com/viewjob?jk=a137e19cdf00238a
 https://in.indeed.com/viewjob?jk=a19ecc7ce1f899df
 https://in.indeed.com/viewjob?jk=a321ae8a033ca883
@@ -527,6 +536,7 @@ https://www.naukri.com/job-listings-accounts-receivable-analyst-growway-staffing
 https://www.naukri.com/job-listings-acn-industry-consulting-capital-market-analyst-accenture-solutions-pvt-ltd-bengaluru-0-to-1-years-261126939318
 https://www.naukri.com/job-listings-actuarial-analyst-pramerica-life-insurance-delhi-ncr-2-to-5-years-251126031495
 https://www.naukri.com/job-listings-ai-ml-computational-science-analyst-accenture-solutions-pvt-ltd-bengaluru-3-to-5-years-261126939557
+https://www.naukri.com/job-listings-aml-analyst-tp-goregaon-1-to-3-years-271126017025
 https://www.naukri.com/job-listings-analyst-asset-movement-golden-opportunities-pvt-ltd-hyderabad-3-to-8-years-301026915206
 https://www.naukri.com/job-listings-analyst-cdi-omega-healthcare-management-services-pvt-ltd-hyderabad-2-to-4-years-181126924442
 https://www.naukri.com/job-listings-analyst-cir-applied-intelligence-the-hackett-group-hyderabad-3-to-6-years-040926020183
@@ -537,6 +547,7 @@ https://www.naukri.com/job-listings-analyst-finance-accounting-bdo-india-delhi-n
 https://www.naukri.com/job-listings-analyst-financial-reporting-compliance-acquisory-consulting-bengaluru-2-to-3-years-251126028430
 https://www.naukri.com/job-listings-analyst-financial-shared-services-gxo-logistics-bengaluru-mumbai-all-areas-2-to-4-years-281026011304
 https://www.naukri.com/job-listings-analyst-global-upstream-transaction-research-s-p-capital-iq-india-pvt-ltd-gurugram-4-to-6-years-261126912858
+https://www.naukri.com/job-listings-analyst-indospace-development-management-mumbai-1-to-3-years-271126017488
 https://www.naukri.com/job-listings-analyst-integrity-mentors-pvt-ltd-gurugram-0-to-3-years-251126026914
 https://www.naukri.com/job-listings-analyst-kennect-mumbai-surya-nagar-mumbai-vikhroli-west-0-to-2-years-261126922930
 https://www.naukri.com/job-listings-analyst-nab-gurugram-2-to-9-years-191126501504
@@ -614,6 +625,7 @@ https://www.naukri.com/job-listings-financial-crime-intelligence-dtm-analyst-axi
 https://www.naukri.com/job-listings-financial-plan-analysis-analyst-accenture-solutions-pvt-ltd-gurugram-3-to-5-years-251126919856
 https://www.naukri.com/job-listings-financial-planning-analysis-analyst-ii-teleperformance-global-business-private-limited-gurugram-1-to-5-years-281026924859
 https://www.naukri.com/job-listings-financial-planning-analyst-wipro-pune-3-to-6-years-021126011928
+https://www.naukri.com/job-listings-financial-planning-and-analyst-crisil-pune-chennai-gurugram-5-to-10-years-271126022327
 https://www.naukri.com/job-listings-fp-a-analyst-anand-chemiceutics-pune-2-to-5-years-251126022236
 https://www.naukri.com/job-listings-fp-a-analyst-careernet-hyderabad-8-to-10-years-271126011688
 https://www.naukri.com/job-listings-fraud-analyst-fraud-recovery-investment-banking-bfsi-bpo-csr-rivera-manpower-services-bengaluru-1-to-6-years-251126034154
@@ -622,6 +634,7 @@ https://www.naukri.com/job-listings-fund-accounting-lead-associate-vice-presiden
 https://www.naukri.com/job-listings-fund-accounting-manager-senior-manager-black-and-white-business-solutions-bengaluru-8-to-10-years-251126011572
 https://www.naukri.com/job-listings-fund-manager-aif-fatakpay-digital-mumbai-10-to-12-years-271126013515
 https://www.naukri.com/job-listings-general-ledger-accounting-analyst-i-ecolab-global-services-private-limited-pune-1-to-4-years-261126942350
+https://www.naukri.com/job-listings-genome-analyst-lifecell-chennai-0-to-5-years-050626005086
 https://www.naukri.com/job-listings-global-banking-markets-ops-liquidity-trade-management-analyst-goldman-sachs-hyderabad-2-to-5-years-171126504791
 https://www.naukri.com/job-listings-hiring-for-financial-analyst-cognizant-hyderabad-7-to-11-years-251126025160
 https://www.naukri.com/job-listings-hiring-for-team-manager-financial-analyst-finance-and-mis-cognizant-hyderabad-12-to-15-years-291026028287
@@ -687,6 +700,7 @@ https://www.naukri.com/job-listings-record-to-report-ops-senior-analyst-accentur
 https://www.naukri.com/job-listings-record-to-report-sr-analyst-tata-consultancy-services-chennai-2-to-7-years-261126040983
 https://www.naukri.com/job-listings-reporting-analyst-ii-invesco-hyderabad-pvt-ltd-hyderabad-1-to-3-years-261126939736
 https://www.naukri.com/job-listings-research-analyst-learningmate-solutions-mumbai-all-areas-3-to-8-years-261126035745
+https://www.naukri.com/job-listings-research-analyst-share-brother-financial-services-ahmedabad-0-to-2-years-110826029452
 https://www.naukri.com/job-listings-research-analyst-zigram-gurugram-0-to-1-years-140426019387
 https://www.naukri.com/job-listings-roster-analyst-oyo-gurugram-3-to-6-years-051026013334
 https://www.naukri.com/job-listings-s-c-gn-sc-e-vcr-rsvc-analyst-accenture-solutions-pvt-ltd-gurugram-1-to-3-years-191126923218
@@ -711,6 +725,7 @@ https://www.naukri.com/job-listings-senior-analyst-fp-a-sumitomo-mitsui-banking-
 https://www.naukri.com/job-listings-senior-analyst-indirect-tax-hyderabad-bdo-india-hyderabad-1-to-4-years-131026023905
 https://www.naukri.com/job-listings-senior-analyst-infosys-limited-bengaluru-5-to-7-years-301026913833
 https://www.naukri.com/job-listings-senior-analyst-kyc-qa-perm-thakral-one-solutions-pvt-ltd-bengaluru-5-to-7-years-291026919213
+https://www.naukri.com/job-listings-senior-analyst-liquidity-risk-reporting-crisil-limited-mumbai-pune-6-to-8-years-271126017019
 https://www.naukri.com/job-listings-senior-analyst-otm-spotshine-consulting-delhi-hyderabad-8-to-12-years-251126027284
 https://www.naukri.com/job-listings-senior-analyst-otm-spotshine-consulting-delhi-pune-bengaluru-delhi-ncr-5-to-7-years-251126016689
 https://www.naukri.com/job-listings-senior-analyst-payroll-indian-bangalore-bdo-india-bengaluru-1-to-6-years-271126010795
@@ -719,7 +734,9 @@ https://www.naukri.com/job-listings-senior-analyst-plant-finance-global-supply-c
 https://www.naukri.com/job-listings-senior-analyst-rcm-anka-healthcare-noida-1-to-5-years-251126034555
 https://www.naukri.com/job-listings-senior-analyst-rpa-business-analyst-thryve-digital-health-llp-hyderabad-chennai-5-to-9-years-261126941973
 https://www.naukri.com/job-listings-senior-analyst-servicenow-irm-invesco-hyderabad-pvt-ltd-hyderabad-2-to-4-years-261126939737
+https://www.naukri.com/job-listings-senior-analyst-software-operations-and-analytics-emerson-bengaluru-5-to-8-years-271126019961
 https://www.naukri.com/job-listings-senior-analyst-spend-beroe-delhi-ncr-2-to-6-years-251126034931
+https://www.naukri.com/job-listings-senior-analyst-sundaram-business-services-chennai-1-to-6-years-271126016410
 https://www.naukri.com/job-listings-senior-analyst-sustainable-finance-careerist-management-consultants-delhi-ncr-0-to-4-years-231126021513
 https://www.naukri.com/job-listings-senior-business-analyst-investment-banking-epam-systems-pune-5-to-8-years-061126026029
 https://www.naukri.com/job-listings-senior-business-analyst-regulatory-reporting-epam-systems-chennai-bengaluru-5-to-8-years-061126026161
@@ -737,6 +754,7 @@ https://www.naukri.com/job-listings-senior-valuation-analyst-shanti-educational-
 https://www.naukri.com/job-listings-settlement-analyst-nuaav-india-pune-1-to-3-years-251126023157
 https://www.naukri.com/job-listings-social-analyst-omnicom-media-group-hyderabad-2-to-3-years-131126027904
 https://www.naukri.com/job-listings-sr-analyst-financial-systems-em-sol-co-in-bengaluru-4-to-9-years-251126028132
+https://www.naukri.com/job-listings-sr-analyst-hr-shared-services-tata-communications-ltd-pune-2-to-5-years-281026913384
 https://www.naukri.com/job-listings-sr-analyst-hr-shared-services-tata-communications-ltd-pune-5-to-10-years-261126911332
 https://www.naukri.com/job-listings-sr-analyst-international-voice-nlb-services-noida-1-to-6-years-030726017740
 https://www.naukri.com/job-listings-sr-analyst-inventory-analytics-general-mills-mumbai-2-to-3-years-261126000450
@@ -761,6 +779,7 @@ https://www.naukri.com/job-listings-transaction-settlement-anandrathi-mumbai-sub
 https://www.naukri.com/job-listings-trust-safety-senior-analyst-accenture-solutions-pvt-ltd-hyderabad-5-to-8-years-251126918635
 https://www.naukri.com/job-listings-urgent-grad-mis-executive-financial-analyst-gurgaon-great-eastern-money-gurugram-delhi-ncr-0-to-1-years-261126030113
 https://www.naukri.com/job-listings-urgent-hiring-sr-business-analyst-capital-market-at-wissen-blr-mum-wissen-technology-bangalore-rural-bengaluru-mumbai-all-areas-8-to-13-years-251126035027
+https://www.naukri.com/job-listings-valuation-analyst-jobaaj-com-pune-gurugram-mumbai-all-areas-0-to-2-years-271126015603
 https://www.naukri.com/job-listings-vapt-red-teaming-analyst-nokia-solutions-and-networks-india-p-ltd-gurugram-5-to-8-years-261126913243
 https://www.naukri.com/job-listings-wealth-advisor-mutual-fund-advisor-equentis-wealth-advisory-mumbai-all-areas-1-to-6-years-251126026792
 https://www.naukri.com/job-listings-wealth-advisor-mutual-fund-advisor-equentis-wealth-advisory-mumbai-all-areas-1-to-6-years-281026009331
