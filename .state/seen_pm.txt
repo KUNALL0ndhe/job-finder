@@ -436,6 +436,7 @@ https://nl.indeed.com/viewjob?jk=0b509e5e9cb91ab0
 https://nl.indeed.com/viewjob?jk=17e89798f0e9ac50
 https://nl.indeed.com/viewjob?jk=1bcf20ea286b74ae
 https://nl.indeed.com/viewjob?jk=2304698aadbe686f
+https://nl.indeed.com/viewjob?jk=24e78b66d4afe118
 https://nl.indeed.com/viewjob?jk=273868735b0905f2
 https://nl.indeed.com/viewjob?jk=27d5ca1e46b1944d
 https://nl.indeed.com/viewjob?jk=3812ccb0ec8f85eb
@@ -648,9 +649,11 @@ https://www.naukri.com/job-listings-product-analyst-novotree-minds-consulting-be
 https://www.naukri.com/job-listings-product-analyst-zeomega-infotech-bengaluru-2-to-7-years-210426034574
 https://www.naukri.com/job-listings-product-intern-aditya-birla-capital-mumbai-all-areas-0-to-1-years-251126026373
 https://www.naukri.com/job-listings-product-intern-progfin-delhi-ncr-0-to-1-years-181126020149
+https://www.naukri.com/job-listings-product-management-delhi-tractor-industry-symbiosis-management-consultants-mumbai-all-areas-2-to-7-years-271126937066
 https://www.naukri.com/job-listings-product-management-intern-zycus-infotech-pvt-ltd-bengaluru-0-to-2-years-251126504594
 https://www.naukri.com/job-listings-product-management-join-consultants-mumbai-all-areas-17-to-25-years-220826013759
 https://www.naukri.com/job-listings-product-management-lead-accenture-solutions-pvt-ltd-bengaluru-12-to-17-years-261126939543
+https://www.naukri.com/job-listings-product-management-manager-symbiosis-management-consultants-mumbai-10-to-20-years-271126936538
 https://www.naukri.com/job-listings-product-management-senior-staff-data-platform-equinix-india-professional-services-private-limited-bengaluru-8-to-13-years-261126913563
 https://www.naukri.com/job-listings-product-management-specialist-core-infra-services-development-tata-communications-ltd-bengaluru-5-to-10-years-261126912678
 https://www.naukri.com/job-listings-product-management-wealth-management-epam-systems-hyderabad-10-to-13-years-040926000176
