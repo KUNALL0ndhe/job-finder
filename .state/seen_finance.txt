@@ -128,6 +128,7 @@ https://in.indeed.com/viewjob?jk=1ae93e3b48ccd709
 https://in.indeed.com/viewjob?jk=1b880558ef13e021
 https://in.indeed.com/viewjob?jk=1c5340af236dd3e1
 https://in.indeed.com/viewjob?jk=1caecc3cc7558515
+https://in.indeed.com/viewjob?jk=1cdd2b05f5b809e3
 https://in.indeed.com/viewjob?jk=1d30cc5cd779bfee
 https://in.indeed.com/viewjob?jk=1d47b0be3aed91eb
 https://in.indeed.com/viewjob?jk=1d4b1110d433b977
@@ -317,6 +318,7 @@ https://in.indeed.com/viewjob?jk=8de7db99691fa990
 https://in.indeed.com/viewjob?jk=8e82e5abac0dd01f
 https://in.indeed.com/viewjob?jk=8ece0f02dc150e55
 https://in.indeed.com/viewjob?jk=8ef976aaa023b778
+https://in.indeed.com/viewjob?jk=8f9f9e14a4511c96
 https://in.indeed.com/viewjob?jk=91260eee8ce35ade
 https://in.indeed.com/viewjob?jk=918b0963ed876e21
 https://in.indeed.com/viewjob?jk=91b60fd763021838
@@ -458,6 +460,7 @@ https://in.indeed.com/viewjob?jk=f33dfa477995a2d0
 https://in.indeed.com/viewjob?jk=f3412904ae81b878
 https://in.indeed.com/viewjob?jk=f354c2c2ee32e5f8
 https://in.indeed.com/viewjob?jk=f36b9b72c6464990
+https://in.indeed.com/viewjob?jk=f3765dbf7b8f733c
 https://in.indeed.com/viewjob?jk=f3f41295d26d1187
 https://in.indeed.com/viewjob?jk=f3fc9df51f58e3d7
 https://in.indeed.com/viewjob?jk=f42e2e5c01c5703b
@@ -572,6 +575,7 @@ https://www.naukri.com/job-listings-delivery-operations-senior-analyst-accenture
 https://www.naukri.com/job-listings-e2e-perfect-store-sr-analyst-temporary-pepsico-global-business-services-india-llp-hyderabad-gurugram-5-to-10-years-261126931670
 https://www.naukri.com/job-listings-equity-advisor-dealer-cross-sales-mutual-funds-insurance-avani-consulting-kolkata-delhi-ncr-mumbai-all-areas-2-to-6-years-261126041084
 https://www.naukri.com/job-listings-esg-analyst-gist-advisory-pvt-ltd-mumbai-0-to-1-years-251126504530
+https://www.naukri.com/job-listings-esg-analyst-gist-advisory-pvt-ltd-noida-0-to-1-years-261126506128
 https://www.naukri.com/job-listings-esg-analyst-gist-advisory-pvt-ltd-noida-mumbai-0-to-1-years-251126504530
 https://www.naukri.com/job-listings-execution-analyst-myprocurement-ptp-quess-it-solutions-pune-4-to-9-years-170926023660
 https://www.naukri.com/job-listings-financial-analyst-datre-renewable-energy-ghaziabad-3-to-7-years-261126010885
@@ -683,6 +687,7 @@ https://www.naukri.com/job-listings-senior-analyst-servicenow-irm-invesco-hydera
 https://www.naukri.com/job-listings-senior-analyst-spend-beroe-delhi-ncr-2-to-6-years-251126034931
 https://www.naukri.com/job-listings-senior-analyst-sustainable-finance-careerist-management-consultants-delhi-ncr-0-to-4-years-231126021513
 https://www.naukri.com/job-listings-senior-business-analyst-investment-banking-epam-systems-pune-5-to-8-years-061126026029
+https://www.naukri.com/job-listings-senior-business-analyst-regulatory-reporting-epam-systems-chennai-bengaluru-5-to-8-years-061126026161
 https://www.naukri.com/job-listings-senior-consultant-fund-solutions-restructuring-india-kroll-llc-mumbai-new-delhi-4-to-7-years-261126911493
 https://www.naukri.com/job-listings-senior-credit-analyst-talentstream-bengaluru-4-to-8-years-261126042348
 https://www.naukri.com/job-listings-senior-financial-analyst-and-financial-analyst-waterlabs-ai-bengaluru-5-to-9-years-251126029839
