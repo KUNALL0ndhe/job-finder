@@ -84,6 +84,7 @@ https://ie.indeed.com/viewjob?jk=c8ba0d15ade513af
 https://ie.indeed.com/viewjob?jk=c8ef92708e836961
 https://ie.indeed.com/viewjob?jk=caf0b2d8f7421108
 https://ie.indeed.com/viewjob?jk=cb6bdea09d85701e
+https://ie.indeed.com/viewjob?jk=cd80cafc0c72af7b
 https://ie.indeed.com/viewjob?jk=cf5012c638b89a5a
 https://ie.indeed.com/viewjob?jk=d25050c37164ca9b
 https://ie.indeed.com/viewjob?jk=d4e7e30c1e948e39
@@ -268,6 +269,7 @@ https://in.indeed.com/viewjob?jk=588375bcb9326b92
 https://in.indeed.com/viewjob?jk=589d497534612d55
 https://in.indeed.com/viewjob?jk=596a1beb661dbbf0
 https://in.indeed.com/viewjob?jk=597f4a51f47bb5a3
+https://in.indeed.com/viewjob?jk=5b9c95787037e42c
 https://in.indeed.com/viewjob?jk=5eff68392f21ba9b
 https://in.indeed.com/viewjob?jk=5f8446fd20566d43
 https://in.indeed.com/viewjob?jk=5fed1003b54253d0
@@ -403,6 +405,7 @@ https://in.indeed.com/viewjob?jk=a68caedb254516cf
 https://in.indeed.com/viewjob?jk=a69529fbba6a1d6d
 https://in.indeed.com/viewjob?jk=a6fff63e2cf6f478
 https://in.indeed.com/viewjob?jk=a80a676bee32fdd1
+https://in.indeed.com/viewjob?jk=a8270a6151b1de1c
 https://in.indeed.com/viewjob?jk=a831b0ab7d25455a
 https://in.indeed.com/viewjob?jk=a9364e965827efc7
 https://in.indeed.com/viewjob?jk=a95213334387a52a
@@ -780,6 +783,7 @@ https://www.naukri.com/job-listings-quality-analyst-imarque-solutions-chennai-1-
 https://www.naukri.com/job-listings-quality-analyst-independent-recruitment-consultant-freelancer-new-delhi-2-to-5-years-271126013699
 https://www.naukri.com/job-listings-quality-analyst-lead-generation-executive-team-leader-career-maker-consultancy-gurugram-1-to-5-years-271126931294
 https://www.naukri.com/job-listings-quality-analyst-lead-generation-executive-team-leader-career-maker-consultancy-noida-1-to-5-years-261126939234
+https://www.naukri.com/job-listings-quality-analyst-lead-generation-executive-team-leader-career-maker-consultancy-pune-1-to-5-years-271126931272
 https://www.naukri.com/job-listings-quality-analyst-teleperformance-global-business-private-limited-gurugram-0-to-5-years-281026925187
 https://www.naukri.com/job-listings-quantitative-analyst-invesco-hyderabad-pvt-ltd-hyderabad-3-to-8-years-261126939732
 https://www.naukri.com/job-listings-r2r-analyst-anlage-infotech-bengaluru-2-to-3-years-271126010119
