@@ -41,6 +41,7 @@ https://de.indeed.com/viewjob?jk=8ecb31734bbb88d1
 https://de.indeed.com/viewjob?jk=8f31c6917f07bb88
 https://de.indeed.com/viewjob?jk=8f7ae1b26b5c5416
 https://de.indeed.com/viewjob?jk=9040a677d95f40db
+https://de.indeed.com/viewjob?jk=91f6f555e6cea552
 https://de.indeed.com/viewjob?jk=97f4bd3930fcf8a6
 https://de.indeed.com/viewjob?jk=9ba3f13c2dd645f0
 https://de.indeed.com/viewjob?jk=9c5b6c7fd410e0a2
@@ -57,6 +58,7 @@ https://de.indeed.com/viewjob?jk=ba176e68d9d8c26b
 https://de.indeed.com/viewjob?jk=ba2547fefbefb9b7
 https://de.indeed.com/viewjob?jk=bf1d8486f0e99447
 https://de.indeed.com/viewjob?jk=c21f277a73e20804
+https://de.indeed.com/viewjob?jk=c2aef9a45ef3a1f3
 https://de.indeed.com/viewjob?jk=c2f521c4fa191bae
 https://de.indeed.com/viewjob?jk=c56ae5c9146c5b83
 https://de.indeed.com/viewjob?jk=c5fef41446cab537
@@ -77,6 +79,7 @@ https://de.indeed.com/viewjob?jk=fa2838bc8c407c19
 https://de.indeed.com/viewjob?jk=fc8a68a27e48422b
 https://de.indeed.com/viewjob?jk=fd1f745fe74a76ce
 https://de.indeed.com/viewjob?jk=fecddb59e8fec288
+https://ie.indeed.com/viewjob?jk=10bc1c400df6660a
 https://ie.indeed.com/viewjob?jk=12c564e8a9f89d6f
 https://ie.indeed.com/viewjob?jk=40b1010c65802f9e
 https://ie.indeed.com/viewjob?jk=4416983a53a62fde
@@ -87,6 +90,7 @@ https://ie.indeed.com/viewjob?jk=58116783d8261079
 https://ie.indeed.com/viewjob?jk=5a04ec1394f06f20
 https://ie.indeed.com/viewjob?jk=6100620079caaece
 https://ie.indeed.com/viewjob?jk=66697dc515c7459c
+https://ie.indeed.com/viewjob?jk=6f47648301124e39
 https://ie.indeed.com/viewjob?jk=75ec722c4f555610
 https://ie.indeed.com/viewjob?jk=945df622b601aa4e
 https://ie.indeed.com/viewjob?jk=a774f0ef902f7d80
@@ -94,6 +98,7 @@ https://ie.indeed.com/viewjob?jk=ab66c6c69bd8f94b
 https://ie.indeed.com/viewjob?jk=bd9294cb3e7f1af6
 https://ie.indeed.com/viewjob?jk=cd5407ec8d151328
 https://ie.indeed.com/viewjob?jk=d457cfaae081b100
+https://ie.indeed.com/viewjob?jk=d490a321165ed683
 https://ie.indeed.com/viewjob?jk=d554abfcbfbf6353
 https://ie.indeed.com/viewjob?jk=dc13c1ac4b53a129
 https://ie.indeed.com/viewjob?jk=dd8d689f451c0324
@@ -117,6 +122,7 @@ https://in.indeed.com/viewjob?jk=0a871ff6c1fd6838
 https://in.indeed.com/viewjob?jk=0af98526172de7ab
 https://in.indeed.com/viewjob?jk=0bb1932df21b25fe
 https://in.indeed.com/viewjob?jk=0c457b5bfd0037dd
+https://in.indeed.com/viewjob?jk=0d0137053c5cb8d4
 https://in.indeed.com/viewjob?jk=0e26dc7a48729c33
 https://in.indeed.com/viewjob?jk=0ec4fd717662e6c2
 https://in.indeed.com/viewjob?jk=0f64abefc321cd14
@@ -130,6 +136,7 @@ https://in.indeed.com/viewjob?jk=137099b68ae346dc
 https://in.indeed.com/viewjob?jk=13df2d77b2e0ff49
 https://in.indeed.com/viewjob?jk=140aaa378018143a
 https://in.indeed.com/viewjob?jk=155fc990a251e515
+https://in.indeed.com/viewjob?jk=1614686c0be51046
 https://in.indeed.com/viewjob?jk=17d0e726f531f637
 https://in.indeed.com/viewjob?jk=18667e51017fb25f
 https://in.indeed.com/viewjob?jk=1be1002999905b86
@@ -192,6 +199,7 @@ https://in.indeed.com/viewjob?jk=4d876ff074a0b3e6
 https://in.indeed.com/viewjob?jk=4dbcdc5809e1490b
 https://in.indeed.com/viewjob?jk=4ddceb09bf88634f
 https://in.indeed.com/viewjob?jk=4e4f60a7d51452f5
+https://in.indeed.com/viewjob?jk=4f712b634ac12129
 https://in.indeed.com/viewjob?jk=5544550e448191fa
 https://in.indeed.com/viewjob?jk=55e02a40e3e2ac96
 https://in.indeed.com/viewjob?jk=578aaf6ef1b18c7f
@@ -258,6 +266,7 @@ https://in.indeed.com/viewjob?jk=87ebca34078a7605
 https://in.indeed.com/viewjob?jk=87f09882bd30381f
 https://in.indeed.com/viewjob?jk=8816b3555d44154a
 https://in.indeed.com/viewjob?jk=882339272af3dcbb
+https://in.indeed.com/viewjob?jk=88f09db92c100296
 https://in.indeed.com/viewjob?jk=89793dce81c2340b
 https://in.indeed.com/viewjob?jk=89b4b13b9c981433
 https://in.indeed.com/viewjob?jk=89c2c49c57ee4891
@@ -557,6 +566,7 @@ https://www.naukri.com/job-listings-business-analyst-search-advisers-services-gu
 https://www.naukri.com/job-listings-business-analyst-securities-leading-payments-wissen-technology-pvt-ltd-bangalore-rural-8-to-12-years-271126041288
 https://www.naukri.com/job-listings-business-analyst-servicenow-itsm-cmdb-itam-reve-cloud-inc-bengaluru-5-to-8-years-261126912369
 https://www.naukri.com/job-listings-business-analyst-servicenow-itsm-cmdb-itam-reve-cloud-inc-bengaluru-bengaluru-5-to-8-years-261126917212
+https://www.naukri.com/job-listings-business-analyst-sql-insurance-data-analysis-power-bi-crescendo-global-leadership-hiring-india-pune-gurugram-bengaluru-3-to-8-years-271126057420
 https://www.naukri.com/job-listings-business-analyst-synergy-hr-consultancy-gurugram-1-to-5-years-241126026836
 https://www.naukri.com/job-listings-business-analyst-technical-dlf-ltd-gurugram-5-to-10-years-251126014572
 https://www.naukri.com/job-listings-business-analyst-techrays-navi-mumbai-1-to-3-years-251126024364

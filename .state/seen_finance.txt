@@ -54,10 +54,13 @@ https://ie.indeed.com/viewjob?jk=523db3f96f33702b
 https://ie.indeed.com/viewjob?jk=527a78c1a2a53434
 https://ie.indeed.com/viewjob?jk=5343eeef2dcb47af
 https://ie.indeed.com/viewjob?jk=556d036bbf46a3aa
+https://ie.indeed.com/viewjob?jk=55bf002a4cfc949b
 https://ie.indeed.com/viewjob?jk=56a2835bfc43488a
 https://ie.indeed.com/viewjob?jk=576fd815251c75c4
 https://ie.indeed.com/viewjob?jk=5a686e7c31b8d3f5
+https://ie.indeed.com/viewjob?jk=6078b0471892d06a
 https://ie.indeed.com/viewjob?jk=64e5e60dce16fefd
+https://ie.indeed.com/viewjob?jk=6992a45de29425f8
 https://ie.indeed.com/viewjob?jk=6dd63b5053ea5d93
 https://ie.indeed.com/viewjob?jk=72cc17cf621e4c6b
 https://ie.indeed.com/viewjob?jk=75ec722c4f555610
@@ -75,6 +78,7 @@ https://ie.indeed.com/viewjob?jk=ae23219b930a0bee
 https://ie.indeed.com/viewjob?jk=bd716198b2246eb1
 https://ie.indeed.com/viewjob?jk=bec18b585486c7d1
 https://ie.indeed.com/viewjob?jk=c3123559bbf6a742
+https://ie.indeed.com/viewjob?jk=c54f3e80ed26d781
 https://ie.indeed.com/viewjob?jk=c8ba0d15ade513af
 https://ie.indeed.com/viewjob?jk=c8ef92708e836961
 https://ie.indeed.com/viewjob?jk=caf0b2d8f7421108
@@ -128,6 +132,7 @@ https://in.indeed.com/viewjob?jk=135a11261b47cc65
 https://in.indeed.com/viewjob?jk=13cf1878f5434633
 https://in.indeed.com/viewjob?jk=148ad1bd957b4fc7
 https://in.indeed.com/viewjob?jk=151f5014929f235a
+https://in.indeed.com/viewjob?jk=1614686c0be51046
 https://in.indeed.com/viewjob?jk=161f177875816617
 https://in.indeed.com/viewjob?jk=16396743f315f6fa
 https://in.indeed.com/viewjob?jk=16b2ef8a70c75edb
@@ -417,6 +422,7 @@ https://in.indeed.com/viewjob?jk=b15b0e18582cf534
 https://in.indeed.com/viewjob?jk=b33f9e56fdd3502b
 https://in.indeed.com/viewjob?jk=b39fbd32ca4de7f2
 https://in.indeed.com/viewjob?jk=b4cad4d8d72f996f
+https://in.indeed.com/viewjob?jk=b576c08c5962830a
 https://in.indeed.com/viewjob?jk=b63443e67acf0b98
 https://in.indeed.com/viewjob?jk=b81a4aecadf0f12e
 https://in.indeed.com/viewjob?jk=b81a9584f2663cba
@@ -482,6 +488,7 @@ https://in.indeed.com/viewjob?jk=e0d526b97cf57640
 https://in.indeed.com/viewjob?jk=e0f51962310c1376
 https://in.indeed.com/viewjob?jk=e145424e194c080c
 https://in.indeed.com/viewjob?jk=e1b526f38df412c3
+https://in.indeed.com/viewjob?jk=e371843023b3932d
 https://in.indeed.com/viewjob?jk=e3d7d6a770e20729
 https://in.indeed.com/viewjob?jk=e3edbf66f915ed02
 https://in.indeed.com/viewjob?jk=e4496e4028cfdd18
@@ -493,6 +500,7 @@ https://in.indeed.com/viewjob?jk=e60ca3dd1aff42ed
 https://in.indeed.com/viewjob?jk=e8401dd9b82f405b
 https://in.indeed.com/viewjob?jk=e9116c91dfb5c99b
 https://in.indeed.com/viewjob?jk=e920dc2bd09750bb
+https://in.indeed.com/viewjob?jk=e9c6d395fd7ae57c
 https://in.indeed.com/viewjob?jk=eba683c282d979ce
 https://in.indeed.com/viewjob?jk=ec2facf396194c7b
 https://in.indeed.com/viewjob?jk=ecab1bf4013ec95d
@@ -675,6 +683,7 @@ https://www.naukri.com/job-listings-financial-analyst-jobaaj-com-pune-gurugram-m
 https://www.naukri.com/job-listings-financial-analyst-k12-techno-services-bengaluru-2-to-5-years-200226028328
 https://www.naukri.com/job-listings-financial-analyst-non-voice-banking-mortgage-process-ais-business-solution-gurugram-1-to-3-years-231126010830
 https://www.naukri.com/job-listings-financial-analyst-senior-cummins-pune-8-to-13-years-261126011708
+https://www.naukri.com/job-listings-financial-analyst-spinebiz-gurugram-4-to-6-years-261026013596
 https://www.naukri.com/job-listings-financial-analyst-talent-imperii-bengaluru-5-to-10-years-251126028686
 https://www.naukri.com/job-listings-financial-analyst-tipping-mr-pink-gurugram-4-to-7-years-251126011070
 https://www.naukri.com/job-listings-financial-analyst-voice-ais-business-solution-gurugram-1-to-5-years-081026050321
@@ -749,6 +758,7 @@ https://www.naukri.com/job-listings-opening-for-research-analyst-in-formulation-
 https://www.naukri.com/job-listings-opportunity-for-trade-surveillance-compliance-with-sbi-securities-sbicap-securities-mumbai-mumbai-suburban-navi-mumbai-0-to-1-years-021126016090
 https://www.naukri.com/job-listings-order-to-cash-operations-senior-analyst-accenture-solutions-pvt-ltd-bengaluru-5-to-8-years-251126921495
 https://www.naukri.com/job-listings-pricing-analyst-ii-conduent-business-services-india-llp-bengaluru-5-to-10-years-271126924134
+https://www.naukri.com/job-listings-pricing-analyst-ii-conduent-business-services-india-llp-bengaluru-5-to-10-years-271126927099
 https://www.naukri.com/job-listings-procurement-practice-senior-analyst-accenture-solutions-pvt-ltd-gurugram-5-to-8-years-261126929903
 https://www.naukri.com/job-listings-procurement-practice-senior-analyst-accenture-solutions-pvt-ltd-gurugram-5-to-8-years-271126917714
 https://www.naukri.com/job-listings-product-closing-manager-mutual-funds-aif-and-pms-analah-capital-mumbai-3-to-8-years-271126052961
@@ -834,6 +844,7 @@ https://www.naukri.com/job-listings-senior-lead-analyst-secondary-loan-trade-ser
 https://www.naukri.com/job-listings-senior-lead-support-analyst-capital-market-investment-banking-exp-arbortec-systems-mohali-3-to-8-years-100925018634
 https://www.naukri.com/job-listings-senior-pricing-analyst-conduent-business-services-india-llp-bengaluru-3-to-6-years-271126924332
 https://www.naukri.com/job-listings-senior-pricing-analyst-conduent-business-services-india-llp-bengaluru-3-to-6-years-271126924902
+https://www.naukri.com/job-listings-senior-pricing-analyst-conduent-business-services-india-llp-bengaluru-3-to-6-years-271126926949
 https://www.naukri.com/job-listings-senior-process-analyst-audit-compliance-thryve-digital-health-llp-hyderabad-2-to-7-years-261126930829
 https://www.naukri.com/job-listings-senior-product-valuation-control-analyst-wells-fargo-international-solutions-private-ltd-bengaluru-4-to-9-years-261126912849
 https://www.naukri.com/job-listings-senior-rating-analyst-crisil-limited-mumbai-2-to-5-years-261126020994
