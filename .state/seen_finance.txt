@@ -212,6 +212,7 @@ https://in.indeed.com/viewjob?jk=4316e082c4c180d3
 https://in.indeed.com/viewjob?jk=44218761ff3314ea
 https://in.indeed.com/viewjob?jk=44fd3ada23773b42
 https://in.indeed.com/viewjob?jk=4544576922152487
+https://in.indeed.com/viewjob?jk=454f63f15d39bbfc
 https://in.indeed.com/viewjob?jk=457119867c972b43
 https://in.indeed.com/viewjob?jk=45cb01f77f47283a
 https://in.indeed.com/viewjob?jk=460ce94f64bdbc4a
@@ -326,10 +327,12 @@ https://in.indeed.com/viewjob?jk=848f9b34793b8397
 https://in.indeed.com/viewjob?jk=84ce391fbeca2268
 https://in.indeed.com/viewjob?jk=857209492785be6e
 https://in.indeed.com/viewjob?jk=859bc60a7e9994fa
+https://in.indeed.com/viewjob?jk=874cfe3e2d20e519
 https://in.indeed.com/viewjob?jk=87a988ebc2758868
 https://in.indeed.com/viewjob?jk=88259a42b422a71a
 https://in.indeed.com/viewjob?jk=889678cd25e375e7
 https://in.indeed.com/viewjob?jk=894ce0120864395f
+https://in.indeed.com/viewjob?jk=897b993fcde5de89
 https://in.indeed.com/viewjob?jk=89c0a2c22e2279c4
 https://in.indeed.com/viewjob?jk=89d003866eb26983
 https://in.indeed.com/viewjob?jk=8a0bb4deacfca96c
@@ -452,6 +455,7 @@ https://in.indeed.com/viewjob?jk=d32f516f7dce1680
 https://in.indeed.com/viewjob?jk=d65a63154b215359
 https://in.indeed.com/viewjob?jk=d683c32263758395
 https://in.indeed.com/viewjob?jk=d8a263f242be8f36
+https://in.indeed.com/viewjob?jk=d98957a46dceead5
 https://in.indeed.com/viewjob?jk=d9bb0573846be485
 https://in.indeed.com/viewjob?jk=d9e7679c1a1191bb
 https://in.indeed.com/viewjob?jk=da268edccd82ec02
@@ -784,6 +788,7 @@ https://www.naukri.com/job-listings-senior-analyst-business-valuation-role-anlag
 https://www.naukri.com/job-listings-senior-analyst-cyber-security-operations-lpl-financial-hyderabad-7-to-11-years-021126025691
 https://www.naukri.com/job-listings-senior-analyst-data-reporting-kpmg-delivery-network-bengaluru-2-to-4-years-261126040288
 https://www.naukri.com/job-listings-senior-analyst-data-scientist-stan-developer-anlage-infotech-chennai-6-to-11-years-041126012271
+https://www.naukri.com/job-listings-senior-analyst-eclerx-mumbai-all-areas-2-to-4-years-271126056487
 https://www.naukri.com/job-listings-senior-analyst-enterprise-incident-management-invesco-hyderabad-pvt-ltd-hyderabad-3-to-5-years-261126939739
 https://www.naukri.com/job-listings-senior-analyst-finance-bi-data-analytics-gxo-logistics-mumbai-all-areas-5-to-8-years-171126026349
 https://www.naukri.com/job-listings-senior-analyst-fp-a-invesco-hyderabad-pvt-ltd-hyderabad-3-to-5-years-261126939734
@@ -803,6 +808,7 @@ https://www.naukri.com/job-listings-senior-analyst-rcm-anka-healthcare-noida-1-t
 https://www.naukri.com/job-listings-senior-analyst-rpa-business-analyst-thryve-digital-health-llp-hyderabad-chennai-5-to-9-years-261126941973
 https://www.naukri.com/job-listings-senior-analyst-servicenow-irm-invesco-hyderabad-pvt-ltd-hyderabad-2-to-4-years-261126939737
 https://www.naukri.com/job-listings-senior-analyst-software-operations-and-analytics-emerson-bengaluru-5-to-8-years-271126019961
+https://www.naukri.com/job-listings-senior-analyst-sox-audit-principal-global-services-pvt-ltd-pune-4-to-8-years-271126056665
 https://www.naukri.com/job-listings-senior-analyst-spend-beroe-delhi-ncr-2-to-6-years-251126034931
 https://www.naukri.com/job-listings-senior-analyst-sundaram-business-services-chennai-1-to-6-years-271126016410
 https://www.naukri.com/job-listings-senior-analyst-sustainable-finance-careerist-management-consultants-delhi-ncr-0-to-4-years-231126021513
@@ -817,6 +823,7 @@ https://www.naukri.com/job-listings-senior-financial-analyst-and-financial-analy
 https://www.naukri.com/job-listings-senior-financial-analyst-fp-a-hitachi-energy-india-limited-bengaluru-4-to-8-years-261126911283
 https://www.naukri.com/job-listings-senior-lead-analyst-secondary-loan-trade-servicing-4-years-crescendo-global-leadership-hiring-india-mumbai-pune-chennai-5-to-10-years-171026012506
 https://www.naukri.com/job-listings-senior-lead-support-analyst-capital-market-investment-banking-exp-arbortec-systems-mohali-3-to-8-years-100925018634
+https://www.naukri.com/job-listings-senior-pricing-analyst-conduent-business-services-india-llp-bengaluru-3-to-6-years-271126924332
 https://www.naukri.com/job-listings-senior-process-analyst-audit-compliance-thryve-digital-health-llp-hyderabad-2-to-7-years-261126930829
 https://www.naukri.com/job-listings-senior-product-valuation-control-analyst-wells-fargo-international-solutions-private-ltd-bengaluru-4-to-9-years-261126912849
 https://www.naukri.com/job-listings-senior-rating-analyst-crisil-limited-mumbai-2-to-5-years-261126020994

@@ -55,6 +55,7 @@ https://de.indeed.com/viewjob?jk=b7f13a344ada08b4
 https://de.indeed.com/viewjob?jk=ba176e68d9d8c26b
 https://de.indeed.com/viewjob?jk=ba2547fefbefb9b7
 https://de.indeed.com/viewjob?jk=bf1d8486f0e99447
+https://de.indeed.com/viewjob?jk=c21f277a73e20804
 https://de.indeed.com/viewjob?jk=c2f521c4fa191bae
 https://de.indeed.com/viewjob?jk=c56ae5c9146c5b83
 https://de.indeed.com/viewjob?jk=c5fef41446cab537
@@ -356,6 +357,7 @@ https://in.indeed.com/viewjob?jk=c731894169cf54e7
 https://in.indeed.com/viewjob?jk=c73768e30cefd5b3
 https://in.indeed.com/viewjob?jk=c745757121728e99
 https://in.indeed.com/viewjob?jk=c7c71ea6b9f27059
+https://in.indeed.com/viewjob?jk=c83acedc79845ea8
 https://in.indeed.com/viewjob?jk=c847a34af15e2213
 https://in.indeed.com/viewjob?jk=c86be10f5386070d
 https://in.indeed.com/viewjob?jk=c9948bb6858f422f
@@ -392,6 +394,7 @@ https://in.indeed.com/viewjob?jk=e7486e3e2e007c80
 https://in.indeed.com/viewjob?jk=e89b91d7bdd784ab
 https://in.indeed.com/viewjob?jk=e9706905cb547f0c
 https://in.indeed.com/viewjob?jk=ea6ca200d818ae5b
+https://in.indeed.com/viewjob?jk=ea6d46b6bfb44b9f
 https://in.indeed.com/viewjob?jk=ebbb565b2b8ac3a5
 https://in.indeed.com/viewjob?jk=ec7b94f84edb6437
 https://in.indeed.com/viewjob?jk=edcaee8becf7d492
@@ -591,6 +594,7 @@ https://www.naukri.com/job-listings-lead-business-analyst-capital-markets-epam-s
 https://www.naukri.com/job-listings-lead-business-analyst-capital-markets-initiatives-epam-systems-hyderabad-pune-bengaluru-8-to-12-years-061126026010
 https://www.naukri.com/job-listings-lead-business-analyst-data-epam-systems-hyderabad-pune-jaipur-8-to-12-years-061126026026
 https://www.naukri.com/job-listings-lead-business-analyst-oil-gas-epam-systems-kochi-pune-coimbatore-10-to-13-years-061126025806
+https://www.naukri.com/job-listings-lead-business-analyst-zodiac-hr-consultants-ahmedabad-8-to-12-years-271126056522
 https://www.naukri.com/job-listings-lead-engineer-2-product-analyst-data-product-pepsico-global-business-services-india-llp-hyderabad-1-to-6-years-301026913744
 https://www.naukri.com/job-listings-lead-principal-product-management-ai-pdlc-coach-opentext-technologies-india-pvt-ltd-bengaluru-7-to-12-years-261126933801
 https://www.naukri.com/job-listings-lead-product-manager-earner-uber-india-research-and-development-private-limited-bengaluru-7-to-12-years-261126913446
