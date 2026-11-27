@@ -8,6 +8,7 @@ https://de.indeed.com/viewjob?jk=21021c560f630bcd
 https://de.indeed.com/viewjob?jk=330d97c8a9b662ef
 https://de.indeed.com/viewjob?jk=33eb755f52005318
 https://de.indeed.com/viewjob?jk=37090aa4b60a6fdd
+https://de.indeed.com/viewjob?jk=3776c997e62ff458
 https://de.indeed.com/viewjob?jk=39ca90042eed1774
 https://de.indeed.com/viewjob?jk=3aee70bb9d64e75f
 https://de.indeed.com/viewjob?jk=41cbf5d2c794bbeb
@@ -190,6 +191,7 @@ https://in.indeed.com/viewjob?jk=659126536ced455b
 https://in.indeed.com/viewjob?jk=664153814250bde2
 https://in.indeed.com/viewjob?jk=665592c3e5adf285
 https://in.indeed.com/viewjob?jk=688cac4fe2522414
+https://in.indeed.com/viewjob?jk=68a3a751a0a3e50e
 https://in.indeed.com/viewjob?jk=68d06f7535673b54
 https://in.indeed.com/viewjob?jk=6a2c2c05357b7b07
 https://in.indeed.com/viewjob?jk=6a566d57c5ea1a39
@@ -242,6 +244,7 @@ https://in.indeed.com/viewjob?jk=89c2c49c57ee4891
 https://in.indeed.com/viewjob?jk=8a9971f090938a13
 https://in.indeed.com/viewjob?jk=8abb8cfdd4778858
 https://in.indeed.com/viewjob?jk=8b1bd71ce2bd02da
+https://in.indeed.com/viewjob?jk=8b8be16ac0ea9bcb
 https://in.indeed.com/viewjob?jk=8b8ef1f9eeb98d58
 https://in.indeed.com/viewjob?jk=8ba27f43a7cc2b94
 https://in.indeed.com/viewjob?jk=8cd5826948135e55
@@ -351,6 +354,7 @@ https://in.indeed.com/viewjob?jk=d974c0d690e29dec
 https://in.indeed.com/viewjob?jk=dac390e1e6cc4d0e
 https://in.indeed.com/viewjob?jk=db8e3cd86295ba24
 https://in.indeed.com/viewjob?jk=dd090877e3d63a69
+https://in.indeed.com/viewjob?jk=e13319afbe621860
 https://in.indeed.com/viewjob?jk=e14c68723c6576f4
 https://in.indeed.com/viewjob?jk=e1c04b3f4eafc879
 https://in.indeed.com/viewjob?jk=e315ee92d87bbf5c
@@ -475,6 +479,7 @@ https://www.naukri.com/job-listings-business-analyst-material-plus-gurugram-3-to
 https://www.naukri.com/job-listings-business-analyst-metron-security-pune-3-to-6-years-240626006835
 https://www.naukri.com/job-listings-business-analyst-naukri-e-hire-campaign-mumbai-all-areas-5-to-10-years-251126034651
 https://www.naukri.com/job-listings-business-analyst-naukri-e-hire-campaign-mumbai-navi-mumbai-mumbai-all-areas-5-to-10-years-251126025471
+https://www.naukri.com/job-listings-business-analyst-novotree-minds-consulting-bengaluru-mumbai-all-areas-2-to-5-years-271126010554
 https://www.naukri.com/job-listings-business-analyst-oyo-gurugram-2-to-5-years-061126012547
 https://www.naukri.com/job-listings-business-analyst-pune-6yrs-sigma-allied-services-pune-6-to-11-years-261126026984
 https://www.naukri.com/job-listings-business-analyst-r01573140-brillio-2-bengaluru-4-to-6-years-121126503019
@@ -535,6 +540,7 @@ https://www.naukri.com/job-listings-principal-product-manager-true-valuehub-inc-
 https://www.naukri.com/job-listings-product-analyst-creditspring-bengaluru-3-to-5-years-201126024826
 https://www.naukri.com/job-listings-product-analyst-fusion-business-solutions-udaipur-3-to-6-years-141126015782
 https://www.naukri.com/job-listings-product-analyst-niyo-solutions-bengaluru-2-to-4-years-251126503083
+https://www.naukri.com/job-listings-product-analyst-novotree-minds-consulting-bengaluru-4-to-7-years-271126010228
 https://www.naukri.com/job-listings-product-analyst-zeomega-infotech-bengaluru-2-to-7-years-210426034574
 https://www.naukri.com/job-listings-product-intern-aditya-birla-capital-mumbai-all-areas-0-to-1-years-251126026373
 https://www.naukri.com/job-listings-product-intern-progfin-delhi-ncr-0-to-1-years-181126020149
@@ -573,6 +579,7 @@ https://www.naukri.com/job-listings-product-manager-industrial-operations-analyt
 https://www.naukri.com/job-listings-product-manager-insurance-lkp-securities-mumbai-mumbai-suburban-navi-mumbai-2-to-7-years-261126020288
 https://www.naukri.com/job-listings-product-manager-intern-cloutgency-chennai-0-to-1-years-201126501575
 https://www.naukri.com/job-listings-product-manager-intern-sonalika-tractors-new-delhi-0-to-1-years-231126020252
+https://www.naukri.com/job-listings-product-manager-inverter-mijas-consultants-jaipur-mumbai-all-areas-6-to-11-years-271126010230
 https://www.naukri.com/job-listings-product-manager-js-jobstick-technologies-hyderabad-chennai-16-to-22-years-261126031799
 https://www.naukri.com/job-listings-product-manager-mac-chem-products-mumbai-mumbai-suburban-thane-navi-mumbai-virar-2-to-7-years-261126040491
 https://www.naukri.com/job-listings-product-manager-mf-lkp-securities-mumbai-mumbai-suburban-navi-mumbai-2-to-7-years-261126032137
@@ -666,6 +673,7 @@ https://www.naukri.com/job-listings-technical-product-owner-careernet-hyderabad-
 https://www.naukri.com/job-listings-technical-product-owner-venpa-staffing-bengaluru-20-to-25-years-261126031434
 https://www.naukri.com/job-listings-technical-product-owner-zeiss-bengaluru-6-to-10-years-261126039451
 https://www.naukri.com/job-listings-tracxn-product-manager-tracxn-bengaluru-5-to-8-years-110926003216
+https://www.naukri.com/job-listings-tracxn-senior-associate-product-manager-tracxn-bengaluru-2-to-5-years-061026010045
 https://www.naukri.com/job-listings-tredence-ai-product-manager-naukri-e-hire-bengaluru-8-to-12-years-251126021657
 https://www.naukri.com/job-listings-urgent-hiring-for-big4-itom-business-analyst-immediate-joiner-contactx-resource-management-pvt-ltd-mumbai-bengaluru-5-to-10-years-281026911167
 https://www.naukri.com/job-listings-urgent-hiring-sr-business-analyst-capital-market-at-wissen-blr-mum-wissen-technology-bangalore-rural-bengaluru-mumbai-all-areas-8-to-13-years-251126035027

@@ -175,6 +175,7 @@ https://in.indeed.com/viewjob?jk=355e9e6d9ee3cc30
 https://in.indeed.com/viewjob?jk=372f6e5dbfa6a7c5
 https://in.indeed.com/viewjob?jk=37789054ff2e71bf
 https://in.indeed.com/viewjob?jk=379ff9c17af68690
+https://in.indeed.com/viewjob?jk=3886b639f08f6764
 https://in.indeed.com/viewjob?jk=3a205f658dfb2c05
 https://in.indeed.com/viewjob?jk=3a3ed02f41c584e9
 https://in.indeed.com/viewjob?jk=3b551fd52090e4a8
@@ -330,6 +331,7 @@ https://in.indeed.com/viewjob?jk=93e9fc4d634e9c35
 https://in.indeed.com/viewjob?jk=9406c8ea33bf5142
 https://in.indeed.com/viewjob?jk=95904742727d3609
 https://in.indeed.com/viewjob?jk=95cad75934798038
+https://in.indeed.com/viewjob?jk=968300fd949b9495
 https://in.indeed.com/viewjob?jk=9685d2e1000d98ee
 https://in.indeed.com/viewjob?jk=96a066c9e5603896
 https://in.indeed.com/viewjob?jk=96c16f62f9e22cc3
@@ -583,6 +585,7 @@ https://www.naukri.com/job-listings-esg-analyst-gist-advisory-pvt-ltd-mumbai-0-t
 https://www.naukri.com/job-listings-esg-analyst-gist-advisory-pvt-ltd-noida-0-to-1-years-261126506128
 https://www.naukri.com/job-listings-esg-analyst-gist-advisory-pvt-ltd-noida-mumbai-0-to-1-years-251126504530
 https://www.naukri.com/job-listings-execution-analyst-myprocurement-ptp-quess-it-solutions-pune-4-to-9-years-170926023660
+https://www.naukri.com/job-listings-financial-analyst-creative-hands-hr-hyderabad-chennai-bengaluru-0-to-4-years-271126010650
 https://www.naukri.com/job-listings-financial-analyst-datre-renewable-energy-ghaziabad-3-to-7-years-261126010885
 https://www.naukri.com/job-listings-financial-analyst-jobaaj-com-pune-gurugram-mumbai-all-areas-0-to-2-years-251126015714
 https://www.naukri.com/job-listings-financial-analyst-k12-techno-services-bengaluru-2-to-5-years-200226028328
@@ -606,6 +609,7 @@ https://www.naukri.com/job-listings-global-banking-markets-ops-liquidity-trade-m
 https://www.naukri.com/job-listings-hiring-for-financial-analyst-cognizant-hyderabad-7-to-11-years-251126025160
 https://www.naukri.com/job-listings-hiring-for-team-manager-financial-analyst-finance-and-mis-cognizant-hyderabad-12-to-15-years-291026028287
 https://www.naukri.com/job-listings-hiring-quality-analyst-bpo-apollo-health-axis-hyderabad-1-to-5-years-171026015078
+https://www.naukri.com/job-listings-hiring-r2r-accounting-analyst-french-language-chennai-trigent-software-chennai-4-to-9-years-181126033056
 https://www.naukri.com/job-listings-hr-tools-analyst-teleperformance-global-business-private-limited-gurugram-1-to-2-years-281026924931
 https://www.naukri.com/job-listings-infrastructure-valuations-analyst-crisil-limited-gurugram-3-to-6-years-251126022825
 https://www.naukri.com/job-listings-inside-sales-sr-analyst-accenture-solutions-pvt-ltd-hyderabad-5-to-8-years-251126920942
@@ -654,8 +658,10 @@ https://www.naukri.com/job-listings-quality-analyst-imarque-solutions-chennai-1-
 https://www.naukri.com/job-listings-quality-analyst-lead-generation-executive-team-leader-career-maker-consultancy-noida-1-to-5-years-261126939234
 https://www.naukri.com/job-listings-quality-analyst-teleperformance-global-business-private-limited-gurugram-0-to-5-years-281026925187
 https://www.naukri.com/job-listings-quantitative-analyst-invesco-hyderabad-pvt-ltd-hyderabad-3-to-8-years-261126939732
+https://www.naukri.com/job-listings-r2r-analyst-anlage-infotech-bengaluru-2-to-3-years-271126010119
 https://www.naukri.com/job-listings-real-time-analyst-teleperformance-global-business-private-limited-gurugram-1-to-2-years-281026914120
 https://www.naukri.com/job-listings-record-to-report-ops-senior-analyst-accenture-solutions-pvt-ltd-bengaluru-5-to-8-years-251126921476
+https://www.naukri.com/job-listings-record-to-report-ops-senior-analyst-accenture-solutions-pvt-ltd-bengaluru-5-to-8-years-261126930060
 https://www.naukri.com/job-listings-record-to-report-ops-senior-analyst-accenture-solutions-pvt-ltd-bengaluru-5-to-8-years-261126930062
 https://www.naukri.com/job-listings-record-to-report-ops-senior-analyst-accenture-solutions-pvt-ltd-hyderabad-5-to-8-years-251126919774
 https://www.naukri.com/job-listings-record-to-report-sr-analyst-tata-consultancy-services-chennai-2-to-7-years-261126040983
