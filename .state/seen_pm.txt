@@ -14,7 +14,9 @@ https://de.indeed.com/viewjob?jk=3aee70bb9d64e75f
 https://de.indeed.com/viewjob?jk=41cbf5d2c794bbeb
 https://de.indeed.com/viewjob?jk=4a28832105d7b9c5
 https://de.indeed.com/viewjob?jk=4a58c9aab5bc701b
+https://de.indeed.com/viewjob?jk=4f1d4f8ef70d2761
 https://de.indeed.com/viewjob?jk=4f5c8a9e6beeec5f
+https://de.indeed.com/viewjob?jk=55ce453f2d44f3f3
 https://de.indeed.com/viewjob?jk=562408813fcd870f
 https://de.indeed.com/viewjob?jk=570f054a1f1ac7c3
 https://de.indeed.com/viewjob?jk=598cad4b04f87a18
@@ -26,6 +28,7 @@ https://de.indeed.com/viewjob?jk=613ed8bb619135b0
 https://de.indeed.com/viewjob?jk=68271942bab679ac
 https://de.indeed.com/viewjob?jk=6a0b568d29b944af
 https://de.indeed.com/viewjob?jk=6c3606c548e589e3
+https://de.indeed.com/viewjob?jk=6e176b73c124f659
 https://de.indeed.com/viewjob?jk=775dcf50017994c8
 https://de.indeed.com/viewjob?jk=79bd99a5d885602c
 https://de.indeed.com/viewjob?jk=7c2288d642351e5a
@@ -48,6 +51,7 @@ https://de.indeed.com/viewjob?jk=9c5b6c7fd410e0a2
 https://de.indeed.com/viewjob?jk=a15b2f9320598bb4
 https://de.indeed.com/viewjob?jk=a416fd117fd624bd
 https://de.indeed.com/viewjob?jk=a8abcf5ff7542a4e
+https://de.indeed.com/viewjob?jk=ab59049591db64bc
 https://de.indeed.com/viewjob?jk=accd202dff3b7412
 https://de.indeed.com/viewjob?jk=ae229137c397d578
 https://de.indeed.com/viewjob?jk=b1635917b888098a
@@ -67,6 +71,7 @@ https://de.indeed.com/viewjob?jk=ccb87eb025282521
 https://de.indeed.com/viewjob?jk=cdfe9f4024b1c8d2
 https://de.indeed.com/viewjob?jk=ced585467383e8b9
 https://de.indeed.com/viewjob?jk=d07aaf220a5ece8c
+https://de.indeed.com/viewjob?jk=d6f32bbdfb52f055
 https://de.indeed.com/viewjob?jk=d765886c1a72d559
 https://de.indeed.com/viewjob?jk=db90c107e6d3033d
 https://de.indeed.com/viewjob?jk=df8dde8943dc5110
@@ -122,6 +127,7 @@ https://in.indeed.com/viewjob?jk=0a871ff6c1fd6838
 https://in.indeed.com/viewjob?jk=0af98526172de7ab
 https://in.indeed.com/viewjob?jk=0bb1932df21b25fe
 https://in.indeed.com/viewjob?jk=0c457b5bfd0037dd
+https://in.indeed.com/viewjob?jk=0c7cfe4d969cec02
 https://in.indeed.com/viewjob?jk=0d0137053c5cb8d4
 https://in.indeed.com/viewjob?jk=0e26dc7a48729c33
 https://in.indeed.com/viewjob?jk=0ec4fd717662e6c2
@@ -200,6 +206,7 @@ https://in.indeed.com/viewjob?jk=4dbcdc5809e1490b
 https://in.indeed.com/viewjob?jk=4ddceb09bf88634f
 https://in.indeed.com/viewjob?jk=4e4f60a7d51452f5
 https://in.indeed.com/viewjob?jk=4f712b634ac12129
+https://in.indeed.com/viewjob?jk=50cb07c4843e6096
 https://in.indeed.com/viewjob?jk=5544550e448191fa
 https://in.indeed.com/viewjob?jk=55e02a40e3e2ac96
 https://in.indeed.com/viewjob?jk=578aaf6ef1b18c7f
@@ -334,6 +341,7 @@ https://in.indeed.com/viewjob?jk=af8bce40b07711c1
 https://in.indeed.com/viewjob?jk=af8f948ee6618591
 https://in.indeed.com/viewjob?jk=afa37e7247bc58bd
 https://in.indeed.com/viewjob?jk=afe09234d2d7f08e
+https://in.indeed.com/viewjob?jk=b008c9ab57168459
 https://in.indeed.com/viewjob?jk=b1afe39f3150978c
 https://in.indeed.com/viewjob?jk=b1b468e54d8f2b21
 https://in.indeed.com/viewjob?jk=b3e45b3c37508f2b
@@ -576,6 +584,7 @@ https://www.naukri.com/job-listings-business-analyst-thyrocare-navi-mumbai-benga
 https://www.naukri.com/job-listings-business-analyst-vbeyond-corporation-gurugram-9-to-13-years-251126035739
 https://www.naukri.com/job-listings-business-analyst-vc-erp-consulting-ahmedabad-3-to-8-years-261126043652
 https://www.naukri.com/job-listings-business-analyst-veka-hyderabad-4-to-6-years-040925001260
+https://www.naukri.com/job-listings-business-analyst-with-aiml-genai-use-cases-for-for-ai-ml-solutions-genpact-hyderabad-bengaluru-delhi-ncr-8-to-12-years-100426026447
 https://www.naukri.com/job-listings-business-analyst-with-banking-financial-services-capital-market-domain-tecnics-integration-technologies-hyderabad-10-to-20-years-251126022234
 https://www.naukri.com/job-listings-business-analyst-with-stock-markets-securities-experience-tecnics-integration-technologies-hyderabad-8-to-13-years-261126015778
 https://www.naukri.com/job-listings-cc-product-manager-cards-concierge-hdfc-bank-limited-mumbai-0-to-1-years-261126018561
@@ -723,6 +732,7 @@ https://www.naukri.com/job-listings-product-manager-zuventus-healthcare-limited-
 https://www.naukri.com/job-listings-product-manager-zuventus-healthcare-limited-mumbai-5-to-10-years-261126924226
 https://www.naukri.com/job-listings-product-owner-accenture-solutions-pvt-ltd-bengaluru-5-to-10-years-271126917817
 https://www.naukri.com/job-listings-product-owner-accenture-solutions-pvt-ltd-pune-12-to-17-years-251126918952
+https://www.naukri.com/job-listings-product-owner-amtech-software-bengaluru-4-to-9-years-201126030843
 https://www.naukri.com/job-listings-product-owner-autosar-adas-international-shift-6-pm-to-3-am-aptiv-bengaluru-10-to-15-years-251126015878
 https://www.naukri.com/job-listings-product-owner-callesto-hyderabad-10-to-15-years-261126030906
 https://www.naukri.com/job-listings-product-owner-embedded-automotive-larsen-toubro-l-t-pune-11-to-20-years-241126026239

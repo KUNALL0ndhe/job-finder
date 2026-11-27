@@ -9,6 +9,7 @@ https://de.indeed.com/viewjob?jk=13f3b49a305834f2
 https://de.indeed.com/viewjob?jk=15c059a99bc1643e
 https://de.indeed.com/viewjob?jk=19c42a402d285264
 https://de.indeed.com/viewjob?jk=2477961ccaad9c69
+https://de.indeed.com/viewjob?jk=25ebfe518890db35
 https://de.indeed.com/viewjob?jk=29067d266c392110
 https://de.indeed.com/viewjob?jk=2e408d1243857fd4
 https://de.indeed.com/viewjob?jk=5a8b8ef0ac956db4
@@ -424,6 +425,7 @@ https://in.indeed.com/viewjob?jk=b39fbd32ca4de7f2
 https://in.indeed.com/viewjob?jk=b4cad4d8d72f996f
 https://in.indeed.com/viewjob?jk=b576c08c5962830a
 https://in.indeed.com/viewjob?jk=b63443e67acf0b98
+https://in.indeed.com/viewjob?jk=b704ccd04aeaaf61
 https://in.indeed.com/viewjob?jk=b81a4aecadf0f12e
 https://in.indeed.com/viewjob?jk=b81a9584f2663cba
 https://in.indeed.com/viewjob?jk=b84cfe2309dc7eb9
@@ -454,6 +456,7 @@ https://in.indeed.com/viewjob?jk=c6143890b874786e
 https://in.indeed.com/viewjob?jk=c921ec27ab5d2c71
 https://in.indeed.com/viewjob?jk=cbbe39f1f3fe9c2d
 https://in.indeed.com/viewjob?jk=cc1e7565b26187ab
+https://in.indeed.com/viewjob?jk=cca903a0902029cc
 https://in.indeed.com/viewjob?jk=ccd33aa0d7a6fe07
 https://in.indeed.com/viewjob?jk=cd5ed39877a863e6
 https://in.indeed.com/viewjob?jk=cd6298cbd91b0265
@@ -770,6 +773,7 @@ https://www.naukri.com/job-listings-quality-analyst-collections-recovery-fintech
 https://www.naukri.com/job-listings-quality-analyst-email-process-r3-consultant-bengaluru-1-to-6-years-261126013622
 https://www.naukri.com/job-listings-quality-analyst-imarque-solutions-chennai-1-to-4-years-261126019595
 https://www.naukri.com/job-listings-quality-analyst-independent-recruitment-consultant-freelancer-new-delhi-2-to-5-years-271126013699
+https://www.naukri.com/job-listings-quality-analyst-lead-generation-executive-team-leader-career-maker-consultancy-gurugram-1-to-5-years-271126931294
 https://www.naukri.com/job-listings-quality-analyst-lead-generation-executive-team-leader-career-maker-consultancy-noida-1-to-5-years-261126939234
 https://www.naukri.com/job-listings-quality-analyst-teleperformance-global-business-private-limited-gurugram-0-to-5-years-281026925187
 https://www.naukri.com/job-listings-quantitative-analyst-invesco-hyderabad-pvt-ltd-hyderabad-3-to-8-years-261126939732
@@ -833,6 +837,7 @@ https://www.naukri.com/job-listings-senior-analyst-sundaram-business-services-ch
 https://www.naukri.com/job-listings-senior-analyst-sustainable-finance-careerist-management-consultants-delhi-ncr-0-to-4-years-231126021513
 https://www.naukri.com/job-listings-senior-business-analyst-investment-banking-epam-systems-pune-5-to-8-years-061126026029
 https://www.naukri.com/job-listings-senior-business-analyst-regulatory-reporting-epam-systems-chennai-bengaluru-5-to-8-years-061126026161
+https://www.naukri.com/job-listings-senior-business-analyst-regulatory-reporting-epam-systems-hyderabad-bengaluru-5-to-8-years-061126025972
 https://www.naukri.com/job-listings-senior-business-operations-analyst-conduent-business-services-india-llp-noida-8-to-13-years-271126924322
 https://www.naukri.com/job-listings-senior-consultant-fund-solutions-restructuring-india-kroll-llc-mumbai-new-delhi-4-to-7-years-261126911493
 https://www.naukri.com/job-listings-senior-content-analyst-spigot-software-bengaluru-3-to-8-years-271126056049
