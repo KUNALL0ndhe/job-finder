@@ -41,6 +41,7 @@ https://ie.indeed.com/viewjob?jk=11e39cec47cb73f4
 https://ie.indeed.com/viewjob?jk=12b19f43822e5da1
 https://ie.indeed.com/viewjob?jk=142086e2a1c9789d
 https://ie.indeed.com/viewjob?jk=27f3df30b573d661
+https://ie.indeed.com/viewjob?jk=303b25f04aec250f
 https://ie.indeed.com/viewjob?jk=3f66da32e79c9bca
 https://ie.indeed.com/viewjob?jk=45363d4b092fb811
 https://ie.indeed.com/viewjob?jk=4604085560982304
@@ -80,6 +81,7 @@ https://ie.indeed.com/viewjob?jk=caf0b2d8f7421108
 https://ie.indeed.com/viewjob?jk=cb6bdea09d85701e
 https://ie.indeed.com/viewjob?jk=cf5012c638b89a5a
 https://ie.indeed.com/viewjob?jk=d25050c37164ca9b
+https://ie.indeed.com/viewjob?jk=d4e7e30c1e948e39
 https://ie.indeed.com/viewjob?jk=d554abfcbfbf6353
 https://ie.indeed.com/viewjob?jk=decf27bf93d2fb71
 https://ie.indeed.com/viewjob?jk=eefb7cbc5f2d0637
@@ -90,6 +92,7 @@ https://in.indeed.com/viewjob?jk=011402d106a9d1c9
 https://in.indeed.com/viewjob?jk=02cef1226e4cb063
 https://in.indeed.com/viewjob?jk=02d15b95cd8c5746
 https://in.indeed.com/viewjob?jk=030a07eb1a647058
+https://in.indeed.com/viewjob?jk=0346638f90bcca7f
 https://in.indeed.com/viewjob?jk=036e12b644434963
 https://in.indeed.com/viewjob?jk=04169dd242f1cb62
 https://in.indeed.com/viewjob?jk=04499ea1d95e7e48
@@ -98,6 +101,7 @@ https://in.indeed.com/viewjob?jk=07314e4d12791874
 https://in.indeed.com/viewjob?jk=07b0a7855b976823
 https://in.indeed.com/viewjob?jk=09168f62eeb2642a
 https://in.indeed.com/viewjob?jk=09da0bcfed223567
+https://in.indeed.com/viewjob?jk=0a18c5757fa74640
 https://in.indeed.com/viewjob?jk=0a871ff6c1fd6838
 https://in.indeed.com/viewjob?jk=0b61913dff9a0f0e
 https://in.indeed.com/viewjob?jk=0b7ec7296da6455f
@@ -143,6 +147,7 @@ https://in.indeed.com/viewjob?jk=1d47b0be3aed91eb
 https://in.indeed.com/viewjob?jk=1d4b1110d433b977
 https://in.indeed.com/viewjob?jk=1d852accb87140a6
 https://in.indeed.com/viewjob?jk=1dfa787916a2a240
+https://in.indeed.com/viewjob?jk=1e57795ea828411c
 https://in.indeed.com/viewjob?jk=204ce526cae35725
 https://in.indeed.com/viewjob?jk=204e378f6b378fab
 https://in.indeed.com/viewjob?jk=205fa1c937ef9e16
@@ -311,6 +316,7 @@ https://in.indeed.com/viewjob?jk=787a54e233cdb787
 https://in.indeed.com/viewjob?jk=7910bfa94dd73e48
 https://in.indeed.com/viewjob?jk=79acd22b62caf1c5
 https://in.indeed.com/viewjob?jk=79bb981e6b439861
+https://in.indeed.com/viewjob?jk=79c24dbce3550056
 https://in.indeed.com/viewjob?jk=7b659875ee8ad4c9
 https://in.indeed.com/viewjob?jk=7bb4023185873da7
 https://in.indeed.com/viewjob?jk=7c3f2f31b592d6d5
@@ -406,6 +412,7 @@ https://in.indeed.com/viewjob?jk=b0815a1215bab88c
 https://in.indeed.com/viewjob?jk=b083aaeeb4460018
 https://in.indeed.com/viewjob?jk=b09a5d4c38dbb67e
 https://in.indeed.com/viewjob?jk=b0d8d44923f8ad51
+https://in.indeed.com/viewjob?jk=b0ec9739d66a2e32
 https://in.indeed.com/viewjob?jk=b15b0e18582cf534
 https://in.indeed.com/viewjob?jk=b33f9e56fdd3502b
 https://in.indeed.com/viewjob?jk=b39fbd32ca4de7f2
@@ -452,6 +459,7 @@ https://in.indeed.com/viewjob?jk=d1bfc361539c4524
 https://in.indeed.com/viewjob?jk=d2b4c59c0ee0f6f4
 https://in.indeed.com/viewjob?jk=d2fa68c15e3950d3
 https://in.indeed.com/viewjob?jk=d32f516f7dce1680
+https://in.indeed.com/viewjob?jk=d365268c0b4b36d3
 https://in.indeed.com/viewjob?jk=d65a63154b215359
 https://in.indeed.com/viewjob?jk=d683c32263758395
 https://in.indeed.com/viewjob?jk=d8a263f242be8f36
@@ -549,6 +557,7 @@ https://nl.indeed.com/viewjob?jk=95c2f1c898dfcae8
 https://nl.indeed.com/viewjob?jk=9734321b15841b8e
 https://nl.indeed.com/viewjob?jk=99e07ac05a529c27
 https://nl.indeed.com/viewjob?jk=aaef19358b59f161
+https://nl.indeed.com/viewjob?jk=b03085e891fb201b
 https://nl.indeed.com/viewjob?jk=bef995b574ff8af3
 https://nl.indeed.com/viewjob?jk=c557fe39709c1459
 https://nl.indeed.com/viewjob?jk=ca5e93ab7814f368
@@ -824,6 +833,7 @@ https://www.naukri.com/job-listings-senior-financial-analyst-fp-a-hitachi-energy
 https://www.naukri.com/job-listings-senior-lead-analyst-secondary-loan-trade-servicing-4-years-crescendo-global-leadership-hiring-india-mumbai-pune-chennai-5-to-10-years-171026012506
 https://www.naukri.com/job-listings-senior-lead-support-analyst-capital-market-investment-banking-exp-arbortec-systems-mohali-3-to-8-years-100925018634
 https://www.naukri.com/job-listings-senior-pricing-analyst-conduent-business-services-india-llp-bengaluru-3-to-6-years-271126924332
+https://www.naukri.com/job-listings-senior-pricing-analyst-conduent-business-services-india-llp-bengaluru-3-to-6-years-271126924902
 https://www.naukri.com/job-listings-senior-process-analyst-audit-compliance-thryve-digital-health-llp-hyderabad-2-to-7-years-261126930829
 https://www.naukri.com/job-listings-senior-product-valuation-control-analyst-wells-fargo-international-solutions-private-ltd-bengaluru-4-to-9-years-261126912849
 https://www.naukri.com/job-listings-senior-rating-analyst-crisil-limited-mumbai-2-to-5-years-261126020994

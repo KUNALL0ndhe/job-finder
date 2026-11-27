@@ -49,6 +49,7 @@ https://de.indeed.com/viewjob?jk=a416fd117fd624bd
 https://de.indeed.com/viewjob?jk=a8abcf5ff7542a4e
 https://de.indeed.com/viewjob?jk=accd202dff3b7412
 https://de.indeed.com/viewjob?jk=ae229137c397d578
+https://de.indeed.com/viewjob?jk=b1635917b888098a
 https://de.indeed.com/viewjob?jk=b1d38a58f44ea502
 https://de.indeed.com/viewjob?jk=b55973ddc0f4ec8b
 https://de.indeed.com/viewjob?jk=b7f13a344ada08b4
@@ -61,6 +62,7 @@ https://de.indeed.com/viewjob?jk=c56ae5c9146c5b83
 https://de.indeed.com/viewjob?jk=c5fef41446cab537
 https://de.indeed.com/viewjob?jk=c6cb70670ee0bebd
 https://de.indeed.com/viewjob?jk=ccb87eb025282521
+https://de.indeed.com/viewjob?jk=cdfe9f4024b1c8d2
 https://de.indeed.com/viewjob?jk=ced585467383e8b9
 https://de.indeed.com/viewjob?jk=d07aaf220a5ece8c
 https://de.indeed.com/viewjob?jk=d765886c1a72d559
@@ -146,6 +148,7 @@ https://in.indeed.com/viewjob?jk=273cecec4f0b3177
 https://in.indeed.com/viewjob?jk=27aae63c8cfe17e6
 https://in.indeed.com/viewjob?jk=27dadfeeae8c062b
 https://in.indeed.com/viewjob?jk=28185da888893eef
+https://in.indeed.com/viewjob?jk=288f4d1bd4c43ac8
 https://in.indeed.com/viewjob?jk=28999f9cde833c63
 https://in.indeed.com/viewjob?jk=2cea6c8dbf30fd93
 https://in.indeed.com/viewjob?jk=2dbc2f94f3bb73c6
@@ -173,6 +176,7 @@ https://in.indeed.com/viewjob?jk=44edb54b2d0e92dd
 https://in.indeed.com/viewjob?jk=45dafad291b9391c
 https://in.indeed.com/viewjob?jk=460a7b5f4473cac9
 https://in.indeed.com/viewjob?jk=49289d363951a8be
+https://in.indeed.com/viewjob?jk=4a9a0386d1505ae6
 https://in.indeed.com/viewjob?jk=4b972822df1aeaee
 https://in.indeed.com/viewjob?jk=4c1d7fb5ee6542e7
 https://in.indeed.com/viewjob?jk=4c48780d08c76966
@@ -430,6 +434,7 @@ https://nl.indeed.com/viewjob?jk=4d5b21dce2256712
 https://nl.indeed.com/viewjob?jk=528e726a6fbde618
 https://nl.indeed.com/viewjob?jk=55ffafc831a3d530
 https://nl.indeed.com/viewjob?jk=5e2b53a14552006a
+https://nl.indeed.com/viewjob?jk=6344776509c25ce7
 https://nl.indeed.com/viewjob?jk=64504bcfef71e4c6
 https://nl.indeed.com/viewjob?jk=733ac58105491461
 https://nl.indeed.com/viewjob?jk=79cc7cc1698a99a7
@@ -712,6 +717,7 @@ https://www.naukri.com/job-listings-product-owner-autosar-adas-international-shi
 https://www.naukri.com/job-listings-product-owner-callesto-hyderabad-10-to-15-years-261126030906
 https://www.naukri.com/job-listings-product-owner-embedded-automotive-larsen-toubro-l-t-pune-11-to-20-years-241126026239
 https://www.naukri.com/job-listings-product-owner-exl-new-delhi-gurugram-delhi-ncr-7-to-12-years-251126008062
+https://www.naukri.com/job-listings-product-owner-exposure-to-ai-genai-healthcare-solutions-is-preferred-innova-solutions-noida-hyderabad-bengaluru-10-to-12-years-271126057046
 https://www.naukri.com/job-listings-product-owner-retail-digital-banking-anyworks-in-bengaluru-10-to-12-years-271126920321
 https://www.naukri.com/job-listings-product-owner-srs-infoway-pune-8-to-13-years-261126038300
 https://www.naukri.com/job-listings-product-owner-techblocks-consulting-pvt-ltd-hyderabad-6-to-10-years-261126911293
@@ -719,6 +725,7 @@ https://www.naukri.com/job-listings-project-management-business-analyst-kiya-ai-
 https://www.naukri.com/job-listings-rpa-business-analyst-itc-infotech-bengaluru-10-to-20-years-251126021575
 https://www.naukri.com/job-listings-safe-product-owner-with-reinsurance-expertise-luxoft-india-llp-mumbai-pune-chennai-11-to-14-years-261126913139
 https://www.naukri.com/job-listings-sales-and-product-manager-supreme-textiles-jaipur-1-to-6-years-271126042814
+https://www.naukri.com/job-listings-salesforce-business-analyst-seasearcher-india-chennai-4-to-9-years-271126056898
 https://www.naukri.com/job-listings-sap-product-manager-logistics-execution-ravin-software-solutions-bengaluru-8-to-12-years-261126028347
 https://www.naukri.com/job-listings-sap-product-manager-logistics-execution-thoucentric-bengaluru-8-to-13-years-261126042551
 https://www.naukri.com/job-listings-sap-product-manager-sd-thoucentric-bengaluru-7-to-8-years-271126013630
@@ -776,6 +783,7 @@ https://www.naukri.com/job-listings-sr-staff-technical-product-manager-ai-ml-ge-
 https://www.naukri.com/job-listings-sr-staff-technical-product-manager-ge-renewable-energy-technologies-private-limited-bengaluru-7-to-11-years-261126913190
 https://www.naukri.com/job-listings-staff-product-manager-finance-rtr-okta-identity-india-private-limited-bengaluru-10-to-15-years-261126913518
 https://www.naukri.com/job-listings-staff-technical-product-manager-ai-ml-ge-renewable-energy-technologies-private-limited-bengaluru-8-to-12-years-261126913503
+https://www.naukri.com/job-listings-technical-business-analyst-conduent-delhi-ncr-0-to-0-years-271126926240
 https://www.naukri.com/job-listings-technical-business-analyst-ibytes-bits-bots-chennai-0-to-2-years-201126026963
 https://www.naukri.com/job-listings-technical-business-analyst-navi-mumbai-celebal-technologies-navi-mumbai-6-to-11-years-041126029392
 https://www.naukri.com/job-listings-technical-lead-product-manager-ukg-noida-8-to-13-years-301026028820
