@@ -24,6 +24,7 @@ https://de.indeed.com/viewjob?jk=5d1077677e45bf4a
 https://de.indeed.com/viewjob?jk=5ffa64ece3f2038c
 https://de.indeed.com/viewjob?jk=613ed8bb619135b0
 https://de.indeed.com/viewjob?jk=68271942bab679ac
+https://de.indeed.com/viewjob?jk=6a0b568d29b944af
 https://de.indeed.com/viewjob?jk=6c3606c548e589e3
 https://de.indeed.com/viewjob?jk=775dcf50017994c8
 https://de.indeed.com/viewjob?jk=79bd99a5d885602c
@@ -36,6 +37,7 @@ https://de.indeed.com/viewjob?jk=8639ea7d21352d55
 https://de.indeed.com/viewjob?jk=86fd095b14949534
 https://de.indeed.com/viewjob?jk=8b99fc71721db825
 https://de.indeed.com/viewjob?jk=8d91b83e52977f5d
+https://de.indeed.com/viewjob?jk=8ecb31734bbb88d1
 https://de.indeed.com/viewjob?jk=8f31c6917f07bb88
 https://de.indeed.com/viewjob?jk=8f7ae1b26b5c5416
 https://de.indeed.com/viewjob?jk=9040a677d95f40db
@@ -224,6 +226,7 @@ https://in.indeed.com/viewjob?jk=75724cd93802d3bd
 https://in.indeed.com/viewjob?jk=759d2953ae0d22e4
 https://in.indeed.com/viewjob?jk=775894d0ec840901
 https://in.indeed.com/viewjob?jk=7789b93e6a1206b5
+https://in.indeed.com/viewjob?jk=77d56e3d5094b14d
 https://in.indeed.com/viewjob?jk=783c29294fec2c5f
 https://in.indeed.com/viewjob?jk=79196597d0dc98a9
 https://in.indeed.com/viewjob?jk=794e8315fe452667
@@ -231,6 +234,7 @@ https://in.indeed.com/viewjob?jk=79ad3c492204c151
 https://in.indeed.com/viewjob?jk=79bb981e6b439861
 https://in.indeed.com/viewjob?jk=79f24d7dbf07ac36
 https://in.indeed.com/viewjob?jk=7a20918af20d300c
+https://in.indeed.com/viewjob?jk=7a9f28ed91c7f5bd
 https://in.indeed.com/viewjob?jk=7c2a313a5a80bd53
 https://in.indeed.com/viewjob?jk=7cb5c5b431253c59
 https://in.indeed.com/viewjob?jk=7d0b17af3340f463
@@ -329,6 +333,7 @@ https://in.indeed.com/viewjob?jk=b89644b59b56e8bd
 https://in.indeed.com/viewjob?jk=b91f0810ee35b3ac
 https://in.indeed.com/viewjob?jk=b92a8ecd3c4315ee
 https://in.indeed.com/viewjob?jk=b9585550caf3c9d7
+https://in.indeed.com/viewjob?jk=babb03511f08d422
 https://in.indeed.com/viewjob?jk=bac2c6b0284b437b
 https://in.indeed.com/viewjob?jk=bb14ca96cfdee5e8
 https://in.indeed.com/viewjob?jk=bbef8fd4e90ac1fe
@@ -354,11 +359,13 @@ https://in.indeed.com/viewjob?jk=c7c71ea6b9f27059
 https://in.indeed.com/viewjob?jk=c847a34af15e2213
 https://in.indeed.com/viewjob?jk=c86be10f5386070d
 https://in.indeed.com/viewjob?jk=c9948bb6858f422f
+https://in.indeed.com/viewjob?jk=c9d33debcce69a5b
 https://in.indeed.com/viewjob?jk=c9fc3a753618a699
 https://in.indeed.com/viewjob?jk=ca6407369016cbed
 https://in.indeed.com/viewjob?jk=cab24aba6ee5e54d
 https://in.indeed.com/viewjob?jk=cacd9c2dfcc89299
 https://in.indeed.com/viewjob?jk=cb522d3528c4ae30
+https://in.indeed.com/viewjob?jk=cc4254a5fb36e4ec
 https://in.indeed.com/viewjob?jk=cd70dbc3160edf24
 https://in.indeed.com/viewjob?jk=ce03def841b3ec91
 https://in.indeed.com/viewjob?jk=ce9ad253d950bd74
@@ -443,6 +450,7 @@ https://nl.indeed.com/viewjob?jk=d90a7b39146e8a0d
 https://nl.indeed.com/viewjob?jk=d9da71eda9f440f8
 https://nl.indeed.com/viewjob?jk=de787f53ab77fc48
 https://nl.indeed.com/viewjob?jk=ed30afc9661ce6d5
+https://nl.indeed.com/viewjob?jk=edf07c9190dea7b3
 https://nl.indeed.com/viewjob?jk=ee84eae34c20e509
 https://nl.indeed.com/viewjob?jk=efce8ade4d9d6bba
 https://nl.indeed.com/viewjob?jk=f06e054a3d355fff
@@ -544,6 +552,7 @@ https://www.naukri.com/job-listings-business-analyst-servicenow-itsm-cmdb-itam-r
 https://www.naukri.com/job-listings-business-analyst-synergy-hr-consultancy-gurugram-1-to-5-years-241126026836
 https://www.naukri.com/job-listings-business-analyst-technical-dlf-ltd-gurugram-5-to-10-years-251126014572
 https://www.naukri.com/job-listings-business-analyst-techrays-navi-mumbai-1-to-3-years-251126024364
+https://www.naukri.com/job-listings-business-analyst-teksystems-global-services-hyderabad-bengaluru-7-to-12-years-271126054285
 https://www.naukri.com/job-listings-business-analyst-teleperformance-global-business-private-limited-gurugram-0-to-5-years-281026925193
 https://www.naukri.com/job-listings-business-analyst-thyrocare-navi-mumbai-bengaluru-2-to-4-years-070926003556
 https://www.naukri.com/job-listings-business-analyst-vbeyond-corporation-gurugram-9-to-13-years-251126035739
@@ -558,12 +567,14 @@ https://www.naukri.com/job-listings-dgm-product-management-symbiosis-management-
 https://www.naukri.com/job-listings-digital-product-manager-expert-finance-technology-allstate-solutions-private-limited-pune-bengaluru-6-to-9-years-281026918055
 https://www.naukri.com/job-listings-digital-product-manager-wells-fargo-international-solutions-private-ltd-hyderabad-5-to-10-years-261126939722
 https://www.naukri.com/job-listings-director-senior-product-manager-artificial-intelligence-b2b-saas-l-consultbae-bengaluru-6-to-10-years-261026916554
+https://www.naukri.com/job-listings-director-senior-product-manager-artificial-intelligence-b2b-saas-l-consultbae-gurugram-6-to-10-years-261026916584
 https://www.naukri.com/job-listings-director-senior-product-manager-artificial-intelligence-b2b-saas-l-consultbae-mumbai-all-areas-6-to-10-years-261026916561
 https://www.naukri.com/job-listings-domain-consultant-business-analyst-functional-consultant-part-time-datagaps-hyderabad-6-to-11-years-251126028287
 https://www.naukri.com/job-listings-expert-senior-business-analyst-ciklum-pune-chennai-bengaluru-5-to-10-years-301026015827
 https://www.naukri.com/job-listings-functional-product-analyst-aa-thakral-one-solutions-pvt-ltd-bengaluru-1-to-3-years-271126911778
 https://www.naukri.com/job-listings-genesys-product-owner-horizontal-integration-bengaluru-8-to-13-years-271126021010
 https://www.naukri.com/job-listings-group-product-manager-eris-mumbai-all-areas-7-to-12-years-281125009413
+https://www.naukri.com/job-listings-group-product-manager-gynecology-segment-sarvysampanna-system-solutions-mumbai-all-areas-6-to-11-years-271126056219
 https://www.naukri.com/job-listings-group-product-manager-medopharm-chennai-5-to-10-years-170626021308
 https://www.naukri.com/job-listings-guidewire-business-analyst-p-c-4-years-gurugram-hybrid-crescendo-global-leadership-hiring-india-gurugram-4-to-8-years-261126045067
 https://www.naukri.com/job-listings-hiring-business-analyst-need-candidates-from-service-based-company-technorucs-chennai-4-to-6-years-010726008698
@@ -571,6 +582,7 @@ https://www.naukri.com/job-listings-hiring-for-product-manager-trading-platforms
 https://www.naukri.com/job-listings-hiring-lead-business-analyst-bangalore-location-photon-bengaluru-8-to-13-years-271126039876
 https://www.naukri.com/job-listings-hiring-product-associate-product-owner-sevaro-delhi-ncr-7-to-10-years-151126003974
 https://www.naukri.com/job-listings-immediate-opportunity-for-business-analyst-accion-labs-mumbai-pune-bengaluru-5-to-10-years-261126019893
+https://www.naukri.com/job-listings-it-business-analyst-us-healthcare-shearwater-health-chennai-5-to-10-years-070826023933
 https://www.naukri.com/job-listings-it-data-product-analyst-p2p-infosys-hyderabad-9-to-10-years-011026000421
 https://www.naukri.com/job-listings-junior-product-manager-infoblox-bengaluru-1-to-3-years-121126021979
 https://www.naukri.com/job-listings-junior-product-manager-r-k-gems-surat-7-to-10-years-241126015444
@@ -602,6 +614,7 @@ https://www.naukri.com/job-listings-principal-product-manager-recovery-orchestra
 https://www.naukri.com/job-listings-principal-product-manager-true-valuehub-inc-bengaluru-12-to-20-years-251126015693
 https://www.naukri.com/job-listings-product-analyst-creditspring-bengaluru-3-to-5-years-201126024826
 https://www.naukri.com/job-listings-product-analyst-fusion-business-solutions-udaipur-3-to-6-years-141126015782
+https://www.naukri.com/job-listings-product-analyst-jobaaj-com-pune-0-to-2-years-271126050242
 https://www.naukri.com/job-listings-product-analyst-niyo-solutions-bengaluru-2-to-4-years-251126503083
 https://www.naukri.com/job-listings-product-analyst-novotree-minds-consulting-bengaluru-4-to-7-years-271126010228
 https://www.naukri.com/job-listings-product-analyst-zeomega-infotech-bengaluru-2-to-7-years-210426034574
@@ -664,6 +677,7 @@ https://www.naukri.com/job-listings-product-manager-operations-the-sleep-company
 https://www.naukri.com/job-listings-product-manager-power-systems-saas-eiris-innovations-pune-8-to-13-years-261126019452
 https://www.naukri.com/job-listings-product-manager-pragma-edge-software-services-hyderabad-8-to-13-years-251126029721
 https://www.naukri.com/job-listings-product-manager-protech-biosystems-gurugram-4-to-8-years-271126031009
+https://www.naukri.com/job-listings-product-manager-pune-amor-management-consultants-pune-5-to-9-years-020926014993
 https://www.naukri.com/job-listings-product-manager-r-k-bansal-finance-gurugram-3-to-7-years-261126016373
 https://www.naukri.com/job-listings-product-manager-reliance-life-sciences-rls-navi-mumbai-4-to-9-years-251126033062
 https://www.naukri.com/job-listings-product-manager-sap-mdg-upman-placements-mumbai-suburban-navi-mumbai-mumbai-all-areas-8-to-13-years-251126029229
@@ -753,6 +767,7 @@ https://www.naukri.com/job-listings-servicenow-business-analyst-sie-brains-benga
 https://www.naukri.com/job-listings-sr-business-analyst-d365-f-o-finance-intech-systems-private-limited-ahmedabad-4-to-5-years-261126913732
 https://www.naukri.com/job-listings-sr-consultant-channels-business-analyst-project-manager-centre-for-recruitment-selection-hyderabad-bengaluru-mumbai-all-areas-8-to-13-years-261126018889
 https://www.naukri.com/job-listings-sr-executive-business-product-management-evolute-group-mumbai-suburban-bengaluru-mumbai-all-areas-3-to-5-years-261126040786
+https://www.naukri.com/job-listings-sr-product-manager-in-security-surveillance-industry-for-mumbai-bangal-evolute-group-bengaluru-mumbai-all-areas-7-to-12-years-271126054649
 https://www.naukri.com/job-listings-sr-staff-technical-product-manager-ai-ml-ge-renewable-energy-technologies-private-limited-bengaluru-12-to-15-years-261126911329
 https://www.naukri.com/job-listings-sr-staff-technical-product-manager-ge-renewable-energy-technologies-private-limited-bengaluru-7-to-11-years-261126913190
 https://www.naukri.com/job-listings-staff-product-manager-finance-rtr-okta-identity-india-private-limited-bengaluru-10-to-15-years-261126913518
