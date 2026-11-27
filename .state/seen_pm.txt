@@ -67,6 +67,7 @@ https://de.indeed.com/viewjob?jk=efc4796688b4b916
 https://de.indeed.com/viewjob?jk=f7b3c99371360542
 https://de.indeed.com/viewjob?jk=fa2838bc8c407c19
 https://de.indeed.com/viewjob?jk=fc8a68a27e48422b
+https://de.indeed.com/viewjob?jk=fd1f745fe74a76ce
 https://de.indeed.com/viewjob?jk=fecddb59e8fec288
 https://ie.indeed.com/viewjob?jk=12c564e8a9f89d6f
 https://ie.indeed.com/viewjob?jk=40b1010c65802f9e
@@ -208,6 +209,7 @@ https://in.indeed.com/viewjob?jk=6f4ea4e458aaa134
 https://in.indeed.com/viewjob?jk=70ac44f158269477
 https://in.indeed.com/viewjob?jk=70ef2759490dac41
 https://in.indeed.com/viewjob?jk=720e68af192b551e
+https://in.indeed.com/viewjob?jk=72773fab44ef4343
 https://in.indeed.com/viewjob?jk=741ba09a80036256
 https://in.indeed.com/viewjob?jk=743052819533ab32
 https://in.indeed.com/viewjob?jk=74aef29e7bd0ef13
@@ -216,6 +218,7 @@ https://in.indeed.com/viewjob?jk=75724cd93802d3bd
 https://in.indeed.com/viewjob?jk=759d2953ae0d22e4
 https://in.indeed.com/viewjob?jk=775894d0ec840901
 https://in.indeed.com/viewjob?jk=7789b93e6a1206b5
+https://in.indeed.com/viewjob?jk=783c29294fec2c5f
 https://in.indeed.com/viewjob?jk=79196597d0dc98a9
 https://in.indeed.com/viewjob?jk=794e8315fe452667
 https://in.indeed.com/viewjob?jk=79ad3c492204c151
@@ -299,6 +302,7 @@ https://in.indeed.com/viewjob?jk=ab94143bfe460253
 https://in.indeed.com/viewjob?jk=ad0a61bdf9afc80d
 https://in.indeed.com/viewjob?jk=ad6537761643ff63
 https://in.indeed.com/viewjob?jk=af8bce40b07711c1
+https://in.indeed.com/viewjob?jk=af8f948ee6618591
 https://in.indeed.com/viewjob?jk=afa37e7247bc58bd
 https://in.indeed.com/viewjob?jk=b1afe39f3150978c
 https://in.indeed.com/viewjob?jk=b1b468e54d8f2b21
@@ -463,6 +467,7 @@ https://www.naukri.com/job-listings-business-analyst-commercial-corporate-lendin
 https://www.naukri.com/job-listings-business-analyst-corporate-actions-and-payments-ifinsol-global-hyderabad-bengaluru-5-to-10-years-121126008372
 https://www.naukri.com/job-listings-business-analyst-data-analyst-data-science-syntrex-technology-hyderabad-pune-bengaluru-0-to-0-years-261126010889
 https://www.naukri.com/job-listings-business-analyst-data-governance-gurgaon-morning-shift-genpact-gurugram-8-to-13-years-261126011897
+https://www.naukri.com/job-listings-business-analyst-databricks-analytics-ai-useready-chennai-bengaluru-delhi-ncr-8-to-10-years-271126014600
 https://www.naukri.com/job-listings-business-analyst-ecolab-global-services-pune-2-to-5-years-141026029620
 https://www.naukri.com/job-listings-business-analyst-financial-products-mumbai-powai-hcltech-mumbai-pune-8-to-13-years-261126001661
 https://www.naukri.com/job-listings-business-analyst-for-econometrics-modelling-dev-solutions-gurugram-3-to-5-years-241126028351
@@ -474,6 +479,7 @@ https://www.naukri.com/job-listings-business-analyst-intertek-mumbai-all-areas-3
 https://www.naukri.com/job-listings-business-analyst-iris-software-noida-pune-gurugram-7-to-8-years-291026003811
 https://www.naukri.com/job-listings-business-analyst-k-raheja-corp-mumbai-5-to-10-years-251126032343
 https://www.naukri.com/job-listings-business-analyst-kaycee-enterprises-gurugram-6-to-11-years-261126036282
+https://www.naukri.com/job-listings-business-analyst-lead-golden-opportunities-pvt-ltd-chennai-5-to-10-years-301026916463
 https://www.naukri.com/job-listings-business-analyst-lending-ai-projects-bdo-india-mumbai-5-to-10-years-250926033334
 https://www.naukri.com/job-listings-business-analyst-life-asia-planit-testing-india-mumbai-all-areas-4-to-8-years-311026011016
 https://www.naukri.com/job-listings-business-analyst-lorven-technologies-pune-6-to-11-years-251126031791
@@ -563,6 +569,7 @@ https://www.naukri.com/job-listings-product-manager-aptech-limited-mumbai-mumbai
 https://www.naukri.com/job-listings-product-manager-ase-kalki-communication-technologies-bengaluru-8-to-13-years-251126017411
 https://www.naukri.com/job-listings-product-manager-associate-cognizant-hyderabad-3-to-6-years-121026009213
 https://www.naukri.com/job-listings-product-manager-commercial-navikenz-india-bangalore-rural-10-to-20-years-261126035752
+https://www.naukri.com/job-listings-product-manager-core-infra-services-development-tata-communications-ltd-mumbai-4-to-7-years-281026913132
 https://www.naukri.com/job-listings-product-manager-cross-sell-business-planning-kotak-mahindra-bank-mumbai-3-to-6-years-021126009274
 https://www.naukri.com/job-listings-product-manager-digital-health-benovymed-healthcare-private-limited-gurugram-0-to-5-years-231126913114
 https://www.naukri.com/job-listings-product-manager-epam-systems-coimbatore-jaipur-bengaluru-10-to-13-years-261026030203
@@ -585,6 +592,7 @@ https://www.naukri.com/job-listings-product-manager-insurance-lkp-securities-mum
 https://www.naukri.com/job-listings-product-manager-intern-cloutgency-chennai-0-to-1-years-201126501575
 https://www.naukri.com/job-listings-product-manager-intern-sonalika-tractors-new-delhi-0-to-1-years-231126020252
 https://www.naukri.com/job-listings-product-manager-inverter-mijas-consultants-jaipur-mumbai-all-areas-6-to-11-years-271126010230
+https://www.naukri.com/job-listings-product-manager-invok-hr-nagpur-10-to-15-years-271126013278
 https://www.naukri.com/job-listings-product-manager-js-jobstick-technologies-hyderabad-chennai-16-to-22-years-261126031799
 https://www.naukri.com/job-listings-product-manager-mac-chem-products-mumbai-mumbai-suburban-thane-navi-mumbai-virar-2-to-7-years-261126040491
 https://www.naukri.com/job-listings-product-manager-mf-lkp-securities-mumbai-mumbai-suburban-navi-mumbai-2-to-7-years-261126032137
@@ -609,6 +617,7 @@ https://www.naukri.com/job-listings-product-manager-trade-forex-rbl-bank-mumbai-
 https://www.naukri.com/job-listings-product-manager-travel-tech-quadlabs-technologies-gurugram-5-to-10-years-141026029324
 https://www.naukri.com/job-listings-product-manager-upi-cheq-digital-bengaluru-2-to-5-years-261126012515
 https://www.naukri.com/job-listings-product-manager-weighing-solutions-abb-india-limited-bengaluru-5-to-8-years-261126031085
+https://www.naukri.com/job-listings-product-manager-wockhardt-limited-mumbai-all-areas-4-to-7-years-271126014425
 https://www.naukri.com/job-listings-product-manager-z-security-ibm-india-pvt-limited-bengaluru-7-to-12-years-251126917502
 https://www.naukri.com/job-listings-product-manager-zigram-gurugram-6-to-9-years-190326020864
 https://www.naukri.com/job-listings-product-manager-zodiac-hr-consultants-mumbai-all-areas-2-to-7-years-251126034634
@@ -628,6 +637,7 @@ https://www.naukri.com/job-listings-rpa-business-analyst-itc-infotech-bengaluru-
 https://www.naukri.com/job-listings-safe-product-owner-with-reinsurance-expertise-luxoft-india-llp-mumbai-pune-chennai-11-to-14-years-261126913139
 https://www.naukri.com/job-listings-sap-product-manager-logistics-execution-ravin-software-solutions-bengaluru-8-to-12-years-261126028347
 https://www.naukri.com/job-listings-sap-product-manager-logistics-execution-thoucentric-bengaluru-8-to-13-years-261126042551
+https://www.naukri.com/job-listings-sap-product-manager-sd-thoucentric-bengaluru-7-to-8-years-271126013630
 https://www.naukri.com/job-listings-senior-analyst-rpa-business-analyst-thryve-digital-health-llp-hyderabad-chennai-5-to-9-years-261126941973
 https://www.naukri.com/job-listings-senior-associate-nfs-product-manager-national-payments-corporation-of-india-npci-mumbai-2-to-6-years-261126033951
 https://www.naukri.com/job-listings-senior-business-analyst-accounting-insurance-bdo-india-mumbai-all-areas-8-to-13-years-091026026859
@@ -669,6 +679,7 @@ https://www.naukri.com/job-listings-sr-staff-technical-product-manager-ai-ml-ge-
 https://www.naukri.com/job-listings-sr-staff-technical-product-manager-ge-renewable-energy-technologies-private-limited-bengaluru-7-to-11-years-261126913190
 https://www.naukri.com/job-listings-staff-product-manager-finance-rtr-okta-identity-india-private-limited-bengaluru-10-to-15-years-261126913518
 https://www.naukri.com/job-listings-staff-technical-product-manager-ai-ml-ge-renewable-energy-technologies-private-limited-bengaluru-8-to-12-years-261126913503
+https://www.naukri.com/job-listings-technical-business-analyst-ibytes-bits-bots-chennai-0-to-2-years-201126026963
 https://www.naukri.com/job-listings-technical-lead-product-manager-ukg-noida-8-to-13-years-301026028820
 https://www.naukri.com/job-listings-technical-product-management-intern-klimb-mumbai-0-to-1-years-251126504705
 https://www.naukri.com/job-listings-technical-product-manager-ai-platforms-director-natwest-digital-services-india-pvt-ltd-chennai-gurugram-bengaluru-9-to-13-years-231126917737
