@@ -43,6 +43,7 @@ https://ie.indeed.com/viewjob?jk=142086e2a1c9789d
 https://ie.indeed.com/viewjob?jk=27f3df30b573d661
 https://ie.indeed.com/viewjob?jk=3f66da32e79c9bca
 https://ie.indeed.com/viewjob?jk=45363d4b092fb811
+https://ie.indeed.com/viewjob?jk=4604085560982304
 https://ie.indeed.com/viewjob?jk=461101b5f2aa0e58
 https://ie.indeed.com/viewjob?jk=4ea1aa5eca461df0
 https://ie.indeed.com/viewjob?jk=4ec90383e943c63e
@@ -136,6 +137,7 @@ https://in.indeed.com/viewjob?jk=1d852accb87140a6
 https://in.indeed.com/viewjob?jk=1dfa787916a2a240
 https://in.indeed.com/viewjob?jk=204ce526cae35725
 https://in.indeed.com/viewjob?jk=204e378f6b378fab
+https://in.indeed.com/viewjob?jk=205fa1c937ef9e16
 https://in.indeed.com/viewjob?jk=230507169013d4f3
 https://in.indeed.com/viewjob?jk=235d9952b9e68104
 https://in.indeed.com/viewjob?jk=239c92ec8d9f6ad8
@@ -306,6 +308,7 @@ https://in.indeed.com/viewjob?jk=84ce391fbeca2268
 https://in.indeed.com/viewjob?jk=857209492785be6e
 https://in.indeed.com/viewjob?jk=859bc60a7e9994fa
 https://in.indeed.com/viewjob?jk=87a988ebc2758868
+https://in.indeed.com/viewjob?jk=889678cd25e375e7
 https://in.indeed.com/viewjob?jk=894ce0120864395f
 https://in.indeed.com/viewjob?jk=89c0a2c22e2279c4
 https://in.indeed.com/viewjob?jk=8a0bb4deacfca96c
@@ -418,6 +421,7 @@ https://in.indeed.com/viewjob?jk=d683c32263758395
 https://in.indeed.com/viewjob?jk=d8a263f242be8f36
 https://in.indeed.com/viewjob?jk=d9bb0573846be485
 https://in.indeed.com/viewjob?jk=d9e7679c1a1191bb
+https://in.indeed.com/viewjob?jk=da268edccd82ec02
 https://in.indeed.com/viewjob?jk=da9c6e0b31e1f06b
 https://in.indeed.com/viewjob?jk=db2249c8ae44f0d9
 https://in.indeed.com/viewjob?jk=dbc82df7c327946f
@@ -470,6 +474,7 @@ https://in.indeed.com/viewjob?jk=f745c65ab2031561
 https://in.indeed.com/viewjob?jk=f74b454bc652c954
 https://in.indeed.com/viewjob?jk=f7b6aa86d1d069c1
 https://in.indeed.com/viewjob?jk=f8349bac6e7d97ca
+https://in.indeed.com/viewjob?jk=f8618ed046ab402e
 https://in.indeed.com/viewjob?jk=f8e4029a5919835b
 https://in.indeed.com/viewjob?jk=f995beaccd281e22
 https://in.indeed.com/viewjob?jk=f9aed4b92a574fcf
@@ -670,6 +675,7 @@ https://www.naukri.com/job-listings-senior-analyst-assurance-bangalore-bdo-india
 https://www.naukri.com/job-listings-senior-analyst-atr-a-p-moller-maersk-pune-3-to-6-years-121126928884
 https://www.naukri.com/job-listings-senior-analyst-auto-cad-operations-jones-lang-lasalle-property-consultants-gurugram-4-to-6-years-251126028044
 https://www.naukri.com/job-listings-senior-analyst-bdo-india-noida-2-to-7-years-050826037711
+https://www.naukri.com/job-listings-senior-analyst-business-valuation-role-anlage-infotech-gurugram-2-to-3-years-271126005824
 https://www.naukri.com/job-listings-senior-analyst-cyber-security-operations-lpl-financial-hyderabad-7-to-11-years-021126025691
 https://www.naukri.com/job-listings-senior-analyst-data-reporting-kpmg-delivery-network-bengaluru-2-to-4-years-261126040288
 https://www.naukri.com/job-listings-senior-analyst-data-scientist-stan-developer-anlage-infotech-chennai-6-to-11-years-041126012271
