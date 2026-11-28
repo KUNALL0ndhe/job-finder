@@ -146,6 +146,7 @@ https://in.indeed.com/viewjob?jk=16b2ef8a70c75edb
 https://in.indeed.com/viewjob?jk=16d531320b8b1fde
 https://in.indeed.com/viewjob?jk=1710940b39821f9d
 https://in.indeed.com/viewjob?jk=171f2f84e3435cc3
+https://in.indeed.com/viewjob?jk=17f3d15ce09e1972
 https://in.indeed.com/viewjob?jk=18b5831e69b8777b
 https://in.indeed.com/viewjob?jk=1a2fc27edaea3e4a
 https://in.indeed.com/viewjob?jk=1ae879961c159d16
@@ -158,6 +159,7 @@ https://in.indeed.com/viewjob?jk=1d30cc5cd779bfee
 https://in.indeed.com/viewjob?jk=1d47b0be3aed91eb
 https://in.indeed.com/viewjob?jk=1d4b1110d433b977
 https://in.indeed.com/viewjob?jk=1d852accb87140a6
+https://in.indeed.com/viewjob?jk=1de14ab0fb287a05
 https://in.indeed.com/viewjob?jk=1dfa787916a2a240
 https://in.indeed.com/viewjob?jk=1e57795ea828411c
 https://in.indeed.com/viewjob?jk=204ce526cae35725
@@ -466,6 +468,7 @@ https://in.indeed.com/viewjob?jk=be5393b63d8131a1
 https://in.indeed.com/viewjob?jk=beb1be5d06763d37
 https://in.indeed.com/viewjob?jk=bf7aa2f3e655a97e
 https://in.indeed.com/viewjob?jk=bf84c8d1cfcd177f
+https://in.indeed.com/viewjob?jk=c00b995013e43f25
 https://in.indeed.com/viewjob?jk=c1dfebcffaa8d1a9
 https://in.indeed.com/viewjob?jk=c2dc377496518b9d
 https://in.indeed.com/viewjob?jk=c3e2c86e5a44c57c
@@ -668,6 +671,7 @@ https://www.naukri.com/job-listings-business-analyst-with-banking-financial-serv
 https://www.naukri.com/job-listings-business-analyst-with-stock-markets-securities-experience-tecnics-integration-technologies-hyderabad-8-to-13-years-261126015778
 https://www.naukri.com/job-listings-business-development-financial-analyst-blue-lion-fintech-gurugram-0-to-6-years-251126036461
 https://www.naukri.com/job-listings-business-finance-analyst-k12-techno-services-bengaluru-1-to-4-years-250826012102
+https://www.naukri.com/job-listings-business-finance-senior-analyst-deutsche-bank-mumbai-all-areas-4-to-9-years-281126015671
 https://www.naukri.com/job-listings-business-operations-analyst-konnectark-hyderabad-4-to-9-years-271126040131
 https://www.naukri.com/job-listings-business-system-analyst-sql-iris-software-chennai-delhi-ncr-6-to-8-years-301026017303
 https://www.naukri.com/job-listings-buyer-analyst-procurement-operations-order-management-quess-it-solutions-pune-2-to-6-years-021126024703
