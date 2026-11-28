@@ -434,6 +434,7 @@ https://in.indeed.com/viewjob?jk=f5b1916034fedbe2
 https://in.indeed.com/viewjob?jk=f5c2a5575bd7740b
 https://in.indeed.com/viewjob?jk=f9d01c05487ad367
 https://in.indeed.com/viewjob?jk=fa7ca544801a991d
+https://in.indeed.com/viewjob?jk=facb3d4614f7a548
 https://in.indeed.com/viewjob?jk=fd4fcf4e539246c7
 https://in.indeed.com/viewjob?jk=fe07c69819d12f9e
 https://in.indeed.com/viewjob?jk=fe2e87a4217ba9b8
@@ -592,6 +593,7 @@ https://www.naukri.com/job-listings-business-analyst-thyrocare-navi-mumbai-benga
 https://www.naukri.com/job-listings-business-analyst-vbeyond-corporation-gurugram-9-to-13-years-251126035739
 https://www.naukri.com/job-listings-business-analyst-vc-erp-consulting-ahmedabad-3-to-8-years-261126043652
 https://www.naukri.com/job-listings-business-analyst-veka-hyderabad-4-to-6-years-040925001260
+https://www.naukri.com/job-listings-business-analyst-vitanatura-elements-kozhikode-0-to-3-years-171026015338
 https://www.naukri.com/job-listings-business-analyst-with-aiml-genai-use-cases-for-for-ai-ml-solutions-genpact-hyderabad-bengaluru-delhi-ncr-8-to-12-years-100426026447
 https://www.naukri.com/job-listings-business-analyst-with-banking-financial-services-capital-market-domain-tecnics-integration-technologies-hyderabad-10-to-20-years-251126022234
 https://www.naukri.com/job-listings-business-analyst-with-stock-markets-securities-experience-tecnics-integration-technologies-hyderabad-8-to-13-years-261126015778
@@ -643,6 +645,7 @@ https://www.naukri.com/job-listings-manager-business-product-management-evolute-
 https://www.naukri.com/job-listings-marketing-manager-group-product-manager-dermatology-eris-mumbai-all-areas-8-to-13-years-241025008987
 https://www.naukri.com/job-listings-mdm-project-manager-business-analyst-pm-ba-medtech-domain-mewar-technology-services-bengaluru-10-to-15-years-021126003865
 https://www.naukri.com/job-listings-oracle-r12-ebs-lead-product-manager-financials-zettamine-labs-hyderabad-chennai-bengaluru-8-to-13-years-261126036118
+https://www.naukri.com/job-listings-payments-business-analyst-hindco-recruitment-consultants-gurugram-5-to-10-years-271126946455
 https://www.naukri.com/job-listings-payments-business-analyst-hindco-recruitment-consultants-new-delhi-5-to-10-years-271126946458
 https://www.naukri.com/job-listings-presales-business-analyst-dotsquares-jaipur-united-kingdom-uk-6-to-11-years-271126028546
 https://www.naukri.com/job-listings-presales-business-analyst-learningmate-solutions-mumbai-4-to-8-years-251126025249
@@ -682,6 +685,7 @@ https://www.naukri.com/job-listings-product-manager-associate-cognizant-hyderaba
 https://www.naukri.com/job-listings-product-manager-business-analyst-intern-bitkraft-technologies-mumbai-0-to-1-years-271126919699
 https://www.naukri.com/job-listings-product-manager-commercial-navikenz-india-bangalore-rural-10-to-20-years-261126035752
 https://www.naukri.com/job-listings-product-manager-core-infra-services-development-tata-communications-ltd-mumbai-4-to-7-years-281026913132
+https://www.naukri.com/job-listings-product-manager-corporate-functions-olectra-greentech-hyderabad-7-to-12-years-281126008919
 https://www.naukri.com/job-listings-product-manager-creative-hands-hr-hyderabad-8-to-11-years-271126044488
 https://www.naukri.com/job-listings-product-manager-cross-sell-business-planning-kotak-mahindra-bank-mumbai-3-to-6-years-021126009274
 https://www.naukri.com/job-listings-product-manager-digital-health-benovymed-healthcare-private-limited-gurugram-0-to-5-years-231126913114
@@ -699,6 +703,7 @@ https://www.naukri.com/job-listings-product-manager-gyne-pharma-co-mumbai-hrd-ho
 https://www.naukri.com/job-listings-product-manager-gyne-pharma-co-mumbai-hrd-house-mumbai-4-to-6-years-261126034187
 https://www.naukri.com/job-listings-product-manager-healthcare-provider-happiest-minds-technologies-bengaluru-12-to-18-years-251126011762
 https://www.naukri.com/job-listings-product-manager-hi-focus-chennai-4-to-8-years-261126027578
+https://www.naukri.com/job-listings-product-manager-hindi-amrutha-business-solution-chennai-5-to-10-years-281126008327
 https://www.naukri.com/job-listings-product-manager-i-cvent-gurugram-7-to-9-years-251126029492
 https://www.naukri.com/job-listings-product-manager-i-principal-global-services-pvt-ltd-pune-8-to-10-years-241126017229
 https://www.naukri.com/job-listings-product-manager-ii-technical-product-owner-7-eleven-corporate-services-bengaluru-5-to-7-years-261126043499
