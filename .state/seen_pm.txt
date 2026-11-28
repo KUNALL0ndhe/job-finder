@@ -197,6 +197,7 @@ https://in.indeed.com/viewjob?jk=43058c3913199389
 https://in.indeed.com/viewjob?jk=44bc83d95e419c5c
 https://in.indeed.com/viewjob?jk=44df4e16afd92131
 https://in.indeed.com/viewjob?jk=44edb54b2d0e92dd
+https://in.indeed.com/viewjob?jk=453b30e577063fc5
 https://in.indeed.com/viewjob?jk=45dafad291b9391c
 https://in.indeed.com/viewjob?jk=460a7b5f4473cac9
 https://in.indeed.com/viewjob?jk=49289d363951a8be
@@ -502,6 +503,7 @@ https://nl.indeed.com/viewjob?jk=f342d89c59b98b0d
 https://nl.indeed.com/viewjob?jk=f3db8444fc346049
 https://nl.indeed.com/viewjob?jk=f66c4420b02b6268
 https://nl.indeed.com/viewjob?jk=f6f401cd63a24986
+https://www.naukri.com/job-listings-ai-agent-product-manager-nxtwave-disruptive-technologies-hiring-for-client-noida-3-to-5-years-281126015106
 https://www.naukri.com/job-listings-ai-agent-product-manager-voice-ai-squadstack-noida-delhi-ncr-3-to-6-years-271126018761
 https://www.naukri.com/job-listings-ai-business-analyst-deloitte-shared-services-india-mumbai-all-areas-4-to-9-years-221026011189
 https://www.naukri.com/job-listings-ai-product-manager-nexus-threatmodeler-software-india-ahmedabad-3-to-6-years-251126034365
@@ -708,6 +710,7 @@ https://www.naukri.com/job-listings-product-manager-core-infra-services-developm
 https://www.naukri.com/job-listings-product-manager-corporate-functions-olectra-greentech-hyderabad-7-to-12-years-281126008919
 https://www.naukri.com/job-listings-product-manager-creative-hands-hr-hyderabad-8-to-11-years-271126044488
 https://www.naukri.com/job-listings-product-manager-cross-sell-business-planning-kotak-mahindra-bank-mumbai-3-to-6-years-021126009274
+https://www.naukri.com/job-listings-product-manager-curioused-hyderabad-2-to-7-years-231026013899
 https://www.naukri.com/job-listings-product-manager-digital-health-benovymed-healthcare-private-limited-gurugram-0-to-5-years-231126913114
 https://www.naukri.com/job-listings-product-manager-epam-systems-coimbatore-jaipur-bengaluru-10-to-13-years-261026030203
 https://www.naukri.com/job-listings-product-manager-everest-industries-mumbai-all-areas-2-to-5-years-261126017740
@@ -814,6 +817,7 @@ https://www.naukri.com/job-listings-senior-business-analyst-salesforce-valuelabs
 https://www.naukri.com/job-listings-senior-business-analyst-scm-aiml-epam-systems-chennai-coimbatore-5-to-8-years-061126025721
 https://www.naukri.com/job-listings-senior-business-analyst-servicenow-itsm-and-databricks-albireo-hyderabad-5-to-9-years-271126037529
 https://www.naukri.com/job-listings-senior-business-analyst-solution-designer-prodapt-solutions-private-limited-pune-8-to-12-years-281026914265
+https://www.naukri.com/job-listings-senior-business-analyst-sunbrilo-technologies-pvt-ltd-pune-9-to-14-years-281126014755
 https://www.naukri.com/job-listings-senior-business-analyst-thyrocare-navi-mumbai-3-to-6-years-061126012188
 https://www.naukri.com/job-listings-senior-business-analyst-valuelabs-pune-5-to-10-years-261126010009
 https://www.naukri.com/job-listings-senior-data-product-owner-transactions-positions-books-and-record-lpl-financial-hyderabad-8-to-13-years-021126025301

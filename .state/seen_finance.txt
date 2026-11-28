@@ -421,6 +421,7 @@ https://in.indeed.com/viewjob?jk=a9364e965827efc7
 https://in.indeed.com/viewjob?jk=a95213334387a52a
 https://in.indeed.com/viewjob?jk=a9dcd2a64b4caa26
 https://in.indeed.com/viewjob?jk=aa15cd17233e1eee
+https://in.indeed.com/viewjob?jk=aa81a44dc8ccc396
 https://in.indeed.com/viewjob?jk=abb9f54e6a664d5d
 https://in.indeed.com/viewjob?jk=acf1ec29afdd51f0
 https://in.indeed.com/viewjob?jk=adc0926b9bcbd92a
@@ -464,6 +465,7 @@ https://in.indeed.com/viewjob?jk=bdd9f39f6ca284b8
 https://in.indeed.com/viewjob?jk=be5393b63d8131a1
 https://in.indeed.com/viewjob?jk=beb1be5d06763d37
 https://in.indeed.com/viewjob?jk=bf7aa2f3e655a97e
+https://in.indeed.com/viewjob?jk=bf84c8d1cfcd177f
 https://in.indeed.com/viewjob?jk=c1dfebcffaa8d1a9
 https://in.indeed.com/viewjob?jk=c2dc377496518b9d
 https://in.indeed.com/viewjob?jk=c3e2c86e5a44c57c
@@ -523,6 +525,7 @@ https://in.indeed.com/viewjob?jk=e9116c91dfb5c99b
 https://in.indeed.com/viewjob?jk=e920dc2bd09750bb
 https://in.indeed.com/viewjob?jk=e9c6d395fd7ae57c
 https://in.indeed.com/viewjob?jk=eba683c282d979ce
+https://in.indeed.com/viewjob?jk=ebf59725b2333638
 https://in.indeed.com/viewjob?jk=ec2facf396194c7b
 https://in.indeed.com/viewjob?jk=ecab1bf4013ec95d
 https://in.indeed.com/viewjob?jk=ed530666f545b7b3
@@ -853,6 +856,7 @@ https://www.naukri.com/job-listings-senior-analyst-data-reporting-kpmg-delivery-
 https://www.naukri.com/job-listings-senior-analyst-data-scientist-stan-developer-anlage-infotech-chennai-6-to-11-years-041126012271
 https://www.naukri.com/job-listings-senior-analyst-eclerx-mumbai-all-areas-2-to-4-years-271126056487
 https://www.naukri.com/job-listings-senior-analyst-enterprise-incident-management-invesco-hyderabad-pvt-ltd-hyderabad-3-to-5-years-261126939739
+https://www.naukri.com/job-listings-senior-analyst-environmental-testing-air-stack-sludge-atmy-analytical-labs-private-limited-greater-noida-3-to-8-years-281126013479
 https://www.naukri.com/job-listings-senior-analyst-finance-bi-data-analytics-gxo-logistics-mumbai-all-areas-5-to-8-years-171126026349
 https://www.naukri.com/job-listings-senior-analyst-financial-services-hindco-recruitment-consultants-bengaluru-2-to-7-years-271126955717
 https://www.naukri.com/job-listings-senior-analyst-financial-services-hindco-recruitment-consultants-gurugram-2-to-7-years-271126946036
